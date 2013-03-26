@@ -46,30 +46,30 @@ hminl-v V KozMinPro-Light.otf
 %
 % JIS 2004
 %
-otf-ujmrn-h      UniJIS2004-UTF16-H        KozMinPr6N-Regular.otf
-otf-ujmrn-v      UniJIS2004-UTF16-V        KozMinPr6N-Regular.otf
-hminrn-h   H KozMinPr6N-Regular.otf
-hminrn-v V KozMinPr6N-Regular.otf
+otf-ujmrn-h      UniJIS2004-UTF16-H        KozMinPro-Regular.otf
+otf-ujmrn-v      UniJIS2004-UTF16-V        KozMinPro-Regular.otf
+hminrn-h   H KozMinPro-Regular.otf
+hminrn-v V KozMinPro-Regular.otf
 
-otf-ujgrn-h    UniJIS2004-UTF16-H       KozGoPr6N-Regular.otf
-otf-ujgrn-v    UniJIS2004-UTF16-V       KozGoPr6N-Regular.otf
-hgothrn-h   H KozGoPr6N-Regular.otf
-hgothrn-v V KozGoPr6N-Regular.otf
+otf-ujgrn-h    UniJIS2004-UTF16-H       KozGoPro-Regular.otf
+otf-ujgrn-v    UniJIS2004-UTF16-V       KozGoPro-Regular.otf
+hgothrn-h   H KozGoPro-Regular.otf
+hgothrn-v V KozGoPro-Regular.otf
 
-otf-ujmbn-h      UniJIS2004-UTF16-H    KozMinPr6N-Bold.otf
-otf-ujmbn-v      UniJIS2004-UTF16-V    KozMinPr6N-Bold.otf
-hminbn-h   H KozMinPr6N-Bold.otf
-hminbn-v V KozMinPr6N-Bold.otf
+otf-ujmbn-h      UniJIS2004-UTF16-H    KozMinPro-Bold.otf
+otf-ujmbn-v      UniJIS2004-UTF16-V    KozMinPro-Bold.otf
+hminbn-h   H KozMinPro-Bold.otf
+hminbn-v V KozMinPro-Bold.otf
 
-otf-ujgbn-h    UniJIS2004-UTF16-H    KozGoPr6N-Bold.otf
-otf-ujgbn-v    UniJIS2004-UTF16-V    KozGoPr6N-Bold.otf
-hgothbn-h   H KozGoPr6N-Bold.otf
-hgothbn-v V KozGoPr6N-Bold.otf
+otf-ujgbn-h    UniJIS2004-UTF16-H    KozGoPro-Bold.otf
+otf-ujgbn-v    UniJIS2004-UTF16-V    KozGoPro-Bold.otf
+hgothbn-h   H KozGoPro-Bold.otf
+hgothbn-v V KozGoPro-Bold.otf
 
-otf-ujmgrn-h    UniJIS2004-UTF16-H       KozGoPr6N-Heavy.otf
-otf-ujmgrn-v    UniJIS2004-UTF16-V       KozGoPr6N-Heavy.otf
-hmgothrn-h    H KozGoPr6N-Heavy.otf
-hmgothrn-v  V KozGoPr6N-Heavy.otf
+otf-ujmgrn-h    UniJIS2004-UTF16-H       KozGoPro-Heavy.otf
+otf-ujmgrn-v    UniJIS2004-UTF16-V       KozGoPro-Heavy.otf
+hmgothrn-h    H KozGoPro-Heavy.otf
+hmgothrn-v  V KozGoPro-Heavy.otf
 
 otf-ujmln-h      UniJIS2004-UTF16-H        KozGoPro-Light.otf
 otf-ujmln-v      UniJIS2004-UTF16-V        KozGoPro-Light.otf

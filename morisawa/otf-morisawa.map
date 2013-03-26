@@ -46,32 +46,32 @@ hminl-v V A-OTF-RyuminPro-Light.otf
 %
 % JIS 2004
 %
-otf-ujmrn-h      UniJIS2004-UTF16-H        A-OTF-RyuminPr6N-Light.otf
-otf-ujmrn-v      UniJIS2004-UTF16-V        A-OTF-RyuminPr6N-Light.otf
-hminrn-h   H A-OTF-RyuminPr6N-Light.otf
-hminrn-v V A-OTF-RyuminPr6N-Light.otf
+otf-ujmrn-h      UniJIS2004-UTF16-H        A-OTF-RyuminPro-Light.otf
+otf-ujmrn-v      UniJIS2004-UTF16-V        A-OTF-RyuminPro-Light.otf
+hminrn-h   H A-OTF-RyuminPro-Light.otf
+hminrn-v V A-OTF-RyuminPro-Light.otf
 
-otf-ujgrn-h    UniJIS2004-UTF16-H       A-OTF-GothicBBBPr6N-Medium.otf
-otf-ujgrn-v    UniJIS2004-UTF16-V       A-OTF-GothicBBBPr6N-Medium.otf
-hgothrn-h   H A-OTF-GothicBBBPr6N-Medium.otf
-hgothrn-v V A-OTF-GothicBBBPr6N-Medium.otf
+otf-ujgrn-h    UniJIS2004-UTF16-H       A-OTF-GothicBBBPro-Medium.otf
+otf-ujgrn-v    UniJIS2004-UTF16-V       A-OTF-GothicBBBPro-Medium.otf
+hgothrn-h   H A-OTF-GothicBBBPro-Medium.otf
+hgothrn-v V A-OTF-GothicBBBPro-Medium.otf
 
-otf-ujmbn-h      UniJIS2004-UTF16-H    A-OTF-FutoMinA101Pr6N-Bold.otf
-otf-ujmbn-v      UniJIS2004-UTF16-V    A-OTF-FutoMinA101Pr6N-Bold.otf
-hminbn-h   H A-OTF-FutoMinA101Pr6N-Bold.otf
-hminbn-v V A-OTF-FutoMinA101Pr6N-Bold.otf
+otf-ujmbn-h      UniJIS2004-UTF16-H    A-OTF-FutoMinA101Pro-Bold.otf
+otf-ujmbn-v      UniJIS2004-UTF16-V    A-OTF-FutoMinA101Pro-Bold.otf
+hminbn-h   H A-OTF-FutoMinA101Pro-Bold.otf
+hminbn-v V A-OTF-FutoMinA101Pro-Bold.otf
 
-otf-ujgbn-h    UniJIS2004-UTF16-H    A-OTF-FutoGoB101Pr6N-Bold.otf
-otf-ujgbn-v    UniJIS2004-UTF16-V    A-OTF-FutoGoB101Pr6N-Bold.otf
-hgothbn-h   H A-OTF-FutoGoB101Pr6N-Bold.otf
-hgothbn-v V A-OTF-FutoGoB101Pr6N-Bold.otf
+otf-ujgbn-h    UniJIS2004-UTF16-H    A-OTF-FutoGoB101Pro-Bold.otf
+otf-ujgbn-v    UniJIS2004-UTF16-V    A-OTF-FutoGoB101Pro-Bold.otf
+hgothbn-h   H A-OTF-FutoGoB101Pro-Bold.otf
+hgothbn-v V A-OTF-FutoGoB101Pro-Bold.otf
 
-otf-ujmgrn-h    UniJIS2004-UTF16-H       A-OTF-Jun101Pr6N-Light.otf
-otf-ujmgrn-v    UniJIS2004-UTF16-V       A-OTF-Jun101Pr6N-Light.otf
-hmgothrn-h    H A-OTF-Jun101Pr6N-Light.otf
-hmgothrn-v  V A-OTF-Jun101Pr6N-Light.otf
+otf-ujmgrn-h    UniJIS2004-UTF16-H       A-OTF-Jun101Pro-Light.otf
+otf-ujmgrn-v    UniJIS2004-UTF16-V       A-OTF-Jun101Pro-Light.otf
+hmgothrn-h    H A-OTF-Jun101Pro-Light.otf
+hmgothrn-v  V A-OTF-Jun101Pro-Light.otf
 
-otf-ujmln-h      UniJIS2004-UTF16-H        A-OTF-RyuminPr6N-Light.otf
-otf-ujmln-v      UniJIS2004-UTF16-V        A-OTF-RyuminPr6N-Light.otf
-hminln-h   H A-OTF-RyuminPr6N-Light.otf
-hminln-v V A-OTF-RyuminPr6N-Light.otf
+otf-ujmln-h      UniJIS2004-UTF16-H        A-OTF-RyuminPro-Light.otf
+otf-ujmln-v      UniJIS2004-UTF16-V        A-OTF-RyuminPro-Light.otf
+hminln-h   H A-OTF-RyuminPro-Light.otf
+hminln-v V A-OTF-RyuminPro-Light.otf

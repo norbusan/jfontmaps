@@ -1,0 +1,144 @@
+%!PS-Adobe-3.0 Resource-CMap
+%%DocumentNeededResources: ProcSet (CIDInit)
+%%DocumentNeededResources: CMap (JISX0213-2004-H)
+%%IncludeResource: ProcSet (CIDInit)
+%%IncludeResource: CMap (JISX0213-2004-H)
+%%BeginResource: CMap (JISX0213-2004-V)
+%%Title: (JISX0213-2004-V Adobe Japan1 6)
+%%Version: 0.001
+%%Copyright: ------------------------------------------------------------
+%%Copyright: This software is free software.
+%%Copyright: Unlimited permission is granted to use, copy, and distribute
+%%Copyright: it, with or without modification, either commercially and
+%%Copyright: noncommercially.
+%%Copyright: THIS SOFTWARE IS PROVIDED "AS IS" WITHOUT ANY WARRANTY.
+%%Copyright: ------------------------------------------------------------
+%%EndComments
+
+/CIDInit /ProcSet findresource begin
+
+12 dict begin
+
+begincmap
+
+/JISX0213-2004-H usecmap
+
+/CIDSystemInfo 3 dict dup begin
+  /Registry (Adobe) def
+  /Ordering (Japan1) def
+  /Supplement 6 def
+end def
+
+/CMapName /JISX0213-2004-V def
+
+/CMapVersion 0.001 def
+/CMapType 1 def
+
+/WMode 1 def
+
+97 begincidrange
+<2122> <2123> 7887
+<2124> <2124> 8268
+<2125> <2125> 8274
+<2127> <2127> 12101
+<212b> <212b> 8272
+<212c> <212c> 8271
+<2131> <2132> 7889
+<213c> <213d> 7891
+<2141> <2145> 7894
+<2146> <2147> 12173
+<2148> <2149> 7956
+<214a> <215b> 7899
+<2161> <2161> 7917
+<216b> <216b> 8269
+<216c> <216c> 8273
+<216d> <216d> 8283
+<222a> <222a> 739
+<222b> <222b> 738
+<222c> <222d> 736
+<2236> <2236> 12107
+<2256> <2257> 12141
+<2258> <2259> 12139
+<225a> <225b> 16329
+<2329> <2329> 8311
+<232a> <232b> 8011
+<232c> <232c> 8014
+<232d> <232d> 8013
+<237b> <237c> 16331
+<2421> <2421> 7918
+<2423> <2423> 7919
+<2425> <2425> 7920
+<2427> <2427> 7921
+<2429> <2429> 7922
+<2443> <2443> 7923
+<2463> <2463> 7924
+<2465> <2465> 7925
+<2467> <2467> 7926
+<246e> <246e> 7927
+<2475> <2476> 8264
+<2521> <2521> 7928
+<2523> <2523> 7929
+<2525> <2525> 7930
+<2527> <2527> 7931
+<2529> <2529> 7932
+<2543> <2543> 7933
+<2563> <2563> 7934
+<2565> <2565> 7935
+<2567> <2567> 7936
+<256e> <256e> 7937
+<2575> <2576> 7938
+<266e> <267e> 16333
+<2821> <2821> 7481
+<2822> <2822> 7479
+<2823> <2823> 7495
+<2824> <2824> 7503
+<2825> <2825> 7499
+<2826> <2826> 7491
+<2827> <2827> 7523
+<2828> <2828> 7515
+<2829> <2829> 7531
+<282a> <282a> 7507
+<282c> <282c> 7482
+<282d> <282d> 7480
+<282e> <282e> 7498
+<282f> <282f> 7506
+<2830> <2830> 7502
+<2831> <2831> 7494
+<2832> <2832> 7530
+<2833> <2833> 7522
+<2834> <2834> 7538
+<2835> <2835> 7514
+<2837> <2837> 7526
+<2838> <2838> 7519
+<2839> <2839> 7534
+<283a> <283a> 7511
+<283b> <283b> 7545
+<283c> <283c> 7527
+<283d> <283d> 7516
+<283e> <283e> 7535
+<283f> <283f> 7508
+<2840> <2840> 7542
+<2d40> <2d41> 7940
+<2d42> <2d42> 8329
+<2d43> <2d43> 7943
+<2d44> <2d44> 8339
+<2d45> <2d45> 7945
+<2d46> <2d46> 8338
+<2d47> <2d48> 7947
+<2d49> <2d49> 8344
+<2d4a> <2d4b> 7950
+<2d4c> <2d4c> 8348
+<2d4d> <2d4e> 7953
+<2d4f> <2d4f> 8349
+<2d5f> <2d5f> 12044
+<2d60> <2d61> 7956
+<2d6d> <2d6f> 12041
+<2d7e> <2d7e> 8222
+endcidrange
+endcmap
+CMapName currentdict /CMap defineresource pop
+end
+end
+
+%%EndResource
+%%EOF

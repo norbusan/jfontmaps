@@ -1,3 +1,11 @@
+2013-03-26  Norbert Preining  <preining@logic.at>
+
+	* add cmap files from TANAKA Takuji for proper jis2004 support
+	* split families into normal and -pro
+	* use new cmap files for proper jis2004 support
+	* adapt scripts/updmap-setup-kanji.pl to work with new 
+	  families
+
 2012-06-19  Norbert Preining  <preining@logic.at>
 
 	* scripts/updmap-setup-kanji.pl: 

@@ -10,11 +10,53 @@ The font maps were written by several people, including
   Saito Shuzaburo
   Norbert Preining
 and are now maintained in the tug.org subversion repository:
-  svn://tug.org/texlive/trunk/Build/source/extra/jfontmaps
+  https://git.gitorious.org/tlptexlive/jfontmaps.git
+
+Necessary font files
+====================
+This package does *not* ship any of the fonts mentioned, but only
+map files for dvipdfmx. You have to obtain the fonts separately.
+
+family kozuka:
+	KozGoPro-Bold.otf
+	KozGoPro-Heavy.otf
+	KozGoPro-Light.otf
+	KozGoPro-Regular.otf
+	KozMinPro-Bold.otf
+	KozMinPro-Light.otf
+	KozMinPro-Regular.otf
+family kozuka-pro:
+	KozGoPr6N-Bold.otf
+	KozGoPr6N-Heavy.otf
+	KozGoPr6N-Light.otf
+	KozGoPr6N-Regular.otf
+	KozMinPr6N-Bold.otf
+	KozMinPr6N-Light.otf
+	KozMinPr6N-Regular.otf
+family hiragino:
+	HiraKakuPro-W3.otf
+	HiraMinPro-W3.otf
+family hiragino-pro:
+	HiraKakuProN-W3.otf
+	HiraMinProN-W3.otf
+family morisawa:
+	A-OTF-FutoGoB101Pro-Bold.otf
+	A-OTF-FutoMinA101Pro-Bold.otf
+	A-OTF-GothicBBBPro-Medium.otf
+	A-OTF-Jun101Pro-Light.otf
+	A-OTF-MidashiGoPro-MB31.otf
+	A-OTF-RyuminPro-Light.otf
+family morisawa-pro:
+	A-OTF-FutoGoB101Pr6N-Bold.otf
+	A-OTF-FutoMinA101Pr6N-Bold.otf
+	A-OTF-GothicBBBPr6N-Medium.otf
+	A-OTF-Jun101Pr6N-Light.otf
+	A-OTF-MidashiGoPr6N-MB31.otf
+	A-OTF-RyuminPr6N-Light.otf
 
 Copyright/License
 =================
-All the map files are under Public Domain.
+All the (c)map files are under Public Domain.
 
 The (deprecated) file updmap-otf.sh and the (in perl rewritten version)
 updmap-setup-kanji.pl are licensed under the following terms:

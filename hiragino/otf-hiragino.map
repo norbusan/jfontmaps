@@ -59,32 +59,32 @@ hiramaru-w4-v Identity-V HiraMaruPro-W4
 %
 % JIS 2004
 %
-otf-ujmrn-h      UniJIS2004-UTF16-H        HiraMinProN-W3
-otf-ujmrn-v      UniJIS2004-UTF16-V        HiraMinProN-W3
-hminrn-h   H HiraMinProN-W3
-hminrn-v V HiraMinProN-W3
+otf-ujmrn-h      UniJIS2004-UTF16-H        HiraMinPro-W3
+otf-ujmrn-v      UniJIS2004-UTF16-V        HiraMinPro-W3
+hminrn-h   H HiraMinPro-W3
+hminrn-v V HiraMinPro-W3
 
-otf-ujgrn-h    UniJIS2004-UTF16-H       HiraKakuProN-W3
-otf-ujgrn-v    UniJIS2004-UTF16-V       HiraKakuProN-W3
-hgothrn-h   H HiraKakuProN-W3
-hgothrn-v V HiraKakuProN-W3
+otf-ujgrn-h    UniJIS2004-UTF16-H       HiraKakuPro-W3
+otf-ujgrn-v    UniJIS2004-UTF16-V       HiraKakuPro-W3
+hgothrn-h   H HiraKakuPro-W3
+hgothrn-v V HiraKakuPro-W3
 
-otf-ujmbn-h      UniJIS2004-UTF16-H    HiraMinProN-W6
-otf-ujmbn-v      UniJIS2004-UTF16-V    HiraMinProN-W6
-hminbn-h   H HiraMinProN-W6
-hminbn-v V HiraMinProN-W6
+otf-ujmbn-h      UniJIS2004-UTF16-H    HiraMinPro-W6
+otf-ujmbn-v      UniJIS2004-UTF16-V    HiraMinPro-W6
+hminbn-h   H HiraMinPro-W6
+hminbn-v V HiraMinPro-W6
 
-otf-ujgbn-h    UniJIS2004-UTF16-H    HiraKakuProN-W6
-otf-ujgbn-v    UniJIS2004-UTF16-V    HiraKakuProN-W6
-hgothbn-h   H HiraKakuProN-W6
-hgothbn-v V HiraKakuProN-W6
+otf-ujgbn-h    UniJIS2004-UTF16-H    HiraKakuPro-W6
+otf-ujgbn-v    UniJIS2004-UTF16-V    HiraKakuPro-W6
+hgothbn-h   H HiraKakuPro-W6
+hgothbn-v V HiraKakuPro-W6
 
-otf-ujmgrn-h    UniJIS2004-UTF16-H       HiraMaruProN-W4
-otf-ujmgrn-v    UniJIS2004-UTF16-V       HiraMaruProN-W4
-hmgothrn-h    H HiraMaruProN-W4
-hmgothrn-v  V HiraMaruProN-W4
+otf-ujmgrn-h    UniJIS2004-UTF16-H       HiraMaruPro-W4
+otf-ujmgrn-v    UniJIS2004-UTF16-V       HiraMaruPro-W4
+hmgothrn-h    H HiraMaruPro-W4
+hmgothrn-v  V HiraMaruPro-W4
 
-otf-ujmln-h      UniJIS2004-UTF16-H        HiraMinProN-W2
-otf-ujmln-v      UniJIS2004-UTF16-V        HiraMinProN-W2
-hminln-h   H HiraMinProN-W2
-hminln-v V HiraMinProN-W2
+otf-ujmln-h      UniJIS2004-UTF16-H        HiraMinPro-W2
+otf-ujmln-v      UniJIS2004-UTF16-V        HiraMinPro-W2
+hminln-h   H HiraMinPro-W2
+hminln-v V HiraMinPro-W2
