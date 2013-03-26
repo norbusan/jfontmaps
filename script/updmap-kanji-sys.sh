@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# updmap-setup-kanji-sys: 
+# updmap-kanji-sys: 
 # copy of fmtutil-sys by Thomas Esser, public domain.
 
 # wrapper script for updmap-setup-kanji with TEXMFVAR and TEXMFCONFIG set to
@@ -27,5 +27,5 @@ TEXMFVAR="$v"
 TEXMFCONFIG="$c"
 export TEXMFVAR TEXMFCONFIG
 
-exec updmap-setup-kanji ${1+"$@"}
+exec updmap-kanji ${1+"$@"}
 
