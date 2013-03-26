@@ -1,0 +1,15 @@
+%%
+%% upTeX
+%%
+
+urml      UniJIS-UTF16-H  ipaexm.ttf
+urmlv     UniJIS-UTF16-V  ipaexm.ttf
+ugbm      UniJIS-UTF16-H  ipaexg.ttf
+ugbmv     UniJIS-UTF16-V  ipaexg.ttf
+
+uprml-h   UniJIS-UTF16-H  ipaexm.ttf
+uprml-v   UniJIS-UTF16-V  ipaexm.ttf
+upgbm-h   UniJIS-UTF16-H  ipaexg.ttf
+upgbm-v   UniJIS-UTF16-V  ipaexg.ttf
+uprml-hq  UniJIS-UCS2-H   ipaexm.ttf
+upgbm-hq  UniJIS-UCS2-H   ipaexg.ttf

@@ -1,0 +1,15 @@
+%%
+%% upTeX
+%%
+
+urml      UniJIS-UTF16-H  ipam.ttf
+urmlv     UniJIS-UTF16-V  ipam.ttf
+ugbm      UniJIS-UTF16-H  ipag.ttf
+ugbmv     UniJIS-UTF16-V  ipag.ttf
+
+uprml-h   UniJIS-UTF16-H  ipam.ttf
+uprml-v   UniJIS-UTF16-V  ipam.ttf
+upgbm-h   UniJIS-UTF16-H  ipag.ttf
+upgbm-v   UniJIS-UTF16-V  ipag.ttf
+uprml-hq  UniJIS-UCS2-H   ipam.ttf
+upgbm-hq  UniJIS-UCS2-H   ipag.ttf

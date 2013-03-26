@@ -1,0 +1,15 @@
+%
+% otf-up-morisawa.map
+% map file to support Morisawa fonts in uptex
+% based on the patch of TANAKA Takuji
+% from uptex-1.00-20120115a
+uphminr-h   UniJIS-UTF16-H A-OTF-RyuminPro-Light.otf
+uphminr-v   UniJIS-UTF16-V A-OTF-RyuminPro-Light.otf
+uphgothr-h  UniJIS-UTF16-H A-OTF-GothicBBBPro-Medium.otf
+uphgothr-v  UniJIS-UTF16-V A-OTF-GothicBBBPro-Medium.otf
+uphminb-h   UniJIS-UTF16-H A-OTF-FutoMinA101Pro-Bold.otf
+uphminb-v   UniJIS-UTF16-V A-OTF-FutoMinA101Pro-Bold.otf
+uphgothb-h  UniJIS-UTF16-H A-OTF-FutoGoB101Pro-Bold.otf
+uphgothb-v  UniJIS-UTF16-V A-OTF-FutoGoB101Pro-Bold.otf
+uphmgothr-h UniJIS-UTF16-H A-OTF-Jun101Pro-Light.otf
+uphmgothr-v UniJIS-UTF16-V A-OTF-Jun101Pro-Light.otf

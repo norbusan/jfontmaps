@@ -1,0 +1,43 @@
+% otf on upTeX
+uphminr-h     UniJIS-UTF16-H     ipam.ttf
+uphminr-v     UniJIS-UTF16-V     ipam.ttf
+
+uphgothr-h    UniJIS-UTF16-H     ipag.ttf
+uphgothr-v    UniJIS-UTF16-V     ipag.ttf
+
+uphminb-h     UniJIS-UTF16-H     ipam.ttf
+uphminb-v     UniJIS-UTF16-V     ipam.ttf
+
+uphgothb-h    UniJIS-UTF16-H     ipag.ttf
+uphgothb-v    UniJIS-UTF16-V     ipag.ttf
+
+uphgotheb-h   UniJIS-UTF16-H     ipag.ttf
+uphgotheb-v   UniJIS-UTF16-V     ipag.ttf
+
+uphmgothr-h   UniJIS-UTF16-H     ipag.ttf
+uphmgothr-v   UniJIS-UTF16-V     ipag.ttf
+
+uphminl-h     UniJIS-UTF16-H     ipam.ttf
+uphminl-v     UniJIS-UTF16-V     ipam.ttf
+
+% otf on upTeX, JIS2004
+uphminrn-h     UniJIS2004-UTF16-H     ipam.ttf
+uphminrn-v     UniJIS2004-UTF16-V     ipam.ttf
+
+uphgothrn-h    UniJIS2004-UTF16-H     ipag.ttf
+uphgothrn-v    UniJIS2004-UTF16-V     ipag.ttf
+
+uphminbn-h     UniJIS2004-UTF16-H     ipam.ttf
+uphminbn-v     UniJIS2004-UTF16-V     ipam.ttf
+
+uphgothbn-h    UniJIS2004-UTF16-H     ipag.ttf
+uphgothbn-v    UniJIS2004-UTF16-V     ipag.ttf
+
+uphgothebn-h   UniJIS2004-UTF16-H     ipag.ttf
+uphgothebn-v   UniJIS2004-UTF16-V     ipag.ttf
+
+uphmgothrn-h   UniJIS2004-UTF16-H     ipag.ttf
+uphmgothrn-v   UniJIS2004-UTF16-V     ipag.ttf
+
+uphminln-h     UniJIS2004-UTF16-H     ipam.ttf
+uphminln-v     UniJIS2004-UTF16-V     ipam.ttf

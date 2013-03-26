@@ -1,0 +1,19 @@
+%
+% otf-up-hiragino.map
+% map file to support Hiragino fonts in uptex
+% based on the patch of TANAKA Takuji
+% from uptex-1.00-20120115a
+uphminr-h   UniJIS-UTF16-H HiraMinPro-W3
+uphminr-v   UniJIS-UTF16-V HiraMinPro-W3
+uphgothr-h  UniJIS-UTF16-H HiraKakuPro-W3
+uphgothr-v  UniJIS-UTF16-V HiraKakuPro-W3
+uphminb-h   UniJIS-UTF16-H HiraMinPro-W6
+uphminb-v   UniJIS-UTF16-V HiraMinPro-W6
+uphgothb-h  UniJIS-UTF16-H HiraKakuPro-W6
+uphgothb-v  UniJIS-UTF16-V HiraKakuPro-W6
+uphgotheb-h UniJIS-UTF16-H HiraKakuStd-W8
+uphgotheb-v UniJIS-UTF16-V HiraKakuStd-W8
+uphmgothr-h UniJIS-UTF16-H HiraMaruPro-W4
+uphmgothr-v UniJIS-UTF16-V HiraMaruPro-W4
+uphminl-h   UniJIS-UTF16-H HiraMinPro-W2
+uphminl-v   UniJIS-UTF16-V HiraMinPro-W2

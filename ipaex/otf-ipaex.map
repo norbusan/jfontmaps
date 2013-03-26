@@ -1,0 +1,75 @@
+otf-ujmr-h    UniJIS-UTF16-H     ipaexm.ttf
+otf-ujmr-v    UniJIS-UTF16-V     ipaexm.ttf
+otf-cjmr-h    Identity-H         ipaexm.ttf/AJ16
+otf-cjmr-v    Identity-V         ipaexm.ttf/AJ16
+hminr-h       H                  ipaexm.ttf
+hminr-v       V                  ipaexm.ttf
+
+otf-ujgr-h    UniJIS-UTF16-H     ipaexg.ttf
+otf-ujgr-v    UniJIS-UTF16-V     ipaexg.ttf
+otf-cjgr-h    Identity-H         ipaexg.ttf/AJ16
+otf-cjgr-v    Identity-V         ipaexg.ttf/AJ16
+hgothr-h      H                  ipaexg.ttf
+hgothr-v      V                  ipaexg.ttf
+
+otf-ujmb-h    UniJIS-UTF16-H     ipaexm.ttf
+otf-ujmb-v    UniJIS-UTF16-V     ipaexm.ttf
+otf-cjmb-h    Identity-H         ipaexm.ttf/AJ16
+otf-cjmb-v    Identity-V         ipaexm.ttf/AJ16
+hminb-h       H                  ipaexm.ttf
+hminb-v       V                  ipaexm.ttf
+
+otf-ujgb-h    UniJIS-UTF16-H     ipaexg.ttf
+otf-ujgb-v    UniJIS-UTF16-V     ipaexg.ttf
+otf-cjgb-h    Identity-H         ipaexg.ttf/AJ16
+otf-cjgb-v    Identity-V         ipaexg.ttf/AJ16
+hgothb-h      H                  ipaexg.ttf
+hgothb-v      V                  ipaexg.ttf
+
+hgotheb-h     H                  ipaexg.ttf
+hgotheb-v     V                  ipaexg.ttf
+
+otf-ujmgr-h   UniJIS-UTF16-H     ipaexg.ttf
+otf-ujmgr-v   UniJIS-UTF16-V     ipaexg.ttf
+otf-cjmgr-h   Identity-H         ipaexg.ttf/AJ16
+otf-cjmgr-v   Identity-V         ipaexg.ttf/AJ16
+hmgothr-h     H                  ipaexg.ttf
+hmgothr-v     V                  ipaexg.ttf
+
+otf-ujml-h    UniJIS-UTF16-H     ipaexm.ttf
+otf-ujml-v    UniJIS-UTF16-V     ipaexm.ttf
+otf-cjml-h    Identity-H         ipaexm.ttf/AJ16
+otf-cjml-v    Identity-V         ipaexm.ttf/AJ16
+hminl-h       H                  ipaexm.ttf
+hminl-v       V                  ipaexm.ttf
+
+%for JIS X 0213:2004
+otf-ujmrn-h   UniJIS2004-UTF16-H ipaexm.ttf
+otf-ujmrn-v   UniJIS2004-UTF16-V ipaexm.ttf
+hminrn-h      H                  ipaexm.ttf
+hminrn-v      V                  ipaexm.ttf
+
+otf-ujgrn-h   UniJIS2004-UTF16-H ipaexg.ttf
+otf-ujgrn-v   UniJIS2004-UTF16-V ipaexg.ttf
+hgothrn-h     H                  ipaexg.ttf
+hgothrn-v     V                  ipaexg.ttf
+
+otf-ujmbn-h   UniJIS2004-UTF16-H ipaexm.ttf
+otf-ujmbn-v   UniJIS2004-UTF16-V ipaexm.ttf
+hminbn-h      H                  ipaexm.ttf
+hminbn-v      V                  ipaexm.ttf
+
+otf-ujgbn-h   UniJIS2004-UTF16-H ipaexg.ttf
+otf-ujgbn-v   UniJIS2004-UTF16-V ipaexg.ttf
+hgothbn-h     H                  ipaexg.ttf
+hgothbn-v     V                  ipaexg.ttf
+
+otf-ujmgrn-h  UniJIS2004-UTF16-H ipaexg.ttf
+otf-ujmgrn-v  UniJIS2004-UTF16-V ipaexg.ttf
+hmgothrn-h    H                  ipaexg.ttf
+hmgothrn-v    V                  ipaexg.ttf
+
+otf-ujmln-h   UniJIS2004-UTF16-H ipaexm.ttf
+otf-ujmln-v   UniJIS2004-UTF16-V ipaexm.ttf
+hminln-h      H                  ipaexm.ttf
+hminln-v      V                  ipaexm.ttf

@@ -1,0 +1,25 @@
+jfontmaps
+=========
+
+The files contained in this package contains font maps for dvipdfmx to
+make various Japanese fonts available for (u)ptex and related programs/formats.
+
+The font maps were written by several people, including
+  Hironori Kitagawa
+  Takuji Tanaka
+  Saito Shuzaburo
+  Norbert Preining
+and are now maintained in the tug.org subversion repository:
+  svn://tug.org/texlive/trunk/Build/source/extra/jfontmaps
+
+Copyright/License
+=================
+All the map files are under Public Domain.
+
+The (deprecated) file updmap-otf.sh and the (in perl rewritten version)
+updmap-setup-kanji.pl are licensed under the following terms:
+  Copyright 2004-2006 by KOBAYASHI Taizo
+  Copyright 2011-2012 by PREINING Norbert
+Licensed under the GPL version 3 or any later version, 
+see the file for details.
+

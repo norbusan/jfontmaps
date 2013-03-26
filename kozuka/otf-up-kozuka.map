@@ -1,0 +1,15 @@
+%
+% otf-up-kozuka.map
+% map file to support Kozuka fonts in uptex
+% based on the patch of TANAKA Takuji
+% from uptex-1.00-20120115a
+uphminr-h     UniJIS-UTF16-H KozMinPro-Regular.otf
+uphminr-v     UniJIS-UTF16-V KozMinPro-Regular.otf
+uphgothr-h    UniJIS-UTF16-H KozGoStd-Regular.otf
+uphgothr-v    UniJIS-UTF16-V KozGoStd-Regular.otf
+uphminb-h     UniJIS-UTF16-H KozMinStd-Bold.otf
+uphminb-v     UniJIS-UTF16-V KozMinStd-Bold.otf
+uphgothb-h    UniJIS-UTF16-H KozGoStd-Bold.otf
+uphgothb-v    UniJIS-UTF16-V KozGoStd-Bold.otf
+uphmgothr-h   UniJIS-UTF16-H KozGoStd-Heavy.otf
+uphmgothr-v   UniJIS-UTF16-V KozGoStd-Heavy.otf

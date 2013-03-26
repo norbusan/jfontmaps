@@ -1,0 +1,81 @@
+2012-06-19  Norbert Preining  <preining@logic.at>
+
+	* scripts/updmap-setup-kanji.pl: 
+	  - fix and simplify status detection
+	  - add options to the help string
+	  - switch completely to updmap (non -sys) variant, we will
+	    use the usual wrapper system for updmap-setup-kanji-sys
+	  (patch from Hironori Kitagawa)
+
+2012-04-25  Norbert Preining  <preining@logic.at>
+
+	* kozuka/otf-up-kozuka.map: fix inconsistency in naming of
+	font files
+	Version v0.9.5
+
+2012-03-15  Norbert Preining  <preining@logic.at>
+
+	* scripts/updmap-setup-kanji.pl: remove (...) from the output
+	of --showoption, multi-updmap echos (still, but not for long)
+	out the configuration file where the variable is set.
+	Version v0.9.5
+
+2012-03-01  Norbert Preining  <preining@logic.at>
+
+	* scripts/updmap-setup-kanji.pl: pass --quiet --nomkmap --nohash
+	to the --setoption calls of updmap.
+	Version v0.9.4
+
+2012-02-10  Norbert Preining  <preining@logic.at>
+
+	* fontmaps: add ipa and ipaex maps
+
+2012-02-06  Norbert Preining  <preining@logic.at>
+
+	* scripts/updmap-setup-kanji.pl: change output of status to
+	only report family, change help text a bit,
+	fix for win32, thanks Akira Kakuto
+	Version v0.9.3
+
+2012-01-31  Norbert Preining  <preining@logic.at>
+
+	* scripts/updmap-setup-kanji.pl: rewrite updmap-otf in perl
+	so that the script is usable under Windows
+	add command line options for help, dry-run, etc
+	support jis2004 via cmd line -jis2004
+
+2012-01-27  Norbert Preining  <preining@logic.at>
+
+	* scripts/updmap-otf.sh: support IPA and IPAex fonts,
+	improve and extended documentation
+	Version v0.9.2
+
+2011-11-11  Norbert Preining  <preining@logic.at>
+
+	* scripts/updmap-otf.sh: Version v0.9.1
+	use kpsewhich for finding fonts
+	use updmap-sys --setoption kanjiEmbed to select the font family
+	use current names of map files
+	use different font name for Kozuka font, as used in the map file
+	get state from updmap.cfg, not from some state file
+
+Old changelog of updmap-otf/updmap-setup-kanji.pl:
+
+# 27 May 2006 by KOBAYASHI R. Taizo <tkoba965@mac.com> v0.9
+#    use noEmbed.map instead of noEmbeddedFont.map
+# 10 Jun 2005 by KOBAYASHI R. Taizo <tkoba965@mac.com> v0.8
+#    modified to use updmap-sys in teTeX3
+# 07 Nov 2004 by KOBAYASHI R. Taizo <tkoba965@mac.com> v0.7
+#    do not echo back the message of updmap.
+# 17 Oct 2004 by KOBAYASHI R. Taizo <tkoba965@mac.com> v0.6
+#    set hiragino map file if nofont is installed and arg is auto.
+# 04 Oct 2004 by KOBAYASHI R. Taizo <tkoba965@mac.com> v0.5
+#    handl standby map files more strictly
+# 20 Sep 2004 by KOBAYASHI R. Taizo <tkoba965@mac.com> v0.4
+#    hand over current status to map file installer
+# 19 Sep 2004 by KOBAYASHI R. Taizo <tkoba965@mac.com> v0.3
+#    handl *-udvips.map in TEXMF/dvipdfm/config/otf/
+# 02 Mar 2004 by KOBAYASHI R. Taizo <tkoba@ike-dyn.ritsumei.ac.jp> v0.2
+#    added noFont-udvips.map
+# 28 Feb 2004 by KOBAYASHI R. Taizo <tkoba@ike-dyn.ritsumei.ac.jp> v0.1
+

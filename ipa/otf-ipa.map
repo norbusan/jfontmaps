@@ -1,0 +1,75 @@
+otf-ujmr-h    UniJIS-UTF16-H     ipam.ttf
+otf-ujmr-v    UniJIS-UTF16-V     ipam.ttf
+otf-cjmr-h    Identity-H         ipam.ttf/AJ16
+otf-cjmr-v    Identity-V         ipam.ttf/AJ16
+hminr-h       H                  ipam.ttf
+hminr-v       V                  ipam.ttf
+
+otf-ujgr-h    UniJIS-UTF16-H     ipag.ttf
+otf-ujgr-v    UniJIS-UTF16-V     ipag.ttf
+otf-cjgr-h    Identity-H         ipag.ttf/AJ16
+otf-cjgr-v    Identity-V         ipag.ttf/AJ16
+hgothr-h      H                  ipag.ttf
+hgothr-v      V                  ipag.ttf
+
+otf-ujmb-h    UniJIS-UTF16-H     ipam.ttf
+otf-ujmb-v    UniJIS-UTF16-V     ipam.ttf
+otf-cjmb-h    Identity-H         ipam.ttf/AJ16
+otf-cjmb-v    Identity-V         ipam.ttf/AJ16
+hminb-h       H                  ipam.ttf
+hminb-v       V                  ipam.ttf
+
+otf-ujgb-h    UniJIS-UTF16-H     ipag.ttf
+otf-ujgb-v    UniJIS-UTF16-V     ipag.ttf
+otf-cjgb-h    Identity-H         ipag.ttf/AJ16
+otf-cjgb-v    Identity-V         ipag.ttf/AJ16
+hgothb-h      H                  ipag.ttf
+hgothb-v      V                  ipag.ttf
+
+hgotheb-h     H                  ipag.ttf
+hgotheb-v     V                  ipag.ttf
+
+otf-ujmgr-h   UniJIS-UTF16-H     ipag.ttf
+otf-ujmgr-v   UniJIS-UTF16-V     ipag.ttf
+otf-cjmgr-h   Identity-H         ipag.ttf/AJ16
+otf-cjmgr-v   Identity-V         ipag.ttf/AJ16
+hmgothr-h     H                  ipag.ttf
+hmgothr-v     V                  ipag.ttf
+
+otf-ujml-h    UniJIS-UTF16-H     ipam.ttf
+otf-ujml-v    UniJIS-UTF16-V     ipam.ttf
+otf-cjml-h    Identity-H         ipam.ttf/AJ16
+otf-cjml-v    Identity-V         ipam.ttf/AJ16
+hminl-h       H                  ipam.ttf
+hminl-v       V                  ipam.ttf
+
+%for JIS X 0213:2004
+otf-ujmrn-h   UniJIS2004-UTF16-H ipam.ttf
+otf-ujmrn-v   UniJIS2004-UTF16-V ipam.ttf
+hminrn-h      H                  ipam.ttf
+hminrn-v      V                  ipam.ttf
+
+otf-ujgrn-h   UniJIS2004-UTF16-H ipag.ttf
+otf-ujgrn-v   UniJIS2004-UTF16-V ipag.ttf
+hgothrn-h     H                  ipag.ttf
+hgothrn-v     V                  ipag.ttf
+
+otf-ujmbn-h   UniJIS2004-UTF16-H ipam.ttf
+otf-ujmbn-v   UniJIS2004-UTF16-V ipam.ttf
+hminbn-h      H                  ipam.ttf
+hminbn-v      V                  ipam.ttf
+
+otf-ujgbn-h   UniJIS2004-UTF16-H ipag.ttf
+otf-ujgbn-v   UniJIS2004-UTF16-V ipag.ttf
+hgothbn-h     H                  ipag.ttf
+hgothbn-v     V                  ipag.ttf
+
+otf-ujmgrn-h  UniJIS2004-UTF16-H ipag.ttf
+otf-ujmgrn-v  UniJIS2004-UTF16-V ipag.ttf
+hmgothrn-h    H                  ipag.ttf
+hmgothrn-v    V                  ipag.ttf
+
+otf-ujmln-h   UniJIS2004-UTF16-H ipam.ttf
+otf-ujmln-v   UniJIS2004-UTF16-V ipam.ttf
+hminln-h      H                  ipam.ttf
+hminln-v      V                  ipam.ttf
