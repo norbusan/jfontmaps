@@ -1,0 +1,72 @@
+
+%TEXT, 90JIS
+hminl-h	H	A-OTF-RyuminPro-Light
+hminl-v	V	A-OTF-RyuminPro-Light
+hminr-h	H	A-OTF-RyuminPro-Light
+hminr-v	V	A-OTF-RyuminPro-Light
+hminb-h	H	A-OTF-FutoMinA101Pro-Bold
+hminb-v	V	A-OTF-FutoMinA101Pro-Bold
+hgothr-h	H	A-OTF-GothicBBBPro-Medium
+hgothr-v	V	A-OTF-GothicBBBPro-Medium
+hgothb-h	H	A-OTF-FutoGoB101Pro-Bold
+hgothb-v	V	A-OTF-FutoGoB101Pro-Bold
+hgotheb-h	H	A-OTF-MidashiGoPro-MB31
+hgotheb-v	V	A-OTF-MidashiGoPro-MB31
+hmgothr-h	H	A-OTFJun101Pro-Light
+hmgothr-v	V	A-OTFJun101Pro-Light
+
+%TEXT, JIS04
+hminln-h	JISX0213-2004-H	A-OTF-RyuminPro-Light
+hminln-v	JISX0213-2004-V	A-OTF-RyuminPro-Light
+hminrn-h	JISX0213-2004-H	A-OTF-RyuminPro-Light
+hminrn-v	JISX0213-2004-V	A-OTF-RyuminPro-Light
+hminbn-h	JISX0213-2004-H	A-OTF-FutoMinA101Pro-Bold
+hminbn-v	JISX0213-2004-V	A-OTF-FutoMinA101Pro-Bold
+hgothrn-h	JISX0213-2004-H	A-OTF-GothicBBBPro-Medium
+hgothrn-v	JISX0213-2004-V	A-OTF-GothicBBBPro-Medium
+hgothbn-h	JISX0213-2004-H	A-OTF-FutoGoB101Pro-Bold
+hgothbn-v	JISX0213-2004-V	A-OTF-FutoGoB101Pro-Bold
+hmgothrn-h	JISX0213-2004-H	A-OTFJun101Pro-Light
+hmgothrn-v	JISX0213-2004-V	A-OTFJun101Pro-Light
+
+%CID
+otf-cjml-h	Identity-H	A-OTF-RyuminPro-Light
+otf-cjml-v	Identity-V	A-OTF-RyuminPro-Light
+otf-cjmr-h	Identity-H	A-OTF-RyuminPro-Light
+otf-cjmr-v	Identity-V	A-OTF-RyuminPro-Light
+otf-cjmb-h	Identity-H	A-OTF-FutoMinA101Pro-Bold
+otf-cjmb-v	Identity-V	A-OTF-FutoMinA101Pro-Bold
+otf-cjgr-h	Identity-H	A-OTF-GothicBBBPro-Medium
+otf-cjgr-v	Identity-V	A-OTF-GothicBBBPro-Medium
+otf-cjgb-h	Identity-H	A-OTF-FutoGoB101Pro-Bold
+otf-cjgb-v	Identity-V	A-OTF-FutoGoB101Pro-Bold
+otf-cjmgr-h	Identity-H	A-OTFJun101Pro-Light
+otf-cjmgr-v	Identity-V	A-OTFJun101Pro-Light
+
+%Unicode 90JIS
+otf-ujml-h	UniJIS-UTF16-H	A-OTF-RyuminPro-Light
+otf-ujml-v	UniJIS-UTF16-V	A-OTF-RyuminPro-Light
+otf-ujmr-h	UniJIS-UTF16-H	A-OTF-RyuminPro-Light
+otf-ujmr-v	UniJIS-UTF16-V	A-OTF-RyuminPro-Light
+otf-ujmb-h	UniJIS-UTF16-H	A-OTF-FutoMinA101Pro-Bold
+otf-ujmb-v	UniJIS-UTF16-V	A-OTF-FutoMinA101Pro-Bold
+otf-ujgr-h	UniJIS-UTF16-H	A-OTF-GothicBBBPro-Medium
+otf-ujgr-v	UniJIS-UTF16-V	A-OTF-GothicBBBPro-Medium
+otf-ujgb-h	UniJIS-UTF16-H	A-OTF-FutoGoB101Pro-Bold
+otf-ujgb-v	UniJIS-UTF16-V	A-OTF-FutoGoB101Pro-Bold
+otf-ujmgr-h	UniJIS-UTF16-H	A-OTFJun101Pro-Light
+otf-ujmgr-v	UniJIS-UTF16-V	A-OTFJun101Pro-Light
+
+%Unicode JIS04
+otf-ujmln-h	UniJIS2004-UTF16-H	A-OTF-RyuminPro-Light
+otf-ujmln-v	UniJIS2004-UTF16-V	A-OTF-RyuminPro-Light
+otf-ujmrn-h	UniJIS2004-UTF16-H	A-OTF-RyuminPro-Light
+otf-ujmrn-v	UniJIS2004-UTF16-V	A-OTF-RyuminPro-Light
+otf-ujmbn-h	UniJIS2004-UTF16-H	A-OTF-FutoMinA101Pro-Bold
+otf-ujmbn-v	UniJIS2004-UTF16-V	A-OTF-FutoMinA101Pro-Bold
+otf-ujgrn-h	UniJIS2004-UTF16-H	A-OTF-GothicBBBPro-Medium
+otf-ujgrn-v	UniJIS2004-UTF16-V	A-OTF-GothicBBBPro-Medium
+otf-ujgbn-h	UniJIS2004-UTF16-H	A-OTF-FutoGoB101Pro-Bold
+otf-ujgbn-v	UniJIS2004-UTF16-V	A-OTF-FutoGoB101Pro-Bold
+otf-ujmgrn-h	UniJIS2004-UTF16-H	A-OTFJun101Pro-Light
+otf-ujmgrn-v	UniJIS2004-UTF16-V	A-OTFJun101Pro-Light

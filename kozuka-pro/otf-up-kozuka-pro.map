@@ -1,0 +1,32 @@
+
+%TEXT, 90JIS
+uphminl-h	UniJIS-UTF16-H	KozMinPro-Light
+uphminl-v	UniJIS-UTF16-V	KozMinPro-Light
+uphminr-h	UniJIS-UTF16-H	KozMinPro-Regular
+uphminr-v	UniJIS-UTF16-V	KozMinPro-Regular
+uphminb-h	UniJIS-UTF16-H	KozMinPro-Bold
+uphminb-v	UniJIS-UTF16-V	KozMinPro-Bold
+uphgothr-h	UniJIS-UTF16-H	KozGoPro-Regular
+uphgothr-v	UniJIS-UTF16-V	KozGoPro-Regular
+uphgothb-h	UniJIS-UTF16-H	KozGoPro-Bold
+uphgothb-v	UniJIS-UTF16-V	KozGoPro-Bold
+uphgotheb-h	UniJIS-UTF16-H	KozGoPro-Heavy
+uphgotheb-v	UniJIS-UTF16-V	KozGoPro-Heavy
+uphmgothr-h	UniJIS-UTF16-H	KozGoPro-Heavy
+uphmgothr-v	UniJIS-UTF16-V	KozGoPro-Heavy
+
+%TEXT, JIS04 (not yet)
+uphminln-h	UniJIS2004-UTF16-H	KozMinPro-Light
+uphminln-v	UniJIS2004-UTF16-V	KozMinPro-Light
+uphminrn-h	UniJIS2004-UTF16-H	KozMinPro-Regular
+uphminrn-v	UniJIS2004-UTF16-V	KozMinPro-Regular
+uphminbn-h	UniJIS2004-UTF16-H	KozMinPro-Bold
+uphminbn-v	UniJIS2004-UTF16-V	KozMinPro-Bold
+uphgothrn-h	UniJIS2004-UTF16-H	KozGoPro-Regular
+uphgothrn-v	UniJIS2004-UTF16-V	KozGoPro-Regular
+uphgothbn-h	UniJIS2004-UTF16-H	KozGoPro-Bold
+uphgothbn-v	UniJIS2004-UTF16-V	KozGoPro-Bold
+uphgothebn-h	UniJIS2004-UTF16-H	KozGoPro-Heavy
+uphgothebn-v	UniJIS2004-UTF16-V	KozGoPro-Heavy
+uphmgothrn-h	UniJIS2004-UTF16-H	KozGoPro-Heavy
+uphmgothrn-v	UniJIS2004-UTF16-V	KozGoPro-Heavy

@@ -1,0 +1,32 @@
+
+%TEXT, 90JIS
+uphminl-h	UniJIS-UTF16-H	A-OTF-RyuminPro-Light
+uphminl-v	UniJIS-UTF16-V	A-OTF-RyuminPro-Light
+uphminr-h	UniJIS-UTF16-H	A-OTF-RyuminPro-Light
+uphminr-v	UniJIS-UTF16-V	A-OTF-RyuminPro-Light
+uphminb-h	UniJIS-UTF16-H	A-OTF-FutoMinA101Pro-Bold
+uphminb-v	UniJIS-UTF16-V	A-OTF-FutoMinA101Pro-Bold
+uphgothr-h	UniJIS-UTF16-H	A-OTF-GothicBBBPro-Medium
+uphgothr-v	UniJIS-UTF16-V	A-OTF-GothicBBBPro-Medium
+uphgothb-h	UniJIS-UTF16-H	A-OTF-FutoGoB101Pro-Bold
+uphgothb-v	UniJIS-UTF16-V	A-OTF-FutoGoB101Pro-Bold
+uphgotheb-h	UniJIS-UTF16-H	A-OTF-MidashiGoPro-MB31
+uphgotheb-v	UniJIS-UTF16-V	A-OTF-MidashiGoPro-MB31
+uphmgothr-h	UniJIS-UTF16-H	A-OTFJun101Pro-Light
+uphmgothr-v	UniJIS-UTF16-V	A-OTFJun101Pro-Light
+
+%TEXT, JIS04 (not yet)
+uphminln-h	UniJIS2004-UTF16-H	A-OTF-RyuminPro-Light
+uphminln-v	UniJIS2004-UTF16-V	A-OTF-RyuminPro-Light
+uphminrn-h	UniJIS2004-UTF16-H	A-OTF-RyuminPro-Light
+uphminrn-v	UniJIS2004-UTF16-V	A-OTF-RyuminPro-Light
+uphminbn-h	UniJIS2004-UTF16-H	A-OTF-FutoMinA101Pro-Bold
+uphminbn-v	UniJIS2004-UTF16-V	A-OTF-FutoMinA101Pro-Bold
+uphgothrn-h	UniJIS2004-UTF16-H	A-OTF-GothicBBBPro-Medium
+uphgothrn-v	UniJIS2004-UTF16-V	A-OTF-GothicBBBPro-Medium
+uphgothbn-h	UniJIS2004-UTF16-H	A-OTF-FutoGoB101Pro-Bold
+uphgothbn-v	UniJIS2004-UTF16-V	A-OTF-FutoGoB101Pro-Bold
+uphgothebn-h	UniJIS2004-UTF16-H	A-OTF-MidashiGoPro-MB31
+uphgothebn-v	UniJIS2004-UTF16-V	A-OTF-MidashiGoPro-MB31
+uphmgothrn-h	UniJIS2004-UTF16-H	A-OTFJun101Pro-Light
+uphmgothrn-v	UniJIS2004-UTF16-V	A-OTFJun101Pro-Light
