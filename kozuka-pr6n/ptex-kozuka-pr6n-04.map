@@ -1,9 +1,4 @@
-%%
-%% ASCII pTeX
-%%
-
-rml      JISX0213-2004-H               KozMinPr6N-Regular.otf
-rmlv     JISX0213-2004-V               KozMinPr6N-Regular.otf
-gbm      JISX0213-2004-H               KozGoPr6N-Regular.otf
-gbmv     JISX0213-2004-V               KozGoPr6N-Regular.otf
-
+rml	JISX0213-2004-H	KozMinPr6N-Regular.otf
+rmlv	JISX0213-2004-V	KozMinPr6N-Regular.otf
+gbm	JISX0213-2004-H	KozGoPr6N-Regular.otf
+gbmv	JISX0213-2004-V	KozGoPr6N-Regular.otf

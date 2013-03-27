@@ -1,86 +1,80 @@
-otf-ujmr-h      UniJIS-UTF16-H        KozMinPro-Regular.otf
-otf-ujmr-v      UniJIS-UTF16-V        KozMinPro-Regular.otf
-otf-cjmr-h       Identity-H      KozMinPro-Regular.otf
-otf-cjmr-v       Identity-V  KozMinPro-Regular.otf
-hminr-h   H KozMinPro-Regular.otf
-hminr-v V KozMinPro-Regular.otf
 
-otf-ujgr-h    UniJIS-UTF16-H       KozGoPro-Regular.otf
-otf-ujgr-v    UniJIS-UTF16-V       KozGoPro-Regular.otf
-otf-cjgr-h     Identity-H     KozGoPro-Regular.otf
-otf-cjgr-v     Identity-V KozGoPro-Regular.otf
-hgothr-h   H KozGoPro-Regular.otf
-hgothr-v V KozGoPro-Regular.otf
+% TEXT, 90JIS
+hminl-h	H	KozMinPro-Light.otf
+hminl-v	V	KozMinPro-Light.otf
+hminr-h	H	KozMinPro-Regular.otf
+hminr-v	V	KozMinPro-Regular.otf
+hminb-h	H	KozMinPro-Bold.otf
+hminb-v	V	KozMinPro-Bold.otf
+hgothr-h	H	KozGoPro-Regular.otf
+hgothr-v	V	KozGoPro-Regular.otf
+hgothb-h	H	KozGoPro-Bold.otf
+hgothb-v	V	KozGoPro-Bold.otf
+hgotheb-h	H	KozGoPro-Heavy.otf
+hgotheb-v	V	KozGoPro-Heavy.otf
+hmgothr-h	H	KozGoPro-Heavy.otf
+hmgothr-v	V	KozGoPro-Heavy.otf
 
-otf-ujmb-h      UniJIS-UTF16-H    KozMinPro-Bold.otf
-otf-ujmb-v      UniJIS-UTF16-V    KozMinPro-Bold.otf
-otf-cjmb-h  Identity-H KozMinPro-Bold.otf
-otf-cjmb-v  Identity-V KozMinPro-Bold.otf
-hminb-h   H KozMinPro-Bold.otf
-hminb-v V KozMinPro-Bold.otf
+% TEXT, JIS04
+hminln-h	H	KozMinPro-Light.otf
+hminln-v	V	KozMinPro-Light.otf
+hminrn-h	H	KozMinPro-Regular.otf
+hminrn-v	V	KozMinPro-Regular.otf
+hminbn-h	H	KozMinPro-Bold.otf
+hminbn-v	V	KozMinPro-Bold.otf
+hgothrn-h	H	KozGoPro-Regular.otf
+hgothrn-v	V	KozGoPro-Regular.otf
+hgothbn-h	H	KozGoPro-Bold.otf
+hgothbn-v	V	KozGoPro-Bold.otf
+hgothebn-h	H	KozGoPro-Heavy.otf
+hgothebn-v	V	KozGoPro-Heavy.otf
+hmgothrn-h	H	KozGoPro-Heavy.otf
+hmgothrn-v	V	KozGoPro-Heavy.otf
 
-otf-ujgb-h    UniJIS-UTF16-H    KozGoPro-Bold.otf
-otf-ujgb-v    UniJIS-UTF16-V    KozGoPro-Bold.otf
-otf-cjgb-h  Identity-H KozGoPro-Bold.otf
-otf-cjgb-v  Identity-V KozGoPro-Bold.otf
-hgothb-h   H KozGoPro-Bold.otf
-hgothb-v V KozGoPro-Bold.otf
+% CID
+otf-cjml-h	Identity-H	KozMinPro-Light.otf
+otf-cjml-v	Identity-V	KozMinPro-Light.otf
+otf-cjmr-h	Identity-H	KozMinPro-Regular.otf
+otf-cjmr-v	Identity-V	KozMinPro-Regular.otf
+otf-cjmb-h	Identity-H	KozMinPro-Bold.otf
+otf-cjmb-v	Identity-V	KozMinPro-Bold.otf
+otf-cjgr-h	Identity-H	KozGoPro-Regular.otf
+otf-cjgr-v	Identity-V	KozGoPro-Regular.otf
+otf-cjgb-h	Identity-H	KozGoPro-Bold.otf
+otf-cjgb-v	Identity-V	KozGoPro-Bold.otf
+otf-cjge-h	Identity-H	KozGoPro-Heavy.otf
+otf-cjge-v	Identity-V	KozGoPro-Heavy.otf
+otf-cjmgr-h	Identity-H	KozGoPro-Heavy.otf
+otf-cjmgr-v	Identity-V	KozGoPro-Heavy.otf
 
-otf-ujge-h    UniJIS-UTF16-H    KozGoPro-Heavy.otf
-otf-ujge-v    UniJIS-UTF16-V    KozGoPro-Heavy.otf
-otf-cjge-h  Identity-H KozGoPro-Heavy.otf
-otf-cjge-v  Identity-V KozGoPro-Heavy.otf
-hgotheb-h H KozGoPro-Heavy.otf
-hgotheb-v V KozGoPro-Heavy.otf
+% Unicode 90JIS
+otf-ujml-h	UniJIS-UTF16-H	KozMinPro-Light.otf
+otf-ujml-v	UniJIS-UTF16-V	KozMinPro-Light.otf
+otf-ujmr-h	UniJIS-UTF16-H	KozMinPro-Regular.otf
+otf-ujmr-v	UniJIS-UTF16-V	KozMinPro-Regular.otf
+otf-ujmb-h	UniJIS-UTF16-H	KozMinPro-Bold.otf
+otf-ujmb-v	UniJIS-UTF16-V	KozMinPro-Bold.otf
+otf-ujgr-h	UniJIS-UTF16-H	KozGoPro-Regular.otf
+otf-ujgr-v	UniJIS-UTF16-V	KozGoPro-Regular.otf
+otf-ujgb-h	UniJIS-UTF16-H	KozGoPro-Bold.otf
+otf-ujgb-v	UniJIS-UTF16-V	KozGoPro-Bold.otf
+otf-ujge-h	UniJIS-UTF16-H	KozGoPro-Heavy.otf
+otf-ujge-v	UniJIS-UTF16-V	KozGoPro-Heavy.otf
+otf-ujmgr-h	UniJIS-UTF16-H	KozGoPro-Heavy.otf
+otf-ujmgr-v	UniJIS-UTF16-V	KozGoPro-Heavy.otf
 
-otf-ujmgr-h    UniJIS-UTF16-H       KozGoPro-Heavy.otf
-otf-ujmgr-v    UniJIS-UTF16-V       KozGoPro-Heavy.otf
-otf-cjmgr-h     Identity-H     KozGoPro-Heavy.otf
-otf-cjmgr-v     Identity-V KozGoPro-Heavy.otf
-hmgothr-h    H KozGoPro-Heavy.otf
-hmgothr-v  V KozGoPro-Heavy.otf
-
-otf-ujml-h      UniJIS-UTF16-H        KozMinPro-Light.otf
-otf-ujml-v      UniJIS-UTF16-V        KozMinPro-Light.otf
-otf-cjml-h       Identity-H      KozMinPro-Light.otf
-otf-cjml-v       Identity-V  KozMinPro-Light.otf
-hminl-h   H KozMinPro-Light.otf
-hminl-v V KozMinPro-Light.otf
-
-%
-% JIS 2004
-%
-otf-ujmrn-h      UniJIS2004-UTF16-H        KozMinPro-Regular.otf
-otf-ujmrn-v      UniJIS2004-UTF16-V        KozMinPro-Regular.otf
-hminrn-h   H KozMinPro-Regular.otf
-hminrn-v V KozMinPro-Regular.otf
-
-otf-ujgrn-h    UniJIS2004-UTF16-H       KozGoPro-Regular.otf
-otf-ujgrn-v    UniJIS2004-UTF16-V       KozGoPro-Regular.otf
-hgothrn-h   H KozGoPro-Regular.otf
-hgothrn-v V KozGoPro-Regular.otf
-
-otf-ujmbn-h      UniJIS2004-UTF16-H    KozMinPro-Bold.otf
-otf-ujmbn-v      UniJIS2004-UTF16-V    KozMinPro-Bold.otf
-hminbn-h   H KozMinPro-Bold.otf
-hminbn-v V KozMinPro-Bold.otf
-
-otf-ujgbn-h    UniJIS2004-UTF16-H    KozGoPro-Bold.otf
-otf-ujgbn-v    UniJIS2004-UTF16-V    KozGoPro-Bold.otf
-hgothbn-h   H KozGoPro-Bold.otf
-hgothbn-v V KozGoPro-Bold.otf
-
-otf-ujgen-h    UniJIS2004-UTF16-H    KozGoPro-Heavy.otf
-otf-ujgen-v    UniJIS2004-UTF16-V    KozGoPro-Heavy.otf
-hgothebn-h   H KozGoPro-Heavy.otf
-hgothebn-v V KozGoPro-Heavy.otf
-
-otf-ujmgrn-h    UniJIS2004-UTF16-H       KozGoPro-Heavy.otf
-otf-ujmgrn-v    UniJIS2004-UTF16-V       KozGoPro-Heavy.otf
-hmgothrn-h    H KozGoPro-Heavy.otf
-hmgothrn-v  V KozGoPro-Heavy.otf
-
-otf-ujmln-h      UniJIS2004-UTF16-H        KozMinPro-Light.otf
-otf-ujmln-v      UniJIS2004-UTF16-V        KozMinPro-Light.otf
-hminln-h   H KozMinPro-Light.otf
-hminln-v V KozMinPro-Light.otf
+% Unicode JIS04
+otf-ujmln-h	UniJIS2004-UTF16-H	KozMinPro-Light.otf
+otf-ujmln-v	UniJIS2004-UTF16-V	KozMinPro-Light.otf
+otf-ujmrn-h	UniJIS2004-UTF16-H	KozMinPro-Regular.otf
+otf-ujmrn-v	UniJIS2004-UTF16-V	KozMinPro-Regular.otf
+otf-ujmbn-h	UniJIS2004-UTF16-H	KozMinPro-Bold.otf
+otf-ujmbn-v	UniJIS2004-UTF16-V	KozMinPro-Bold.otf
+otf-ujgrn-h	UniJIS2004-UTF16-H	KozGoPro-Regular.otf
+otf-ujgrn-v	UniJIS2004-UTF16-V	KozGoPro-Regular.otf
+otf-ujgbn-h	UniJIS2004-UTF16-H	KozGoPro-Bold.otf
+otf-ujgbn-v	UniJIS2004-UTF16-V	KozGoPro-Bold.otf
+otf-ujgen-h	UniJIS2004-UTF16-H	KozGoPro-Heavy.otf
+otf-ujgen-v	UniJIS2004-UTF16-V	KozGoPro-Heavy.otf
+otf-ujmgrn-h	UniJIS2004-UTF16-H	KozGoPro-Heavy.otf
+otf-ujmgrn-v	UniJIS2004-UTF16-V	KozGoPro-Heavy.otf

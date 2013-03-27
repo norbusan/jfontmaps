@@ -1,20 +1,16 @@
-%
-% otf-up-kozuka.map
-% map file to support Kozuka fonts in uptex
-% based on the patch of TANAKA Takuji
-% from uptex-1.00-20120115a
-uphminl-h     UniJIS-UTF16-H KozMinPro-Light.otf
-uphminl-v     UniJIS-UTF16-V KozMinPro-Light.otf
-uphminr-h     UniJIS-UTF16-H KozMinPro-Regular.otf
-uphminr-v     UniJIS-UTF16-V KozMinPro-Regular.otf
-uphgothr-h    UniJIS-UTF16-H KozGoPro-Regular.otf
-uphgothr-v    UniJIS-UTF16-V KozGoPro-Regular.otf
-uphminb-h     UniJIS-UTF16-H KozMinPro-Bold.otf
-uphminb-v     UniJIS-UTF16-V KozMinPro-Bold.otf
-uphgothb-h    UniJIS-UTF16-H KozGoPro-Bold.otf
-uphgothb-v    UniJIS-UTF16-V KozGoPro-Bold.otf
-uphgotheb-h   UniJIS-UTF16-H KozGoPro-Heavy.otf
-uphgotheb-v   UniJIS-UTF16-V KozGoPro-Heavy.otf
-uphmgothr-h   UniJIS-UTF16-H KozGoPro-Heavy.otf
-uphmgothr-v   UniJIS-UTF16-V KozGoPro-Heavy.otf
 
+% TEXT, 90JIS
+uphminl-h	UniJIS-UTF16-H	KozMinPro-Light.otf
+uphminl-v	UniJIS-UTF16-V	KozMinPro-Light.otf
+uphminr-h	UniJIS-UTF16-H	KozMinPro-Regular.otf
+uphminr-v	UniJIS-UTF16-V	KozMinPro-Regular.otf
+uphminb-h	UniJIS-UTF16-H	KozMinPro-Bold.otf
+uphminb-v	UniJIS-UTF16-V	KozMinPro-Bold.otf
+uphgothr-h	UniJIS-UTF16-H	KozGoPro-Regular.otf
+uphgothr-v	UniJIS-UTF16-V	KozGoPro-Regular.otf
+uphgothb-h	UniJIS-UTF16-H	KozGoPro-Bold.otf
+uphgothb-v	UniJIS-UTF16-V	KozGoPro-Bold.otf
+uphgotheb-h	UniJIS-UTF16-H	KozGoPro-Heavy.otf
+uphgotheb-v	UniJIS-UTF16-V	KozGoPro-Heavy.otf
+uphmgothr-h	UniJIS-UTF16-H	KozGoPro-Heavy.otf
+uphmgothr-v	UniJIS-UTF16-V	KozGoPro-Heavy.otf

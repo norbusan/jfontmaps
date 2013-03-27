@@ -1,9 +1,4 @@
-%%
-%% ASCII pTeX
-%%
-
-rml       JISX0213-2004-H               HiraMinProN-W3.otf
-rmlv      JISX0213-2004-V               HiraMinProN-W3.otf
-gbm       JISX0213-2004-H               HiraKakuProN-W3.otf
-gbmv      JISX0213-2004-V               HiraKakuProN-W3.otf
-
+rml	JISX0213-2004-H	HiraMinProN-W3.otf
+rmlv	JISX0213-2004-V	HiraMinProN-W3.otf
+gbm	JISX0213-2004-H	HiraKakuProN-W3.otf
+gbmv	JISX0213-2004-V	HiraKakuProN-W3.otf

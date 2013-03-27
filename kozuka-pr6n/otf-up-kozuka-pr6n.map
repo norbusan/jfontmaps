@@ -1,19 +1,16 @@
-%
-% otf-up-kozuka.map
-% map file to support Kozuka fonts in uptex
-% based on the patch of TANAKA Takuji
-% from uptex-1.00-20120115a
-uphminl-h     UniJIS-UTF16-H KozMinPr6N-Light.otf
-uphminl-v     UniJIS-UTF16-V KozMinPr6N-Light.otf
-uphminr-h     UniJIS-UTF16-H KozMinPr6N-Regular.otf
-uphminr-v     UniJIS-UTF16-V KozMinPr6N-Regular.otf
-uphgothr-h    UniJIS-UTF16-H KozGoPr6N-Regular.otf
-uphgothr-v    UniJIS-UTF16-V KozGoPr6N-Regular.otf
-uphminb-h     UniJIS-UTF16-H KozMinPr6N-Bold.otf
-uphminb-v     UniJIS-UTF16-V KozMinPr6N-Bold.otf
-uphgothb-h    UniJIS-UTF16-H KozGoPr6N-Bold.otf
-uphgothb-v    UniJIS-UTF16-V KozGoPr6N-Bold.otf
-uphgotheb-h    UniJIS-UTF16-H KozGoPr6N-Heavy.otf
-uphgotheb-v    UniJIS-UTF16-V KozGoPr6N-Heavy.otf
-uphmgothr-h   UniJIS-UTF16-H KozGoPr6N-Heavy.otf
-uphmgothr-v   UniJIS-UTF16-V KozGoPr6N-Heavy.otf
+
+% TEXT, 90JIS
+uphminl-h	UniJIS-UTF16-H	KozMinPr6N-Light.otf
+uphminl-v	UniJIS-UTF16-V	KozMinPr6N-Light.otf
+uphminr-h	UniJIS-UTF16-H	KozMinPr6N-Regular.otf
+uphminr-v	UniJIS-UTF16-V	KozMinPr6N-Regular.otf
+uphminb-h	UniJIS-UTF16-H	KozMinPr6N-Bold.otf
+uphminb-v	UniJIS-UTF16-V	KozMinPr6N-Bold.otf
+uphgothr-h	UniJIS-UTF16-H	KozGoPr6N-Regular.otf
+uphgothr-v	UniJIS-UTF16-V	KozGoPr6N-Regular.otf
+uphgothb-h	UniJIS-UTF16-H	KozGoPr6N-Bold.otf
+uphgothb-v	UniJIS-UTF16-V	KozGoPr6N-Bold.otf
+uphgotheb-h	UniJIS-UTF16-H	KozGoPr6N-Heavy.otf
+uphgotheb-v	UniJIS-UTF16-V	KozGoPr6N-Heavy.otf
+uphmgothr-h	UniJIS-UTF16-H	KozGoPr6N-Heavy.otf
+uphmgothr-v	UniJIS-UTF16-V	KozGoPr6N-Heavy.otf

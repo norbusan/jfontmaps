@@ -73,3 +73,57 @@ updmap-setup-kanji.pl are licensed under the following terms:
 Licensed under the GPL version 3 or any later version, 
 see the file for details.
 
+
+Families
+========
+O: kanjiVariant '-04' is supported.
+P: We have '-04' maps, but fonts lack some glyphs
+X: We don't have '-04' maps.
+
+O noEmbed
+    (no font needed for dvipdfmx)
+
+X ms
+    msmincho.ttc
+    msgothic.ttc
+X ipa
+    ipam.ttf
+    ipag.ttf
+X ipaex
+    ipaexm.ttf
+    ipaexg.ttf
+
+O? hiragino-pro
+    HiraMinPro-W2.otf
+    HiraMinPro-W3.otf
+    HiraMinPro-W6.otf
+    HiraKakuPro-W3.otf
+    HiraKakuPro-W6.otf
+    HiraKakuStd-W8.otf
+    HiraMaruPro-W4.otf
+
+O hiragino-pron
+    same with ProN/StdN instead of Pro/Std
+
+P kozuka-pro
+    KozMinPro-Light.otf
+    KozMinPro-Regular.otf
+    KozMinPro-Bold.otf
+    KozGoPro-Light.otf
+    KozGoPro-Regular.otf
+    KozGoPro-Bold.otf
+    KozGoPro-Heavy.otf
+
+O kozuka-pr6n
+    same with Pr6N instead of Pro
+
+P morisawa-pro
+    A-OTF-FutoGoB101Pro-Bold.otf
+    A-OTF-FutoMinA101Pro-Bold.otf
+    A-OTF-GothicBBBPro-Medium.otf
+    A-OTF-Jun101Pro-Light.otf
+    A-OTF-MidashiGoPro-MB31.otf
+    A-OTF-RyuminPro-Light.otf
+
+O morisawa-pr6n
+    same with Pr6N instead of Pro

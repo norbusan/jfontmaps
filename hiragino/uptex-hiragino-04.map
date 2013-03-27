@@ -1,11 +1,10 @@
-urml      UniJIS2004-UTF16-H  HiraMinPro-W3.otf
-urmlv     UniJIS2004-UTF16-V  HiraMinPro-W3.otf
-ugbm      UniJIS2004-UTF16-H  HiraKakuPro-W3.otf
-ugbmv     UniJIS2004-UTF16-V  HiraKakuPro-W3.otf
-
-uprml-h   UniJIS2004-UTF16-H  HiraMinPro-W3.otf
-uprml-v   UniJIS2004-UTF16-V  HiraMinPro-W3.otf
-upgbm-h   UniJIS2004-UTF16-H  HiraKakuPro-W3.otf
-upgbm-v   UniJIS2004-UTF16-V  HiraKakuPro-W3.otf
-uprml-hq  UniJIS-UCS2-H   HiraMinPro-W3.otf
-upgbm-hq  UniJIS-UCS2-H   HiraKakuPro-W3.otf
+urml	UniJIS2004-UTF16-H	HiraMinPro-W3.otf
+urmlv	UniJIS2004-UTF16-V	HiraMinPro-W3.otf
+ugbm	UniJIS2004-UTF16-H	HiraKakuPro-W3.otf
+ugbmv	UniJIS2004-UTF16-V	HiraKakuPro-W3.otf
+uprml-h	UniJIS2004-UTF16-H	HiraMinPro-W3.otf
+uprml-v	UniJIS2004-UTF16-V	HiraMinPro-W3.otf
+upgbm-h	UniJIS2004-UTF16-H	HiraKakuPro-W3.otf
+upgbm-v	UniJIS2004-UTF16-V	HiraKakuPro-W3.otf
+uprml-hq	UniJIS-UCS2-H	HiraMinPro-W3.otf
+upgbm-hq	UniJIS-UCS2-H	HiraKakuPro-W3.otf

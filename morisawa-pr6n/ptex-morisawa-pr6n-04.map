@@ -1,9 +1,4 @@
-%%
-%% ASCII pTeX
-%%
-
-rml      JISX0213-2004-H               A-OTF-RyuminPr6N-Light.otf
-rmlv     JISX0213-2004-V               A-OTF-RyuminPr6N-Light.otf
-gbm      JISX0213-2004-H               A-OTF-GothicBBBPr6N-Medium.otf
-gbmv     JISX0213-2004-V               A-OTF-GothicBBBPr6N-Medium.otf
-
+rml	JISX0213-2004-H	A-OTF-RyuminPr6N-Light.otf
+rmlv	JISX0213-2004-V	A-OTF-RyuminPr6N-Light.otf
+gbm	JISX0213-2004-H	A-OTF-GothicBBBPr6N-Medium.otf
+gbmv	JISX0213-2004-V	A-OTF-GothicBBBPr6N-Medium.otf

@@ -1,11 +1,10 @@
-urml      UniJIS2004-UTF16-H  A-OTF-RyuminPr6N-Light.otf
-urmlv     UniJIS2004-UTF16-V  A-OTF-RyuminPr6N-Light.otf
-ugbm      UniJIS2004-UTF16-H  A-OTF-GothicBBBPr6N-Medium.otf
-ugbmv     UniJIS2004-UTF16-V  A-OTF-GothicBBBPr6N-Medium.otf
-
-uprml-h   UniJIS2004-UTF16-H  A-OTF-RyuminPr6N-Light.otf
-uprml-v   UniJIS2004-UTF16-V  A-OTF-RyuminPr6N-Light.otf
-upgbm-h   UniJIS2004-UTF16-H  A-OTF-GothicBBBPr6N-Medium.otf
-upgbm-v   UniJIS2004-UTF16-V  A-OTF-GothicBBBPr6N-Medium.otf
-uprml-hq  UniJIS-UCS2-H   A-OTF-RyuminPr6N-Light.otf
-upgbm-hq  UniJIS-UCS2-H   A-OTF-GothicBBBPr6N-Medium.otf
+urml	UniJIS2004-UTF16-H	A-OTF-RyuminPr6N-Light.otf
+urmlv	UniJIS2004-UTF16-V	A-OTF-RyuminPr6N-Light.otf
+ugbm	UniJIS2004-UTF16-H	A-OTF-GothicBBBPr6N-Medium.otf
+ugbmv	UniJIS2004-UTF16-V	A-OTF-GothicBBBPr6N-Medium.otf
+uprml-h	UniJIS2004-UTF16-H	A-OTF-RyuminPr6N-Light.otf
+uprml-v	UniJIS2004-UTF16-V	A-OTF-RyuminPr6N-Light.otf
+upgbm-h	UniJIS2004-UTF16-H	A-OTF-GothicBBBPr6N-Medium.otf
+upgbm-v	UniJIS2004-UTF16-V	A-OTF-GothicBBBPr6N-Medium.otf
+uprml-hq	UniJIS-UCS2-H	A-OTF-RyuminPr6N-Light.otf
+upgbm-hq	UniJIS-UCS2-H	A-OTF-GothicBBBPr6N-Medium.otf
