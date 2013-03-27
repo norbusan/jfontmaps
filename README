@@ -16,7 +16,15 @@ Necessary font files
 ====================
 This package does *not* ship any of the fonts mentioned, but only
 map files for dvipdfmx. You have to obtain the fonts separately.
+For ipa and ipaex the respective fonts a shipped in TeX Live
+and are available for free.
 
+family ipa:
+	ipam.ttf
+	ipag.ttf
+family ipaex:
+	ipaexm.ttf
+	ipaexg.ttf
 family kozuka:
 	KozGoPro-Bold.otf
 	KozGoPro-Heavy.otf

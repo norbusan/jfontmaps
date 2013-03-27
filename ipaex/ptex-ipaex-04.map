@@ -1,0 +1,9 @@
+%%
+%% ASCII pTeX
+%%
+
+rml       JISX0213-2004-H               ipaexm.ttf
+rmlv      JISX0213-2004-V               ipaexm.ttf
+gbm       JISX0213-2004-H               ipaexg.ttf
+gbmv      JISX0213-2004-V               ipaexg.ttf
+
