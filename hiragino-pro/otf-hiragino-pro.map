@@ -15,7 +15,9 @@ hgotheb-v	V	HiraKakuStd-W8
 hmgothr-h	H	HiraMaruPro-W4
 hmgothr-v	V	HiraMaruPro-W4
 
-%TEXT, JIS04
+% TEXT, JIS04
+%   (Using H/V instead of JISX0213-2004-* does not cause any problem.)
+
 hminln-h	JISX0213-2004-H	HiraMinPro-W2
 hminln-v	JISX0213-2004-V	HiraMinPro-W2
 hminrn-h	JISX0213-2004-H	HiraMinPro-W3
@@ -29,7 +31,7 @@ hgothbn-v	JISX0213-2004-V	HiraKakuPro-W6
 hmgothrn-h	JISX0213-2004-H	HiraMaruPro-W4
 hmgothrn-v	JISX0213-2004-V	HiraMaruPro-W4
 
-%CID
+% CID
 otf-cjml-h	Identity-H	HiraMinPro-W2
 otf-cjml-v	Identity-V	HiraMinPro-W2
 otf-cjmr-h	Identity-H	HiraMinPro-W3
@@ -43,7 +45,7 @@ otf-cjgb-v	Identity-V	HiraKakuPro-W6
 otf-cjmgr-h	Identity-H	HiraMaruPro-W4
 otf-cjmgr-v	Identity-V	HiraMaruPro-W4
 
-%Unicode 90JIS
+% Unicode 90JIS
 otf-ujml-h	UniJIS-UTF16-H	HiraMinPro-W2
 otf-ujml-v	UniJIS-UTF16-V	HiraMinPro-W2
 otf-ujmr-h	UniJIS-UTF16-H	HiraMinPro-W3
@@ -57,7 +59,7 @@ otf-ujgb-v	UniJIS-UTF16-V	HiraKakuPro-W6
 otf-ujmgr-h	UniJIS-UTF16-H	HiraMaruPro-W4
 otf-ujmgr-v	UniJIS-UTF16-V	HiraMaruPro-W4
 
-%Unicode JIS04
+% Unicode JIS04
 otf-ujmln-h	UniJIS2004-UTF16-H	HiraMinPro-W2
 otf-ujmln-v	UniJIS2004-UTF16-V	HiraMinPro-W2
 otf-ujmrn-h	UniJIS2004-UTF16-H	HiraMinPro-W3

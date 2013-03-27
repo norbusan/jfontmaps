@@ -15,7 +15,9 @@ hgotheb-v	V	ipaexg
 hmgothr-h	H	ipaexg
 hmgothr-v	V	ipaexg
 
-%TEXT, JIS04
+% TEXT, JIS04
+%   (Using H/V instead of JISX0213-2004-* does not cause any problem.)
+
 hminln-h	JISX0213-2004-H	ipaexm
 hminln-v	JISX0213-2004-V	ipaexm
 hminrn-h	JISX0213-2004-H	ipaexm
@@ -29,7 +31,7 @@ hgothbn-v	JISX0213-2004-V	ipaexg
 hmgothrn-h	JISX0213-2004-H	ipaexg
 hmgothrn-v	JISX0213-2004-V	ipaexg
 
-%CID
+% CID
 otf-cjml-h	Identity-H	ipaexm/AJ16
 otf-cjml-v	Identity-V	ipaexm/AJ16
 otf-cjmr-h	Identity-H	ipaexm/AJ16
@@ -43,7 +45,7 @@ otf-cjgb-v	Identity-V	ipaexg/AJ16
 otf-cjmgr-h	Identity-H	ipaexg/AJ16
 otf-cjmgr-v	Identity-V	ipaexg/AJ16
 
-%Unicode 90JIS
+% Unicode 90JIS
 otf-ujml-h	UniJIS-UTF16-H	ipaexm
 otf-ujml-v	UniJIS-UTF16-V	ipaexm
 otf-ujmr-h	UniJIS-UTF16-H	ipaexm
@@ -57,7 +59,7 @@ otf-ujgb-v	UniJIS-UTF16-V	ipaexg
 otf-ujmgr-h	UniJIS-UTF16-H	ipaexg
 otf-ujmgr-v	UniJIS-UTF16-V	ipaexg
 
-%Unicode JIS04
+% Unicode JIS04
 otf-ujmln-h	UniJIS2004-UTF16-H	ipaexm
 otf-ujmln-v	UniJIS2004-UTF16-V	ipaexm
 otf-ujmrn-h	UniJIS2004-UTF16-H	ipaexm

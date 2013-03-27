@@ -1,10 +1,10 @@
 urml	UniJIS-UTF16-H	KozMinPro-Regular
 urmlv	UniJIS-UTF16-V	KozMinPro-Regular
-ugbm	UniJIS-UTF16-H	KozGoPro-Medium
-ugbmv	UniJIS-UTF16-V	KozGoPro-Medium
+ugbm	UniJIS-UTF16-H	KozGoPro-Regular
+ugbmv	UniJIS-UTF16-V	KozGoPro-Regular
 uprml-h	UniJIS-UTF16-H	KozMinPro-Regular
 uprml-v	UniJIS-UTF16-V	KozMinPro-Regular
-upgbm-h	UniJIS-UTF16-H	KozGoPro-Medium
-upgbm-v	UniJIS-UTF16-V	KozGoPro-Medium
+upgbm-h	UniJIS-UTF16-H	KozGoPro-Regular
+upgbm-v	UniJIS-UTF16-V	KozGoPro-Regular
 uprml-hq	UniJIS-UCS2-H	KozMinPro-Regular
-upgbm-hq	UniJIS-UCS2-H	KozGoPro-Medium
+upgbm-hq	UniJIS-UCS2-H	KozGoPro-Regular

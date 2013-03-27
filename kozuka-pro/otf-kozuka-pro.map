@@ -15,7 +15,9 @@ hgotheb-v	V	KozGoPro-Heavy
 hmgothr-h	H	KozGoPro-Heavy
 hmgothr-v	V	KozGoPro-Heavy
 
-%TEXT, JIS04
+% TEXT, JIS04
+%   (Using H/V instead of JISX0213-2004-* does not cause any problem.)
+
 hminln-h	JISX0213-2004-H	KozMinPro-Light
 hminln-v	JISX0213-2004-V	KozMinPro-Light
 hminrn-h	JISX0213-2004-H	KozMinPro-Regular
@@ -29,7 +31,7 @@ hgothbn-v	JISX0213-2004-V	KozGoPro-Bold
 hmgothrn-h	JISX0213-2004-H	KozGoPro-Heavy
 hmgothrn-v	JISX0213-2004-V	KozGoPro-Heavy
 
-%CID
+% CID
 otf-cjml-h	Identity-H	KozMinPro-Light
 otf-cjml-v	Identity-V	KozMinPro-Light
 otf-cjmr-h	Identity-H	KozMinPro-Regular
@@ -43,7 +45,7 @@ otf-cjgb-v	Identity-V	KozGoPro-Bold
 otf-cjmgr-h	Identity-H	KozGoPro-Heavy
 otf-cjmgr-v	Identity-V	KozGoPro-Heavy
 
-%Unicode 90JIS
+% Unicode 90JIS
 otf-ujml-h	UniJIS-UTF16-H	KozMinPro-Light
 otf-ujml-v	UniJIS-UTF16-V	KozMinPro-Light
 otf-ujmr-h	UniJIS-UTF16-H	KozMinPro-Regular
@@ -57,7 +59,7 @@ otf-ujgb-v	UniJIS-UTF16-V	KozGoPro-Bold
 otf-ujmgr-h	UniJIS-UTF16-H	KozGoPro-Heavy
 otf-ujmgr-v	UniJIS-UTF16-V	KozGoPro-Heavy
 
-%Unicode JIS04
+% Unicode JIS04
 otf-ujmln-h	UniJIS2004-UTF16-H	KozMinPro-Light
 otf-ujmln-v	UniJIS2004-UTF16-V	KozMinPro-Light
 otf-ujmrn-h	UniJIS2004-UTF16-H	KozMinPro-Regular

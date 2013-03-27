@@ -1,5 +1,5 @@
 
-%TEXT, 90JIS
+% TEXT, 90JIS
 uphminl-h	UniJIS-UTF16-H	ipam.ttf
 uphminl-v	UniJIS-UTF16-V	ipam.ttf
 uphminr-h	UniJIS-UTF16-H	ipam.ttf
@@ -14,19 +14,3 @@ uphgotheb-h	UniJIS-UTF16-H	ipag.ttf
 uphgotheb-v	UniJIS-UTF16-V	ipag.ttf
 uphmgothr-h	UniJIS-UTF16-H	ipag.ttf
 uphmgothr-v	UniJIS-UTF16-V	ipag.ttf
-
-%TEXT, JIS04 (not yet)
-uphminln-h	UniJIS2004-UTF16-H	ipam.ttf
-uphminln-v	UniJIS2004-UTF16-V	ipam.ttf
-uphminrn-h	UniJIS2004-UTF16-H	ipam.ttf
-uphminrn-v	UniJIS2004-UTF16-V	ipam.ttf
-uphminbn-h	UniJIS2004-UTF16-H	ipam.ttf
-uphminbn-v	UniJIS2004-UTF16-V	ipam.ttf
-uphgothrn-h	UniJIS2004-UTF16-H	ipag.ttf
-uphgothrn-v	UniJIS2004-UTF16-V	ipag.ttf
-uphgothbn-h	UniJIS2004-UTF16-H	ipag.ttf
-uphgothbn-v	UniJIS2004-UTF16-V	ipag.ttf
-uphgothebn-h	UniJIS2004-UTF16-H	ipag.ttf
-uphgothebn-v	UniJIS2004-UTF16-V	ipag.ttf
-uphmgothrn-h	UniJIS2004-UTF16-H	ipag.ttf
-uphmgothrn-v	UniJIS2004-UTF16-V	ipag.ttf

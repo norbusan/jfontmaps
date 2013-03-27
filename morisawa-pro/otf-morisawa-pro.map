@@ -15,7 +15,9 @@ hgotheb-v	V	A-OTF-MidashiGoPro-MB31
 hmgothr-h	H	A-OTFJun101Pro-Light
 hmgothr-v	V	A-OTFJun101Pro-Light
 
-%TEXT, JIS04
+% TEXT, JIS04
+%   (Using H/V instead of JISX0213-2004-* does not cause any problem.)
+
 hminln-h	JISX0213-2004-H	A-OTF-RyuminPro-Light
 hminln-v	JISX0213-2004-V	A-OTF-RyuminPro-Light
 hminrn-h	JISX0213-2004-H	A-OTF-RyuminPro-Light
@@ -29,7 +31,7 @@ hgothbn-v	JISX0213-2004-V	A-OTF-FutoGoB101Pro-Bold
 hmgothrn-h	JISX0213-2004-H	A-OTFJun101Pro-Light
 hmgothrn-v	JISX0213-2004-V	A-OTFJun101Pro-Light
 
-%CID
+% CID
 otf-cjml-h	Identity-H	A-OTF-RyuminPro-Light
 otf-cjml-v	Identity-V	A-OTF-RyuminPro-Light
 otf-cjmr-h	Identity-H	A-OTF-RyuminPro-Light
@@ -43,7 +45,7 @@ otf-cjgb-v	Identity-V	A-OTF-FutoGoB101Pro-Bold
 otf-cjmgr-h	Identity-H	A-OTFJun101Pro-Light
 otf-cjmgr-v	Identity-V	A-OTFJun101Pro-Light
 
-%Unicode 90JIS
+% Unicode 90JIS
 otf-ujml-h	UniJIS-UTF16-H	A-OTF-RyuminPro-Light
 otf-ujml-v	UniJIS-UTF16-V	A-OTF-RyuminPro-Light
 otf-ujmr-h	UniJIS-UTF16-H	A-OTF-RyuminPro-Light
@@ -57,7 +59,7 @@ otf-ujgb-v	UniJIS-UTF16-V	A-OTF-FutoGoB101Pro-Bold
 otf-ujmgr-h	UniJIS-UTF16-H	A-OTFJun101Pro-Light
 otf-ujmgr-v	UniJIS-UTF16-V	A-OTFJun101Pro-Light
 
-%Unicode JIS04
+% Unicode JIS04
 otf-ujmln-h	UniJIS2004-UTF16-H	A-OTF-RyuminPro-Light
 otf-ujmln-v	UniJIS2004-UTF16-V	A-OTF-RyuminPro-Light
 otf-ujmrn-h	UniJIS2004-UTF16-H	A-OTF-RyuminPro-Light

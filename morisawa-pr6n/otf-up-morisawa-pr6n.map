@@ -1,5 +1,5 @@
 
-%TEXT, 90JIS
+% TEXT, 90JIS
 uphminl-h	UniJIS-UTF16-H	A-OTF-RyuminPr6N-Light
 uphminl-v	UniJIS-UTF16-V	A-OTF-RyuminPr6N-Light
 uphminr-h	UniJIS-UTF16-H	A-OTF-RyuminPr6N-Light
@@ -14,19 +14,3 @@ uphgotheb-h	UniJIS-UTF16-H	A-OTF-MidashiGoPr6N-MB31
 uphgotheb-v	UniJIS-UTF16-V	A-OTF-MidashiGoPr6N-MB31
 uphmgothr-h	UniJIS-UTF16-H	A-OTFJun101Pr6N-Light
 uphmgothr-v	UniJIS-UTF16-V	A-OTFJun101Pr6N-Light
-
-%TEXT, JIS04 (not yet)
-uphminln-h	UniJIS2004-UTF16-H	A-OTF-RyuminPr6N-Light
-uphminln-v	UniJIS2004-UTF16-V	A-OTF-RyuminPr6N-Light
-uphminrn-h	UniJIS2004-UTF16-H	A-OTF-RyuminPr6N-Light
-uphminrn-v	UniJIS2004-UTF16-V	A-OTF-RyuminPr6N-Light
-uphminbn-h	UniJIS2004-UTF16-H	A-OTF-FutoMinA101Pr6N-Bold
-uphminbn-v	UniJIS2004-UTF16-V	A-OTF-FutoMinA101Pr6N-Bold
-uphgothrn-h	UniJIS2004-UTF16-H	A-OTF-GothicBBBPr6N-Medium
-uphgothrn-v	UniJIS2004-UTF16-V	A-OTF-GothicBBBPr6N-Medium
-uphgothbn-h	UniJIS2004-UTF16-H	A-OTF-FutoGoB101Pr6N-Bold
-uphgothbn-v	UniJIS2004-UTF16-V	A-OTF-FutoGoB101Pr6N-Bold
-uphgothebn-h	UniJIS2004-UTF16-H	A-OTF-MidashiGoPr6N-MB31
-uphgothebn-v	UniJIS2004-UTF16-V	A-OTF-MidashiGoPr6N-MB31
-uphmgothrn-h	UniJIS2004-UTF16-H	A-OTFJun101Pr6N-Light
-uphmgothrn-v	UniJIS2004-UTF16-V	A-OTFJun101Pr6N-Light

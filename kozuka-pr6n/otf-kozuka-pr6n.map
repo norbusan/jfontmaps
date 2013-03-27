@@ -15,7 +15,9 @@ hgotheb-v	V	KozGoPr6N-Heavy
 hmgothr-h	H	KozGoPr6N-Heavy
 hmgothr-v	V	KozGoPr6N-Heavy
 
-%TEXT, JIS04
+% TEXT, JIS04
+%   (Using H/V instead of JISX0213-2004-* does not cause any problem.)
+
 hminln-h	JISX0213-2004-H	KozMinPr6N-Light
 hminln-v	JISX0213-2004-V	KozMinPr6N-Light
 hminrn-h	JISX0213-2004-H	KozMinPr6N-Regular
@@ -29,7 +31,7 @@ hgothbn-v	JISX0213-2004-V	KozGoPr6N-Bold
 hmgothrn-h	JISX0213-2004-H	KozGoPr6N-Heavy
 hmgothrn-v	JISX0213-2004-V	KozGoPr6N-Heavy
 
-%CID
+% CID
 otf-cjml-h	Identity-H	KozMinPr6N-Light
 otf-cjml-v	Identity-V	KozMinPr6N-Light
 otf-cjmr-h	Identity-H	KozMinPr6N-Regular
@@ -43,7 +45,7 @@ otf-cjgb-v	Identity-V	KozGoPr6N-Bold
 otf-cjmgr-h	Identity-H	KozGoPr6N-Heavy
 otf-cjmgr-v	Identity-V	KozGoPr6N-Heavy
 
-%Unicode 90JIS
+% Unicode 90JIS
 otf-ujml-h	UniJIS-UTF16-H	KozMinPr6N-Light
 otf-ujml-v	UniJIS-UTF16-V	KozMinPr6N-Light
 otf-ujmr-h	UniJIS-UTF16-H	KozMinPr6N-Regular
@@ -57,7 +59,7 @@ otf-ujgb-v	UniJIS-UTF16-V	KozGoPr6N-Bold
 otf-ujmgr-h	UniJIS-UTF16-H	KozGoPr6N-Heavy
 otf-ujmgr-v	UniJIS-UTF16-V	KozGoPr6N-Heavy
 
-%Unicode JIS04
+% Unicode JIS04
 otf-ujmln-h	UniJIS2004-UTF16-H	KozMinPr6N-Light
 otf-ujmln-v	UniJIS2004-UTF16-V	KozMinPr6N-Light
 otf-ujmrn-h	UniJIS2004-UTF16-H	KozMinPr6N-Regular

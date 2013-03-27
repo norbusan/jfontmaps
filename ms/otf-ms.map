@@ -15,7 +15,9 @@ hgotheb-v	V	:0:msgothic.ttc
 hmgothr-h	H	:0:msgothic.ttc
 hmgothr-v	V	:0:msgothic.ttc
 
-%TEXT, JIS04
+% TEXT, JIS04
+%   (Using H/V instead of JISX0213-2004-* does not cause any problem.)
+
 hminln-h	JISX0213-2004-H	:0:msmincho.ttc
 hminln-v	JISX0213-2004-V	:0:msmincho.ttc
 hminrn-h	JISX0213-2004-H	:0:msmincho.ttc
@@ -29,7 +31,7 @@ hgothbn-v	JISX0213-2004-V	:0:msgothic.ttc
 hmgothrn-h	JISX0213-2004-H	:0:msgothic.ttc
 hmgothrn-v	JISX0213-2004-V	:0:msgothic.ttc
 
-%CID
+% CID
 otf-cjml-h	Identity-H	:0:msmincho.ttc/AJ16
 otf-cjml-v	Identity-V	:0:msmincho.ttc/AJ16
 otf-cjmr-h	Identity-H	:0:msmincho.ttc/AJ16
@@ -43,7 +45,7 @@ otf-cjgb-v	Identity-V	:0:msgothic.ttc/AJ16
 otf-cjmgr-h	Identity-H	:0:msgothic.ttc/AJ16
 otf-cjmgr-v	Identity-V	:0:msgothic.ttc/AJ16
 
-%Unicode 90JIS
+% Unicode 90JIS
 otf-ujml-h	UniJIS-UTF16-H	:0:msmincho.ttc
 otf-ujml-v	UniJIS-UTF16-V	:0:msmincho.ttc
 otf-ujmr-h	UniJIS-UTF16-H	:0:msmincho.ttc
@@ -57,7 +59,7 @@ otf-ujgb-v	UniJIS-UTF16-V	:0:msgothic.ttc
 otf-ujmgr-h	UniJIS-UTF16-H	:0:msgothic.ttc
 otf-ujmgr-v	UniJIS-UTF16-V	:0:msgothic.ttc
 
-%Unicode JIS04
+% Unicode JIS04
 otf-ujmln-h	UniJIS2004-UTF16-H	:0:msmincho.ttc
 otf-ujmln-v	UniJIS2004-UTF16-V	:0:msmincho.ttc
 otf-ujmrn-h	UniJIS2004-UTF16-H	:0:msmincho.ttc

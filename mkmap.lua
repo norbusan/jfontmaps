@@ -39,11 +39,12 @@ local foundry = {
       mr='KozMin!-Regular',
       mb='KozMin!-Bold',
       gr='KozGo!-Regular',
-      gru='KozGo!-Medium', -- 単ウェイト時と多ウェイト時で太さを変える
+      gru='KozGo!-Regular',
+      --gru='KozGo!-Medium', 単ウェイト時と多ウェイト時で太さを変える場合
       gb='KozGo!-Bold',
       ge='KozGo!-Heavy',
       mgr='KozGo!-Heavy',
-      {'4','6n'},
+      {'4','6n'}, -- Pro and Pr6N
    },
    ['morisawa'] = {
       ml='A-OTF-Ryumin!-Light',
@@ -54,7 +55,7 @@ local foundry = {
       gb='A-OTF-FutoGoB101!-Bold',
       ge='A-OTF-MidashiGo!-MB31',
       mgr='A-OTFJun101!-Light',
-      {'4','6n'},
+      {'4','6n'}, -- Pro and Pr6N
    },
    ['hiragino'] = {
       ml='HiraMin!-W2',
@@ -65,7 +66,7 @@ local foundry = {
       gb='HiraKaku!-W6',
       ge='HiraKaku!-W8',
       mgr='HiraMaru!-W4',
-      {'X','Xn'}, 
+      {'X','Xn'},  -- Pro and ProN
    },
 }
 
@@ -116,7 +117,7 @@ local maps = {
       {'upgbm-hq','UniJIS-UCS2-H',  'gru'},
    },
    ['otf-@'] = {
-      'TEXT, 90JIS',
+      '%TEXT, 90JIS',
       {'hminl-#',  '#', 'ml'},
       {'hminr-#',  '#', 'mr'},
       {'hminb-#',  '#', 'mb'},
@@ -124,7 +125,10 @@ local maps = {
       {'hgothb-#', '#', 'gb'},
       {'hgotheb-#','#', 'ge'},
       {'hmgothr-#','#', 'mgr'},
-      'TEXT, JIS04', 
+      [[
+% TEXT, JIS04
+%   (Using H/V instead of JISX0213-2004-* does not cause any problem.)
+]],
       {'hminln-#',  'JISX0213-2004-#', 'ml'},
       {'hminrn-#',  'JISX0213-2004-#', 'mr'},
       {'hminbn-#',  'JISX0213-2004-#', 'mb'},
@@ -132,21 +136,21 @@ local maps = {
       {'hgothbn-#', 'JISX0213-2004-#', 'gb'},
         -- なぜ hgothebn-# はない？
       {'hmgothrn-#','JISX0213-2004-#', 'mgr'},
-      'CID',
+      '% CID',
       {'otf-cjml-#', 'Identity-#',     'ml'},
       {'otf-cjmr-#', 'Identity-#',     'mr'},
       {'otf-cjmb-#', 'Identity-#',     'mb'},
       {'otf-cjgr-#', 'Identity-#',     'gr'},
       {'otf-cjgb-#', 'Identity-#',     'gb'},
       {'otf-cjmgr-#','Identity-#',     'mgr'},
-      'Unicode 90JIS',
+      '% Unicode 90JIS',
       {'otf-ujml-#', 'UniJIS-UTF16-#', 'ml'},
       {'otf-ujmr-#', 'UniJIS-UTF16-#', 'mr'},
       {'otf-ujmb-#', 'UniJIS-UTF16-#', 'mb'},
       {'otf-ujgr-#', 'UniJIS-UTF16-#', 'gr'},
       {'otf-ujgb-#', 'UniJIS-UTF16-#', 'gb'},
       {'otf-ujmgr-#','UniJIS-UTF16-#', 'mgr'},
-      'Unicode JIS04',
+      '% Unicode JIS04',
       {'otf-ujmln-#', 'UniJIS2004-UTF16-#', 'ml'},
       {'otf-ujmrn-#', 'UniJIS2004-UTF16-#', 'mr'},
       {'otf-ujmbn-#', 'UniJIS2004-UTF16-#', 'mb'},
@@ -155,7 +159,7 @@ local maps = {
       {'otf-ujmgrn-#','UniJIS2004-UTF16-#', 'mgr'},
    },
    ['otf-up-@'] = {
-      'TEXT, 90JIS',
+      '% TEXT, 90JIS',
       {'uphminl-#',  'UniJIS-UTF16-#', 'ml'},
       {'uphminr-#',  'UniJIS-UTF16-#', 'mr'},
       {'uphminb-#',  'UniJIS-UTF16-#', 'mb'},
@@ -163,14 +167,14 @@ local maps = {
       {'uphgothb-#', 'UniJIS-UTF16-#', 'gb'},
       {'uphgotheb-#','UniJIS-UTF16-#', 'ge'},
       {'uphmgothr-#','UniJIS-UTF16-#', 'mgr'},
-      'TEXT, JIS04 (not yet)', 
-      {'uphminln-#',  'UniJIS2004-UTF16-#', 'ml'},
-      {'uphminrn-#',  'UniJIS2004-UTF16-#', 'mr'},
-      {'uphminbn-#',  'UniJIS2004-UTF16-#', 'mb'},
-      {'uphgothrn-#', 'UniJIS2004-UTF16-#', 'gr'},
-      {'uphgothbn-#', 'UniJIS2004-UTF16-#', 'gb'},
-      {'uphgothebn-#','UniJIS2004-UTF16-#', 'ge'},
-      {'uphmgothrn-#','UniJIS2004-UTF16-#', 'mgr'},
+      --'% TEXT, JIS04 (not yet)', 
+      --{'uphminln-#',  'UniJIS2004-UTF16-#', 'ml'},
+      --{'uphminrn-#',  'UniJIS2004-UTF16-#', 'mr'},
+      --{'uphminbn-#',  'UniJIS2004-UTF16-#', 'mb'},
+      --{'uphgothrn-#', 'UniJIS2004-UTF16-#', 'gr'},
+      --{'uphgothbn-#', 'UniJIS2004-UTF16-#', 'gb'},
+      --{'uphgothebn-#','UniJIS2004-UTF16-#', 'ge'},
+      --{'uphmgothrn-#','UniJIS2004-UTF16-#', 'mgr'},
    },
 }
 
@@ -194,7 +198,7 @@ end
 
 local function make_one_line(o, fd, s)
    if type(o) == 'string' then
-      return '\n%' .. o .. '\n'
+      return '\n' .. o .. '\n'
    else
       local fx = foundry[fd]
       local fn = gsub(fx[o[3]], '!', ret_suffix(fd,s,o[3]))
@@ -213,7 +217,7 @@ end
 for fd, v1 in pairs(foundry) do
    for _,s in pairs(v1[1]) do
       local dirname = fd .. suffix[s][2]
-      print('DIR: ' .. dirname)
+      print('kanjiEmbed: ' .. dirname)
       -- Linux しか想定していない
       os.execute('mkdir ' .. dirname .. ' &>/dev/null')
       for mnx, mcont in pairs(maps) do

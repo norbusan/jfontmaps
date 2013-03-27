@@ -15,7 +15,9 @@ hgotheb-v	V	!GothicBBB-Medium,Bold
 hmgothr-h	H	!GothicBBB-Medium
 hmgothr-v	V	!GothicBBB-Medium
 
-%TEXT, JIS04
+% TEXT, JIS04
+%   (Using H/V instead of JISX0213-2004-* does not cause any problem.)
+
 hminln-h	JISX0213-2004-H	!Ryumin-Light
 hminln-v	JISX0213-2004-V	!Ryumin-Light
 hminrn-h	JISX0213-2004-H	!Ryumin-Light
@@ -29,7 +31,7 @@ hgothbn-v	JISX0213-2004-V	!GothicBBB-Medium,Bold
 hmgothrn-h	JISX0213-2004-H	!GothicBBB-Medium
 hmgothrn-v	JISX0213-2004-V	!GothicBBB-Medium
 
-%CID
+% CID
 otf-cjml-h	Identity-H	!Ryumin-Light
 otf-cjml-v	Identity-V	!Ryumin-Light
 otf-cjmr-h	Identity-H	!Ryumin-Light
@@ -43,7 +45,7 @@ otf-cjgb-v	Identity-V	!GothicBBB-Medium,Bold
 otf-cjmgr-h	Identity-H	!GothicBBB-Medium
 otf-cjmgr-v	Identity-V	!GothicBBB-Medium
 
-%Unicode 90JIS
+% Unicode 90JIS
 otf-ujml-h	UniJIS-UTF16-H	!Ryumin-Light
 otf-ujml-v	UniJIS-UTF16-V	!Ryumin-Light
 otf-ujmr-h	UniJIS-UTF16-H	!Ryumin-Light
@@ -57,7 +59,7 @@ otf-ujgb-v	UniJIS-UTF16-V	!GothicBBB-Medium,Bold
 otf-ujmgr-h	UniJIS-UTF16-H	!GothicBBB-Medium
 otf-ujmgr-v	UniJIS-UTF16-V	!GothicBBB-Medium
 
-%Unicode JIS04
+% Unicode JIS04
 otf-ujmln-h	UniJIS2004-UTF16-H	!Ryumin-Light
 otf-ujmln-v	UniJIS2004-UTF16-V	!Ryumin-Light
 otf-ujmrn-h	UniJIS2004-UTF16-H	!Ryumin-Light

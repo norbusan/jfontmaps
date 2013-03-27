@@ -1,5 +1,5 @@
 
-%TEXT, 90JIS
+% TEXT, 90JIS
 uphminl-h	UniJIS-UTF16-H	ipaexm
 uphminl-v	UniJIS-UTF16-V	ipaexm
 uphminr-h	UniJIS-UTF16-H	ipaexm
@@ -14,19 +14,3 @@ uphgotheb-h	UniJIS-UTF16-H	ipaexg
 uphgotheb-v	UniJIS-UTF16-V	ipaexg
 uphmgothr-h	UniJIS-UTF16-H	ipaexg
 uphmgothr-v	UniJIS-UTF16-V	ipaexg
-
-%TEXT, JIS04 (not yet)
-uphminln-h	UniJIS2004-UTF16-H	ipaexm
-uphminln-v	UniJIS2004-UTF16-V	ipaexm
-uphminrn-h	UniJIS2004-UTF16-H	ipaexm
-uphminrn-v	UniJIS2004-UTF16-V	ipaexm
-uphminbn-h	UniJIS2004-UTF16-H	ipaexm
-uphminbn-v	UniJIS2004-UTF16-V	ipaexm
-uphgothrn-h	UniJIS2004-UTF16-H	ipaexg
-uphgothrn-v	UniJIS2004-UTF16-V	ipaexg
-uphgothbn-h	UniJIS2004-UTF16-H	ipaexg
-uphgothbn-v	UniJIS2004-UTF16-V	ipaexg
-uphgothebn-h	UniJIS2004-UTF16-H	ipaexg
-uphgothebn-v	UniJIS2004-UTF16-V	ipaexg
-uphmgothrn-h	UniJIS2004-UTF16-H	ipaexg
-uphmgothrn-v	UniJIS2004-UTF16-V	ipaexg
