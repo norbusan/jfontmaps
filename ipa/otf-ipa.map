@@ -1,5 +1,5 @@
 
-%TEXT, 90JIS
+% TEXT, 90JIS
 hminl-h	H	ipam.ttf
 hminl-v	V	ipam.ttf
 hminr-h	H	ipam.ttf
@@ -16,20 +16,20 @@ hmgothr-h	H	ipag.ttf
 hmgothr-v	V	ipag.ttf
 
 % TEXT, JIS04
-%   (Using H/V instead of JISX0213-2004-* does not cause any problem.)
-
-hminln-h	JISX0213-2004-H	ipam.ttf
-hminln-v	JISX0213-2004-V	ipam.ttf
-hminrn-h	JISX0213-2004-H	ipam.ttf
-hminrn-v	JISX0213-2004-V	ipam.ttf
-hminbn-h	JISX0213-2004-H	ipam.ttf
-hminbn-v	JISX0213-2004-V	ipam.ttf
-hgothrn-h	JISX0213-2004-H	ipag.ttf
-hgothrn-v	JISX0213-2004-V	ipag.ttf
-hgothbn-h	JISX0213-2004-H	ipag.ttf
-hgothbn-v	JISX0213-2004-V	ipag.ttf
-hmgothrn-h	JISX0213-2004-H	ipag.ttf
-hmgothrn-v	JISX0213-2004-V	ipag.ttf
+hminln-h	H	ipam.ttf
+hminln-v	V	ipam.ttf
+hminrn-h	H	ipam.ttf
+hminrn-v	V	ipam.ttf
+hminbn-h	H	ipam.ttf
+hminbn-v	V	ipam.ttf
+hgothrn-h	H	ipag.ttf
+hgothrn-v	V	ipag.ttf
+hgothbn-h	H	ipag.ttf
+hgothbn-v	V	ipag.ttf
+hgothebn-h	H	ipag.ttf
+hgothebn-v	V	ipag.ttf
+hmgothrn-h	H	ipag.ttf
+hmgothrn-v	V	ipag.ttf
 
 % CID
 otf-cjml-h	Identity-H	ipam.ttf/AJ16
@@ -42,6 +42,8 @@ otf-cjgr-h	Identity-H	ipag.ttf/AJ16
 otf-cjgr-v	Identity-V	ipag.ttf/AJ16
 otf-cjgb-h	Identity-H	ipag.ttf/AJ16
 otf-cjgb-v	Identity-V	ipag.ttf/AJ16
+otf-cjge-h	Identity-H	ipag.ttf/AJ16
+otf-cjge-v	Identity-V	ipag.ttf/AJ16
 otf-cjmgr-h	Identity-H	ipag.ttf/AJ16
 otf-cjmgr-v	Identity-V	ipag.ttf/AJ16
 
@@ -56,6 +58,8 @@ otf-ujgr-h	UniJIS-UTF16-H	ipag.ttf
 otf-ujgr-v	UniJIS-UTF16-V	ipag.ttf
 otf-ujgb-h	UniJIS-UTF16-H	ipag.ttf
 otf-ujgb-v	UniJIS-UTF16-V	ipag.ttf
+otf-ujge-h	UniJIS-UTF16-H	ipag.ttf
+otf-ujge-v	UniJIS-UTF16-V	ipag.ttf
 otf-ujmgr-h	UniJIS-UTF16-H	ipag.ttf
 otf-ujmgr-v	UniJIS-UTF16-V	ipag.ttf
 
@@ -70,5 +74,7 @@ otf-ujgrn-h	UniJIS2004-UTF16-H	ipag.ttf
 otf-ujgrn-v	UniJIS2004-UTF16-V	ipag.ttf
 otf-ujgbn-h	UniJIS2004-UTF16-H	ipag.ttf
 otf-ujgbn-v	UniJIS2004-UTF16-V	ipag.ttf
+otf-ujgen-h	UniJIS2004-UTF16-H	ipag.ttf
+otf-ujgen-v	UniJIS2004-UTF16-V	ipag.ttf
 otf-ujmgrn-h	UniJIS2004-UTF16-H	ipag.ttf
 otf-ujmgrn-v	UniJIS2004-UTF16-V	ipag.ttf

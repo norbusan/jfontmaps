@@ -1,5 +1,5 @@
 
-%TEXT, 90JIS
+% TEXT, 90JIS
 hminl-h	H	:0:msmincho.ttc
 hminl-v	V	:0:msmincho.ttc
 hminr-h	H	:0:msmincho.ttc
@@ -16,20 +16,20 @@ hmgothr-h	H	:0:msgothic.ttc
 hmgothr-v	V	:0:msgothic.ttc
 
 % TEXT, JIS04
-%   (Using H/V instead of JISX0213-2004-* does not cause any problem.)
-
-hminln-h	JISX0213-2004-H	:0:msmincho.ttc
-hminln-v	JISX0213-2004-V	:0:msmincho.ttc
-hminrn-h	JISX0213-2004-H	:0:msmincho.ttc
-hminrn-v	JISX0213-2004-V	:0:msmincho.ttc
-hminbn-h	JISX0213-2004-H	:0:msmincho.ttc
-hminbn-v	JISX0213-2004-V	:0:msmincho.ttc
-hgothrn-h	JISX0213-2004-H	:0:msgothic.ttc
-hgothrn-v	JISX0213-2004-V	:0:msgothic.ttc
-hgothbn-h	JISX0213-2004-H	:0:msgothic.ttc
-hgothbn-v	JISX0213-2004-V	:0:msgothic.ttc
-hmgothrn-h	JISX0213-2004-H	:0:msgothic.ttc
-hmgothrn-v	JISX0213-2004-V	:0:msgothic.ttc
+hminln-h	H	:0:msmincho.ttc
+hminln-v	V	:0:msmincho.ttc
+hminrn-h	H	:0:msmincho.ttc
+hminrn-v	V	:0:msmincho.ttc
+hminbn-h	H	:0:msmincho.ttc
+hminbn-v	V	:0:msmincho.ttc
+hgothrn-h	H	:0:msgothic.ttc
+hgothrn-v	V	:0:msgothic.ttc
+hgothbn-h	H	:0:msgothic.ttc
+hgothbn-v	V	:0:msgothic.ttc
+hgothebn-h	H	:0:msgothic.ttc
+hgothebn-v	V	:0:msgothic.ttc
+hmgothrn-h	H	:0:msgothic.ttc
+hmgothrn-v	V	:0:msgothic.ttc
 
 % CID
 otf-cjml-h	Identity-H	:0:msmincho.ttc/AJ16
@@ -42,6 +42,8 @@ otf-cjgr-h	Identity-H	:0:msgothic.ttc/AJ16
 otf-cjgr-v	Identity-V	:0:msgothic.ttc/AJ16
 otf-cjgb-h	Identity-H	:0:msgothic.ttc/AJ16
 otf-cjgb-v	Identity-V	:0:msgothic.ttc/AJ16
+otf-cjge-h	Identity-H	:0:msgothic.ttc/AJ16
+otf-cjge-v	Identity-V	:0:msgothic.ttc/AJ16
 otf-cjmgr-h	Identity-H	:0:msgothic.ttc/AJ16
 otf-cjmgr-v	Identity-V	:0:msgothic.ttc/AJ16
 
@@ -56,6 +58,8 @@ otf-ujgr-h	UniJIS-UTF16-H	:0:msgothic.ttc
 otf-ujgr-v	UniJIS-UTF16-V	:0:msgothic.ttc
 otf-ujgb-h	UniJIS-UTF16-H	:0:msgothic.ttc
 otf-ujgb-v	UniJIS-UTF16-V	:0:msgothic.ttc
+otf-ujge-h	UniJIS-UTF16-H	:0:msgothic.ttc
+otf-ujge-v	UniJIS-UTF16-V	:0:msgothic.ttc
 otf-ujmgr-h	UniJIS-UTF16-H	:0:msgothic.ttc
 otf-ujmgr-v	UniJIS-UTF16-V	:0:msgothic.ttc
 
@@ -70,5 +74,7 @@ otf-ujgrn-h	UniJIS2004-UTF16-H	:0:msgothic.ttc
 otf-ujgrn-v	UniJIS2004-UTF16-V	:0:msgothic.ttc
 otf-ujgbn-h	UniJIS2004-UTF16-H	:0:msgothic.ttc
 otf-ujgbn-v	UniJIS2004-UTF16-V	:0:msgothic.ttc
+otf-ujgen-h	UniJIS2004-UTF16-H	:0:msgothic.ttc
+otf-ujgen-v	UniJIS2004-UTF16-V	:0:msgothic.ttc
 otf-ujmgrn-h	UniJIS2004-UTF16-H	:0:msgothic.ttc
 otf-ujmgrn-v	UniJIS2004-UTF16-V	:0:msgothic.ttc

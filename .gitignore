@@ -4,4 +4,6 @@
 *.dvi
 *.log
 *.pdf
+*.tfm
+*.vf
 
