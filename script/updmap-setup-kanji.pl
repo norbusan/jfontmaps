@@ -2,7 +2,7 @@
 # updmap-setup-kanji: setup Japanese font embedding
 #
 # Copyright 2004-2006 by KOBAYASHI R. Taizo for the shell version (updmap-otf)
-# Copyright 2011-2012 by PREINING Norbert
+# Copyright 2011-2013 by PREINING Norbert
 #
 # This file is licensed under GPL version 3 or any later version.
 # For copyright statements see end of file.
@@ -56,12 +56,12 @@ if ($opt_help) {
 # representatives of support font families
 #
 my %representatives = (
-  "hiragino"    => "HiraMinPro-W3.otf",
-  "hiragino-pro"  => "HiraMinProN-W3.otf",
+  "hiragino"      => "HiraMinPro-W3.otf",
+  "hiragino-pron" => "HiraMinProN-W3.otf",
   "morisawa"      => "A-OTF-RyuminPro-Light.otf",
-  "morisawa-pro"  => "A-OTF-RyuminPr6N-Light.otf",
+  "morisawa-pr6n" => "A-OTF-RyuminPr6N-Light.otf",
   "kozuka"        => "KozMinPro-Regular.otf",
-  "kozuka-pro"    => "KozMinPr6N-Regular.otf",
+  "kozuka-pr6n"   => "KozMinPr6N-Regular.otf",
   "ipa"           => "ipam.ttf",
   "ipaex"         => "ipaexm.ttf",
 );
@@ -100,8 +100,8 @@ sub Usage {
                  map file otf-<family>.map has to be available.
      auto:       embed one of the following supported font families
                  automatically:
-                   hiragino, hiragino-pro, morisawa, morisawa-pro, 
-                   kozuka, kozuka-pro, ipaex, ipa
+                   hiragino, hiragino-pron, morisawa, morisawa-pr6n, 
+                   kozuka, kozuka-pr6n, ipaex, ipa
                  and fall back to not embedding any font if none of them
                  is available
      nofont:     embed no fonts (and rely on system fonts when displaying pdfs)

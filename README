@@ -33,7 +33,7 @@ family kozuka:
 	KozMinPro-Bold.otf
 	KozMinPro-Light.otf
 	KozMinPro-Regular.otf
-family kozuka-pro:
+family kozuka-pr6n:
 	KozGoPr6N-Bold.otf
 	KozGoPr6N-Heavy.otf
 	KozGoPr6N-Light.otf
@@ -44,7 +44,7 @@ family kozuka-pro:
 family hiragino:
 	HiraKakuPro-W3.otf
 	HiraMinPro-W3.otf
-family hiragino-pro:
+family hiragino-pron:
 	HiraKakuProN-W3.otf
 	HiraMinProN-W3.otf
 family morisawa:
@@ -54,7 +54,7 @@ family morisawa:
 	A-OTF-Jun101Pro-Light.otf
 	A-OTF-MidashiGoPro-MB31.otf
 	A-OTF-RyuminPro-Light.otf
-family morisawa-pro:
+family morisawa-pr6n:
 	A-OTF-FutoGoB101Pr6N-Bold.otf
 	A-OTF-FutoMinA101Pr6N-Bold.otf
 	A-OTF-GothicBBBPr6N-Medium.otf
@@ -69,7 +69,7 @@ All the (c)map files are under Public Domain.
 The (deprecated) file updmap-otf.sh and the (in perl rewritten version)
 updmap-setup-kanji.pl are licensed under the following terms:
   Copyright 2004-2006 by KOBAYASHI Taizo
-  Copyright 2011-2012 by PREINING Norbert
+  Copyright 2011-2013 by PREINING Norbert
 Licensed under the GPL version 3 or any later version, 
 see the file for details.
 

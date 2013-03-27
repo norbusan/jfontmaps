@@ -1,6 +1,9 @@
 2013-03-27  Norbert Preining  <preining@logic.at>
 
 	* add 04 variants for ipa(ex)
+	* rename -pro families according to the proper names:
+	  kozuka-pr6n, morisawa-pr6n, hiragino-pron
+	  adapt also updmap-setup-kanji.pl and README
 
 2013-03-27  Hironori Kitagawa  <h_kitagawa2001@yahoo.co.jp>
 
