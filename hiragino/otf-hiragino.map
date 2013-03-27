@@ -26,6 +26,10 @@ otf-cjgb-v  Identity-V HiraKakuPro-W6
 hgothb-h   H HiraKakuPro-W6
 hgothb-v V HiraKakuPro-W6
 
+otf-ujge-h    UniJIS-UTF16-H    HiraKakuStd-W8
+otf-ujge-v    UniJIS-UTF16-V    HiraKakuStd-W8
+otf-cjge-h  Identity-H HiraKakuStd-W8
+otf-cjge-v  Identity-V HiraKakuStd-W8
 hgotheb-h H HiraKakuStd-W8
 hgotheb-v V HiraKakuStd-W8
 
@@ -78,6 +82,11 @@ otf-ujgbn-h    UniJIS2004-UTF16-H    HiraKakuPro-W6
 otf-ujgbn-v    UniJIS2004-UTF16-V    HiraKakuPro-W6
 hgothbn-h   H HiraKakuPro-W6
 hgothbn-v V HiraKakuPro-W6
+
+otf-ujgen-h    UniJIS2004-UTF16-H    HiraKakuStd-W8
+otf-ujgen-v    UniJIS2004-UTF16-V    HiraKakuStd-W8
+hgothebn-h   H HiraKakuStd-W8
+hgothebn-v V HiraKakuStd-W8
 
 otf-ujmgrn-h    UniJIS2004-UTF16-H       HiraMaruPro-W4
 otf-ujmgrn-v    UniJIS2004-UTF16-V       HiraMaruPro-W4

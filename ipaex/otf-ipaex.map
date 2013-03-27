@@ -26,6 +26,10 @@ otf-cjgb-v    Identity-V         ipaexg.ttf/AJ16
 hgothb-h      H                  ipaexg.ttf
 hgothb-v      V                  ipaexg.ttf
 
+otf-ujge-h    UniJIS-UTF16-H     ipaexg.ttf
+otf-ujge-v    UniJIS-UTF16-V     ipaexg.ttf
+otf-cjge-h    Identity-H         ipaexg.ttf/AJ16
+otf-cjge-v    Identity-V         ipaexg.ttf/AJ16
 hgotheb-h     H                  ipaexg.ttf
 hgotheb-v     V                  ipaexg.ttf
 
@@ -63,6 +67,11 @@ otf-ujgbn-h   UniJIS2004-UTF16-H ipaexg.ttf
 otf-ujgbn-v   UniJIS2004-UTF16-V ipaexg.ttf
 hgothbn-h     H                  ipaexg.ttf
 hgothbn-v     V                  ipaexg.ttf
+
+otf-ujgen-h    UniJIS2004-UTF16-H     ipaexg.ttf
+otf-ujgen-v    UniJIS2004-UTF16-V     ipaexg.ttf
+hgothebn-h     H                  ipaexg.ttf
+hgothebn-v     V                  ipaexg.ttf
 
 otf-ujmgrn-h  UniJIS2004-UTF16-H ipaexg.ttf
 otf-ujmgrn-v  UniJIS2004-UTF16-V ipaexg.ttf

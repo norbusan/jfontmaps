@@ -26,6 +26,10 @@ otf-cjgb-v  Identity-V A-OTF-FutoGoB101Pro-Bold.otf
 hgothb-h   H A-OTF-FutoGoB101Pro-Bold.otf
 hgothb-v V A-OTF-FutoGoB101Pro-Bold.otf
 
+otf-ujge-h    UniJIS-UTF16-H    A-OTF-MidashiGoPro-MB31.otf
+otf-ujge-v    UniJIS-UTF16-V    A-OTF-MidashiGoPro-MB31.otf
+otf-cjge-h  Identity-H A-OTF-MidashiGoPro-MB31.otf
+otf-cjge-v  Identity-V A-OTF-MidashiGoPro-MB31.otf
 hgotheb-h H A-OTF-MidashiGoPro-MB31.otf
 hgotheb-v V A-OTF-MidashiGoPro-MB31.otf
 
@@ -65,6 +69,11 @@ otf-ujgbn-h    UniJIS2004-UTF16-H    A-OTF-FutoGoB101Pro-Bold.otf
 otf-ujgbn-v    UniJIS2004-UTF16-V    A-OTF-FutoGoB101Pro-Bold.otf
 hgothbn-h   H A-OTF-FutoGoB101Pro-Bold.otf
 hgothbn-v V A-OTF-FutoGoB101Pro-Bold.otf
+
+otf-ujgen-h    UniJIS2004-UTF16-H    A-OTF-MidashiGoPro-MB31.otf
+otf-ujgen-v    UniJIS2004-UTF16-V    A-OTF-MidashiGoPro-MB31.otf
+hgothebn-h H A-OTF-MidashiGoPro-MB31.otf
+hgothebn-v V A-OTF-MidashiGoPro-MB31.otf
 
 otf-ujmgrn-h    UniJIS2004-UTF16-H       A-OTF-Jun101Pro-Light.otf
 otf-ujmgrn-v    UniJIS2004-UTF16-V       A-OTF-Jun101Pro-Light.otf

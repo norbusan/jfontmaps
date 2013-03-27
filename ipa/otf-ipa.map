@@ -26,6 +26,10 @@ otf-cjgb-v    Identity-V         ipag.ttf/AJ16
 hgothb-h      H                  ipag.ttf
 hgothb-v      V                  ipag.ttf
 
+otf-ujge-h    UniJIS-UTF16-H     ipag.ttf
+otf-ujge-v    UniJIS-UTF16-V     ipag.ttf
+otf-cjge-h    Identity-H         ipag.ttf/AJ16
+otf-cjge-v    Identity-V         ipag.ttf/AJ16
 hgotheb-h     H                  ipag.ttf
 hgotheb-v     V                  ipag.ttf
 
@@ -63,6 +67,11 @@ otf-ujgbn-h   UniJIS2004-UTF16-H ipag.ttf
 otf-ujgbn-v   UniJIS2004-UTF16-V ipag.ttf
 hgothbn-h     H                  ipag.ttf
 hgothbn-v     V                  ipag.ttf
+
+otf-ujgen-h    UniJIS2004-UTF16-H     ipag.ttf
+otf-ujgen-v    UniJIS2004-UTF16-V     ipag.ttf
+hgothebn-h     H                  ipag.ttf
+hgothebn-v     V                  ipag.ttf
 
 otf-ujmgrn-h  UniJIS2004-UTF16-H ipag.ttf
 otf-ujmgrn-v  UniJIS2004-UTF16-V ipag.ttf

@@ -11,8 +11,8 @@ uphminb-h   UniJIS-UTF16-H HiraMinProN-W6
 uphminb-v   UniJIS-UTF16-V HiraMinProN-W6
 uphgothb-h  UniJIS-UTF16-H HiraKakuProN-W6
 uphgothb-v  UniJIS-UTF16-V HiraKakuProN-W6
-uphgotheb-h UniJIS-UTF16-H HiraKakuStd-W8
-uphgotheb-v UniJIS-UTF16-V HiraKakuStd-W8
+uphgotheb-h UniJIS-UTF16-H HiraKakuStdN-W8
+uphgotheb-v UniJIS-UTF16-V HiraKakuStdN-W8
 uphmgothr-h UniJIS-UTF16-H HiraMaruProN-W4
 uphmgothr-v UniJIS-UTF16-V HiraMaruProN-W4
 uphminl-h   UniJIS-UTF16-H HiraMinProN-W2
