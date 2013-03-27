@@ -74,10 +74,9 @@ local suffix = {
    -- { '!' 置換, kanjiEmbed 接尾辞 }
    ['']   = {'', ''},  -- 非 CID フォント用ダミー
    ['n']  = {'!', ''}, -- 非埋め込みに使用
-   ['4']  = {'Pro', '-pro'},
-   ['X']  = {'Pro', '-pro'},  -- ヒラギノ基本6書体パック
+   ['4']  = {'Pro', ''},
+   ['X']  = {'Pro', ''},  -- ヒラギノ基本6書体パック
    ['Xn'] = {'ProN', '-pron'}, -- ヒラギノ基本6書体パック
-   ['6']  = {'Pr6', '-pr6'},
    ['6n'] = {'Pr6N','-pr6n'},
 }
 
@@ -126,10 +125,6 @@ local maps = {
       {'hgotheb-#','#', 'ge'},
       {'hmgothr-#','#', 'mgr'},
       '% TEXT, JIS04',
---      [[
---% TEXT, JIS04
---%   (Using H/V instead of JISX0213-2004-* does not cause any problem.)
---]],
       {'hminln-#',  '#', 'ml'},
       {'hminrn-#',  '#', 'mr'},
       {'hminbn-#',  '#', 'mb'},
@@ -137,13 +132,6 @@ local maps = {
       {'hgothbn-#', '#', 'gb'},
       {'hgothebn-#','#', 'ge'},
       {'hmgothrn-#','#', 'mgr'},
---      {'hminln-#',  'JISX0213-2004-#', 'ml'},
---      {'hminrn-#',  'JISX0213-2004-#', 'mr'},
---      {'hminbn-#',  'JISX0213-2004-#', 'mb'},
---      {'hgothrn-#', 'JISX0213-2004-#', 'gr'},
---      {'hgothbn-#', 'JISX0213-2004-#', 'gb'},
---      {'hgothebn-#','JISX0213-2004-#', 'ge'},
---      {'hmgothrn-#','JISX0213-2004-#', 'mgr'},
       '% CID',
       {'otf-cjml-#', 'Identity-#',     'ml'},
       {'otf-cjmr-#', 'Identity-#',     'mr'},
