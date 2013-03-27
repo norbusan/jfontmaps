@@ -43,7 +43,7 @@ X ipaex
     ipaexm.ttf
     ipaexg.ttf
 
-P? hiragino-pro
+O? hiragino-pro
     HiraMinPro-W2.otf
     HiraMinPro-W3.otf
     HiraMinPro-W6.otf
@@ -67,7 +67,7 @@ P kozuka-pro
 O kozuka-pr6n
     same with Pr6N instead of Pro
 
-P? morisawa-pro
+P morisawa-pro
     A-OTF-FutoGoB101Pro-Bold.otf
     A-OTF-FutoMinA101Pro-Bold.otf
     A-OTF-GothicBBBPro-Medium.otf
@@ -77,20 +77,3 @@ P? morisawa-pro
 
 O morisawa-pr6n
     same with Pr6N instead of Pro
-
-tested: 
-  [u]ptex-noEmbed
-  [u]ptex-ipa[ex]
-  [u]ptex-ms
-  [u]ptex-kozuka-pro
-  [u]ptex-kozuka-pr6n[-04]
-  otf-noEmbed
-  otf-ipaex
-  otf-kozuka-pr6n
-
-いくつか欠けたもの：
-  [u]ptex-kozuka-pro-04
-  otf-ms         + [jis2004]
-  otf-ipa        + [jis2004]
-  otf-kozuka-pro + [jis2004]
-  otf-kozuka-pr6n+ [jis2004]

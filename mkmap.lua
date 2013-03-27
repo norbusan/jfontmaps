@@ -220,7 +220,8 @@ for fd, v1 in pairs(foundry) do
       -- Linux しか想定していない
       os.execute('mkdir ' .. dirname .. ' &>/dev/null')
       for mnx, mcont in pairs(maps) do
-	 if not string.match(mnx, '-04') or string.match(s, jis2004_flag) then
+	 --if not string.match(mnx, '-04') or string.match(s, jis2004_flag) then
+	 if not string.match(mnx, '-04') or not foundry[fd].noncid then
 	    local mapbase = gsub(mnx, '@', dirname)
 	    local f = io.open(dirname .. '/' .. mapbase .. '.map', 'w+')
 	    for _,x in ipairs(mcont) do
