@@ -1,3 +1,16 @@
+2013-03-28  Norbert Preining  <preining@logic.at>
+
+	* remove IPA* 04 maps, they don't make any sense
+	* adapt the README file
+
+2013-03-28  Hironori Kitagawa  <h_kitagawa2001@yahoo.co.jp>
+
+	* add mkmap.lua script
+	* regenerate maps from mkmap script
+	* add maps for msmincho and msgothic fonts
+	* add noEmbed maps
+	* add examples
+
 2013-03-27  Norbert Preining  <preining@logic.at>
 
 	* add 04 variants for ipa(ex)
