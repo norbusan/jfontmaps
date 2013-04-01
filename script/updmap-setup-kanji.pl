@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+#
 # updmap-setup-kanji: setup Japanese font embedding
 #
 # Copyright 2004-2006 by KOBAYASHI R. Taizo for the shell version (updmap-otf)
@@ -7,20 +8,16 @@
 # This file is licensed under GPL version 3 or any later version.
 # For copyright statements see end of file.
 #
-# For development see
-#  http://www.tug.org/svn/texlive/trunk/Build/source/extra/jfontmaps/
+# For development and changelog
+#  https://git.gitorious.org/tlptexlive/jfontmaps.git
 #
-# For a changelog see
-#  http://www.tug.org/svn/texlive/trunk/Build/source/extra/jfontmaps/ChangeLog
-# 
 
 $^W = 1;
 use Getopt::Long qw(:config no_autoabbrev ignore_case_always);
 use strict;
 
 my $prg = "updmap-setup-kanji";
-my $vers = "0.9.7dev";
-my $version = '$Id: updmap-setup-kanji.pl 27277 2012-08-02 00:16:14Z karl $';
+my $version = '$VER$';
 
 my $updmap_real = "updmap";
 my $updmap = $updmap_real;
