@@ -1,0 +1,77 @@
+%#!platex  jis-v04-vttk.tex
+\documentclass{jsarticle}
+\usepackage{otf}
+\usepackage[width=46zw,centering, lines=40, papersize={257truemm,182truemm}]{geometry}
+\advance\topmargin1.5in
+\advance\oddsidemargin-1.5in
+\usepackage{plext}
+\usepackage[dvipdfmx]{xcolor}
+\makeatletter
+
+\special{pdf:mapline rmlv 2004-V !Ryumin-Light}
+\special{pdf:mapline gbmv JISX0213-2004-V !Ryumin-Light}
+\countdef\jOne256
+\countdef\jTwo257
+\countdef\KuNum260
+\def\Hex@{%
+  \xdef\Result{\ifcase\count@ 0\or1\or2\or3\or4\or5\or6\or7\or8\or9\or A\or B\or C\or D\or E\or F\fi\Result}%
+}
+
+\def\Hex#1{{%
+  \@tempcnta=#1\def\Result{}
+  \@tempcntb=\numexpr(\@tempcnta-8)/16\relax
+  \count@=\numexpr\@tempcnta-16*\@tempcntb\relax\@tempcnta=\@tempcntb\Hex@
+  \@tempcntb=\numexpr(\@tempcnta-8)/16\relax
+  \count@=\numexpr\@tempcnta-16*\@tempcntb\relax\@tempcnta=\@tempcntb\Hex@
+  \@tempcntb=\numexpr(\@tempcnta-8)/16\relax
+  \count@=\numexpr\@tempcnta-16*\@tempcntb\relax\@tempcnta=\@tempcntb\Hex@
+  \@tempcntb=\numexpr(\@tempcnta-8)/16\relax
+  \count@=\numexpr\@tempcnta-16*\@tempcntb\relax\@tempcnta=\@tempcntb\Hex@ 
+  \tt\Result
+}}
+
+\fboxsep.2pt\fboxrule.2pt
+\newdimen\Masu\Masu=22pt
+
+\def\Hako#1{\hbox to\Masu{\hss#1\hss}}
+\def\Ku#1{\vbox{\paragraph{\protect\rensuji{#1}区}%
+  \leavevmode\par\noindent\baselineskip16pt
+  {\tt\hbox to 2.5em{\hss\rm JIS\hss}%
+  \Hako{\tt0}\Hako{\tt1}\Hako{\tt2}\Hako{\tt3}%
+  \Hako{\tt4}\Hako{\tt5}\Hako{\tt6}\Hako{\tt7}%
+  \Hako{\tt8}\Hako{\tt 9}\Hako{\tt A}\Hako{\tt B}%
+  \Hako{\tt C}\Hako{\tt D}\Hako{\tt E}\Hako{\tt F}\\
+  \@tempcnta1\loop\ifnum\@tempcnta<7
+    \advance\@tempcnta1
+    \Hex{\numexpr 8192+256*#1+16*\@tempcnta\relax}\ 
+    {\@tempcntb-1\loop\ifnum\@tempcntb<15
+      \advance\@tempcntb1
+       \count@=\numexpr 16*\@tempcnta+\@tempcntb\relax
+       \ifnum\count@>32\ifnum \count@<127
+         \Hako{\color{white}\fbox{\Y
+	   \color{red}\char\numexpr "A080+256*#1+\count@\relax%"
+ 	   }}\kern-\Masu%
+         \Hako{\color{blue!40!white}\fbox{\X
+	   \color{black}\char\numexpr "A080+256*#1+\count@\relax%"
+ 	   }}%
+      \else\Hako{}\fi\else\Hako{}\fi
+      \repeat}\\%
+  \repeat}
+}}
+\begin{document}
+\tate\tbaselineshift.25zw
+
+\textgt{\noindent 
+黒文字……自動生成した\texttt{2004-V}によるもの\\
+\textcolor{red}{赤文字……ttkさん作の\texttt{JISX0213-2004-V}によるもの}}
+\medskip
+
+\font\X=rmlv at 12pt
+\font\Y=gbmv at 12pt
+\KuNum0
+\loop\ifnum\KuNum<13
+  \advance\KuNum1
+  \Ku{\the\KuNum}%
+\repeat
+
+\end{document}
