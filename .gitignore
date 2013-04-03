@@ -3,7 +3,6 @@
 *.aux
 *.dvi
 *.log
-*.pdf
 *.tfm
 *.vf
-
+examples/*.pdf
