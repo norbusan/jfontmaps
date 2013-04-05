@@ -1,6 +1,8 @@
 jfontmaps
 =========
 
+Current release: $VER$
+
 The files contained in this package contains font maps for dvipdfmx to
 make various Japanese fonts available for (u)ptex and related programs
 and formats.
@@ -81,7 +83,7 @@ Copyright/License
 All the (c)map files are under Public Domain.
 
 The (deprecated) file updmap-otf.sh and the (in perl rewritten version)
-updmap-setup-kanji.pl are licensed under the following terms:
+kanji-config-updmap.pl are licensed under the following terms:
   Copyright 2004-2006 by KOBAYASHI Taizo
   Copyright 2011-2013 by PREINING Norbert
 Licensed under the GPL version 3 or any later version, 

@@ -10,10 +10,10 @@
 # For copyright statements see end of file.
 #
 # For development see
-#  http://www.tug.org/svn/texlive/trunk/Build/source/extra/jfontmaps/
+#  https://git.gitorious.org/tlptexlive/jfontmaps.git
 #
 # For a changelog see
-#  http://www.tug.org/svn/texlive/trunk/Build/source/extra/jfontmaps/ChangeLog
+#  https://gitorious.org/tlptexlive/jfontmaps/blobs/master/ChangeLog
 # 
 
 $^W = 1;
@@ -21,8 +21,7 @@ use Getopt::Long qw(:config no_autoabbrev ignore_case_always);
 use strict;
 
 my $prg = "kanji-config-updmap";
-my $vers = "0.9.7dev";
-my $version = '$Id: updmap-setup-kanji.pl 27277 2012-08-02 00:16:14Z karl $';
+my $version = "0.9.7dev";
 
 my $updmap_real = "updmap";
 my $updmap = $updmap_real;
@@ -73,8 +72,8 @@ my %available;
 main(@ARGV);
 
 sub version {
-  my $ret = sprintf "%s version %s\n(svn id: %s)\n", 
-    $prg, $vers, $version;
+  my $ret = sprintf "%s version %s\n", 
+    $prg, $version;
   return $ret;
 }
 
