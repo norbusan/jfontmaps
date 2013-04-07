@@ -287,15 +287,13 @@ do
       if bufline==100 then flush() end
    end
 
-   local function out_header(fname, crange, wmode)
+   local function out_header(fname, hname, crange, wmode)
       fh:write([[
 %!PS-Adobe-3.0 Resource-CMap
 %%DocumentNeededResources: ProcSet (CIDInit)
 ]])
       if wmode == 1 then
-         local s = string.gsub(
-		  string.gsub('%%DocumentNeededResources: CMap ($NAME)\n', '$NAME', fname),
-	          'V', 'H')
+         local s = string.gsub('%%DocumentNeededResources: CMap ($NAME)\n', '$NAME', hname)
 	 fh:write(s)
       end
 
@@ -303,9 +301,7 @@ do
 %%IncludeResource: ProcSet (CIDInit)
 ]])
       if wmode == 1 then
-         local s = string.gsub(
-		  string.gsub('%%IncludeResource: CMap ($NAME)\n', '$NAME', fname),
-	          'V', 'H')
+         local s = string.gsub('%%IncludeResource: CMap ($NAME)\n', '$NAME', hname)
 	 fh:write(s)
       end
 
@@ -368,9 +364,9 @@ end
 ]])
    end
 
-   function out_cmap(fname, jis_cid, col_num, crange, wmode)
+   function out_cmap(fname, hname, jis_cid, col_num, crange, wmode)
       fh = io.open(fname, 'w+')
-      out_header(fname, crange, wmode)
+      out_header(fname, hname, crange, wmode)
       buf, bufline = "", 0
       local fstr = "<%x> <%x> %" .. col_num .. "d"
       local i, outbi, outbc = 1, jis_cid[1][1], jis_cid[1][2]
@@ -394,12 +390,19 @@ end
 -- 
 local function cleanup(new, old)
    table.sort(new, function (a,b) return a[1]<b[1] end)
+   -- We can assume new and old are sorted.
+   local oi, ol = 1, #old
    local res = {}
    for _,v in ipairs(new) do
-      for _,w in pairs(old) do
+      for i = oi, ol do
+         local w = old[i]
 	 if v[1] == w[1] and v[2] ~= w[2] then
-	    res [#res+1] = v
-	 end
+	    res [#res+1] = v; 
+            oi = i + 1; break
+         elseif v[1]<w[1] then
+            -- We don't need further search.
+            oi = i; break
+         end
       end
    end
    return res
@@ -429,17 +432,11 @@ end
 
 local f
 local cmap_dec = require('cmapdec')
-local code_range_04 = [[
-2 begincodespacerange
-  <2121> <7E7E>
-  <A1A1> <FEFE>
-endcodespacerange
-]]
-
 
 kpse.set_program_name('luatex')
 dofile(kpse.find_file('lualibs-table.lua'))
 
+do
 ----------------------------------------------------------------
 -- jisx0213-2004-8bit-std.txt 読み込み
 local jis04_uni = {}
@@ -459,66 +456,117 @@ for lx in f:lines() do
 end
 f:close()
 
+local code_range_04 = [[
+2 begincodespacerange
+  <2121> <7E7E>
+  <A1A1> <FEFE>
+endcodespacerange
+]]
+
 ----------------------------------------------------------------
 -- JIS X 0213:2004 => Adobe-Japan1-6 横組
-print('loading UniJIS2004-UTF32-H')
 local uni_cid_h04 = cmap_dec.open_cmap_file('UniJIS2004-UTF32-H')
-print('making  2004-H')
 local jis_cid_h04 = mk_jis_cid_table(jis04_uni, uni_cid_h04)
 
-
--- CMap H と合わせる: 0x224C => 751
 replace(jis_cid_h04, 0x224C,   751) -- NOT SIGN
 
-out_cmap('2004-H', jis_cid_h04, '', code_range_04, 0)
---write_text('decoded/decoded_2004-H', change_repr(cmap_dec.open_cmap_file('2004-H')))
+-- 全角字形があるものは全角化しておく
+replace(jis_cid_h04, 0x2921,  9779) -- EURO SIGN
+replace(jis_cid_h04, 0x2924, 16280) -- CURRENCY SIGN
+replace(jis_cid_h04, 0x2925,  8005) -- BROKEN BAR
+replace(jis_cid_h04, 0x2926,  8059) -- COPYRIGHT SIGN
+replace(jis_cid_h04, 0x292A,  8060) -- REGISTERED SIGN
+replace(jis_cid_h04, 0x2933,  8185) -- VULGAR FRACTION ONE QUARTER
+replace(jis_cid_h04, 0x2934,  8184) -- VULGAR FRACTION ONE HALF
+replace(jis_cid_h04, 0x2935,  9783) -- VULGAR FRACTION THREE QUARTERS 
+
+out_cmap('2004-H', '', jis_cid_h04, '', code_range_04, 0)
 
 
 ----------------------------------------------------------------
 -- JIS X 0213:2004 => Adobe-Japan1-6 縦組
-print('loading UniJIS2004-UTF32-V')
 local uni_cid_v04 = table.fastcopy(uni_cid_h04)
 uni_cid_v04 =cmap_dec.open_cmap_file('UniJIS2004-UTF32-V', uni_cid_v04)
-print('making  2004-V')
 local jis_cid_v04 = mk_jis_cid_table(jis04_uni, uni_cid_v04)
 
+replace(jis_cid_v04, 0x2127, 12101) -- COLON
+replace(jis_cid_v04, 0x2131,  7889) -- OVERLINE
+replace(jis_cid_v04, 0x213D,  7892) -- EM DASH
+replace(jis_cid_v04, 0x2146, 12173) -- 
+replace(jis_cid_v04, 0x2147, 12174) -- 
+replace(jis_cid_v04, 0x2148,  7956) -- 
+replace(jis_cid_v04, 0x2149,  7957) -- 
+replace(jis_cid_v04, 0x224C,   751) -- NOT SIGN
 
--- CMap V と合わせる: 0x224C => 751, 0x2131 => 7889, 0x213D => 7892
-replace(jis_cid_v04, 0x224C,  751) -- NOT SIGN
-replace(jis_cid_v04, 0x2131, 7889) -- OVERLINE
-replace(jis_cid_v04, 0x213D, 7892) -- EM DASH
-
--- CMap V と合わせる
-do
-   local i = 1
-   for _,v in pairs({ 
-		       0x2124, 0x2125, 0x212B, 0x212C, 0x216B, 0x216C, 0x216D, 0x222A, 
-		       0x222B, 0x222C, 0x222D, 0x2821, 0x2822, 0x2823, 0x2824, 0x2825, 
-		       0x2826, 0x2827, 0x2828, 0x2829, 0x282A, 0x282B, 0x282C, 0x282D,
-		       0x282E, 0x282F, 0x2830, 0x2831, 0x2832, 0x2833, 0x2834, 0x2835,
-		       0x2836, 0x2837, 0x2838, 0x2839, 0x283A, 0x283B, 0x283C, 0x283D,
-		       0x283E, 0x283F, 0x2840
-		    }) do
-      for j=i,#jis_cid_v04 do
-	 if jis_cid_v04[j][1] == v then
-	    jis_cid_v04[j][2] = jis_cid_h04[j][2]
-	    i = j+1; break
-	 end
-      end
-   end
-end
-
--- 他グリフとの調和
 replace(jis_cid_v04, 0x2236, 12107) -- HIRAGANA VOICED ITERATION MARK
 replace(jis_cid_v04, 0x237C, 16332) -- EN DASH
-replace(jis_cid_v04, 0x2678, 16343) -- KATAKANA LETTER SMALL PO
-replace(jis_cid_v04, 0x2678, 16343) -- KATAKANA LETTER SMALL PO
+replace(jis_cid_v04, 0x2678, 16343) -- KATAKANA LETTER SMALL PU
 replace(jis_cid_v04, 0x2D5F, 12044) -- SQUARE ERA NAME HEISEI
 replace(jis_cid_v04, 0x2D6D, 12041) -- SQUARE ERA NAME MEIZI
 replace(jis_cid_v04, 0x2D6E, 12042) -- SQUARE ERA NAME TAISYOU
 replace(jis_cid_v04, 0x2D6F, 12043) -- SQUARE ERA NAME SYOUWA
- -- 
+
+replace(jis_cid_v04, 0x2921,  9779) -- EURO SIGN
+replace(jis_cid_v04, 0x2924, 16280) -- CURRENCY SIGN
+replace(jis_cid_v04, 0x2925,  8005) -- BROKEN BAR
+replace(jis_cid_v04, 0x2926,  8059) -- COPYRIGHT SIGN
+replace(jis_cid_v04, 0x292A,  8060) -- REGISTERED SIGN
+replace(jis_cid_v04, 0x2933,  8185) -- VULGAR FRACTION ONE QUARTER
+replace(jis_cid_v04, 0x2934,  8184) -- VULGAR FRACTION ONE HALF
+replace(jis_cid_v04, 0x2935,  9783) -- VULGAR FRACTION THREE QUARTERS 
 
 
-out_cmap('2004-V', cleanup(jis_cid_v04, jis_cid_h04), '', code_range_04, 1)
---write_text('decoded/decoded_2004-V', jis_cid_v04)
+out_cmap('2004-V', '2004-H', cleanup(jis_cid_v04, jis_cid_h04), '', code_range_04, 1)
+
+end
+
+-- do
+-- ----------------------------------------------------------------
+-- -- JIS0208.txt 読み込み
+-- local jis90_uni = {}
+-- f = io.open("JIS0208.TXT", "r")
+-- for lx in f:lines() do
+--    l = string.match(lx,"^([^#]*)#.*$")
+--    if l ~= "" then
+--       local jis = tonumber(string.match(l, "^0x%x*%s*(0x%x*)%s*0x%x*"))
+--       local uni = string.match(l, "^0x%x*%s*0x%x*%s*0x(%x*)")
+--       -- 全角幅優先
+--       if jis and uni then
+-- 	 uni = tonumber(uni,16)
+-- 	 jis90_uni[jis] = uni
+--       end
+--    end
+-- end
+-- f:close()
+
+-- local code_range_90 = [[
+-- 1 begincodespacerange
+--   <2121> <7E7E>
+-- endcodespacerange
+-- ]]
+
+-- ----------------------------------------------------------------
+-- -- JIS X 0208:1990 => Adobe-Japan1-6 縦組
+
+-- -- とりあえず 横組を load
+-- local uni_cid_h90 = cmap_dec.open_cmap_file('UniJIS-UTF32-H')
+-- local jis_cid_h90 = mk_jis_cid_table(jis90_uni, uni_cid_h90)
+
+-- replace(jis_cid_h90, 0x224C,   751) -- NOT SIGN
+
+-- local uni_cid_v90 = table.fastcopy(uni_cid_h90)
+-- uni_cid_v90 =cmap_dec.open_cmap_file('UniJIS-UTF32-V', uni_cid_v90)
+-- local jis_cid_v90 = mk_jis_cid_table(jis90_uni, uni_cid_v90)
+
+-- replace(jis_cid_v90, 0x2127, 12101) -- COLON
+-- replace(jis_cid_v90, 0x2131, 7889)  -- OVERLINE
+-- replace(jis_cid_v90, 0x213D, 7892)  -- EM DASH
+-- replace(jis_cid_v90, 0x2146, 12173) -- 
+-- replace(jis_cid_v90, 0x2147, 12174) -- 
+-- replace(jis_cid_v90, 0x2148, 7956)  -- 
+-- replace(jis_cid_v90, 0x2149, 7957)  -- 
+-- replace(jis_cid_v90, 0x224C,   751) -- NOT SIGN
+
+-- out_cmap('1990N-V', 'H', cleanup(jis_cid_v90, jis_cid_h90), '', code_range_90, 1)
+
+-- end

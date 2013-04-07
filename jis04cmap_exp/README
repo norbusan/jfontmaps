@@ -26,87 +26,9 @@ Notes
    plane 2 of JIS X 0213 is located on 0xA1A1--0xFEFE.
  * We prefer full-width variant glyphs, except for 0x2900--0x2B7E.
 
- * We made non-kanji part  (0x2121--0x2D7e) of "2004-H" (resp. "2004-V") 
-   is upper-compatible with "H" (resp. "V").
  * We didn't simply composite three tables which are described above,
    but did several fine adjustments by hand.
    See "replace(...)" lines in the script.
-
-----------------
-Comparison with existing CMaps
-
-1. JISX0213-2004-H and 2004-H
-  We only compare them on plane 1 of JIS X 0213.
-  See jis-h04-httk.pdf for detail.
-
-  JIS   ↓JISX0213-2004-H
-                ↓2004-H
-
-  2921  9779f   9354p EURO SIGN
-  2924 16280f    107p CURRENCY SIGN
-  2925  8005f     93p BROKEN BAR
-  2926  8059f    152p COPYRIGHT SIGN
-  292A  8060f    154p REGISTERED SIGN
-  2933  8185f    161p VULGAR FRACTION ONE QUARTER
-  2934  8184f    162p VULGAR FRACTION ONE HALF
-  2935  9783f    163p VULGAR FRACTION THREE QUARTERS
-  ("f" indicates full width,  "p" indicates proportional width)
-
-  5975  5020   20264  摯
-  7452 14541   21558  悞
-  7461 13369   21072  懲
-  7756 14762   21933  煒
-  7e32 15319   22920  驊
-  
-  # 漢字の部分については， 
-  #  「Pr6フォントとPr6Nフォントはどこが違うのか 
-  #                            -- Mac OS Xの文字コード問題に関するメモ」
-  #  http://d.hatena.ne.jp/NAOI/20070827/1188194439
-  # に言及のある「160文字以外の追加文字は9文字あり……」に載っている
-  # 9 文字の中で，第 1 面にあるものと一致している．
-
-2. JISX0213-2004-V and 2004-V
- 
-  The difference between these two maps can be divided into three categories:
-
-    a) characters which differs between JISX0213-2004-H and 2004-H
-       (omitted here; see above)
-
-    b) non-Kanji characters which 
-        * same in JISX0213-2004-H and 2004-H
-        * not included in JIS X 0208
-
-   JIS    ↓JISX0213-2004-V
-                    ↓2004-V
-  2232    665     7894  TILDE
-
-    c) non-Kanji characters which already exists in JIS X 0208
-       (JISX0213-2004-V != 2004-V == V)
-
-   JIS    ↓JISX0213-2004-V
-                    ↓V, 2004-V
-  2124   8268      636  COMMA
-  2125   8274      637  FULL STOP
-  2127  12101      639  COLON
-  212B   8272      643  KATAKANA-HIRAGANA VOICED SOUND MARK
-  212C   8271      644  KATAKANA-HIRAGANA SEMI-VOICED SOUND MARK
-  213E    662     7893  HYPHEN
-  2146  12173      670  LEFT SINGLE QUOTATION MARK
-  2147  12174      671  RIGHT SINGLE QUOTATION MARK
-  2148   7956      672  LEFT DOUBLE QUOTATION MARK
-  2149   7957      673  RIGHT DOUBLE QUOTATION MARK
-  216B   8269      707  DEGREE SIGN
-  216C   8273      708  PRIME
-  216D   8283      709  DOUBLE PRIME
-  222A
-   ...    ...      ...  (arrows)
-  222D
-  2821
-   ...    ...      ...  (box drowings)
-  2840
-
-  For (b) and (c), see jis-v04-vttk.pdf for detail.
-
 
 ----------------
 Files
