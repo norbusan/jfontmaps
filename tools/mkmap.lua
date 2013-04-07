@@ -39,12 +39,11 @@ local foundry = {
       mr='KozMin!-Regular.otf',
       mb='KozMin!-Bold.otf',
       gr='KozGo!-Regular.otf',
-      gru='KozGo!-Regular.otf',
-      --gru='KozGo!-Medium.otf', 単ウェイト時と多ウェイト時で太さを変える場合
+      gru='KozGo!-Medium.otf', 
       gb='KozGo!-Bold.otf',
       ge='KozGo!-Heavy.otf',
       mgr='KozGo!-Heavy.otf',
-      {'4','6n'}, -- Pro and Pr6N
+      {'4','6','6n'}, -- Pro, Pr6 and  Pr6N
    },
    ['morisawa'] = {
       ml='A-OTF-Ryumin!-Light.otf',
@@ -62,7 +61,7 @@ local foundry = {
       mr='HiraMin!-W3.otf',
       mb='HiraMin!-W6.otf',
       gr='HiraKaku!-W3.otf',
-      gru='HiraKaku!-W3.otf',
+      gru='HiraKaku!-W6.otf',
       gb='HiraKaku!-W6.otf',
       ge='HiraKaku!-W8.otf',
       mgr='HiraMaru!-W4.otf',
@@ -75,6 +74,7 @@ local suffix = {
    ['']   = {'', ''},  -- 非 CID フォント用ダミー
    ['n']  = {'!', ''}, -- 非埋め込みに使用
    ['4']  = {'Pro', ''},
+   ['6']  = {'Pr6', '-pr6'},
    ['X']  = {'Pro', ''},  -- ヒラギノ基本6書体パック
    ['Xn'] = {'ProN', '-pron'}, -- ヒラギノ基本6書体パック
    ['6n'] = {'Pr6N','-pr6n'},
