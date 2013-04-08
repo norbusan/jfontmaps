@@ -1,0 +1,44 @@
+========================================================================
+An experiment for generating CMap-like "2004-{H,V}"
+========================================================================
+                                              2013.4.3 Hironori KITAGAWA
+
+
+
+This is an experiment for generating CMap-like "2004-{H,V}",
+which maps JIS X 0213:2004 8-bit code to Adobe-Japan1-6,
+using the following information:
+ * "Mapping table between JIS X 0213:2004 8-bit code and Unicode"
+   http://x0213.org/codetable/jisx0213-2004-8bit-std.txt
+ * UniJIS2004-UTF32-{H,V}: by Adobe
+ * "fwid" feature table of Kozuka Mincho Pr6N R
+
+Executing 
+ $ texlua mk_jis_to_aj16_cid.lua
+obtains two generated files, "2004-H" and "2004-V".
+
+----------------
+Notes
+
+ * JIS X 0213:2004 has several characters which is not expressible 
+   by one Unicode character. For them, we use another table (nonuni_cid).
+ * Because we use JIS X 0213:2004 8-bit code, 
+   plane 2 of JIS X 0213 is located on 0xA1A1--0xFEFE.
+ * We prefer full-width variant glyphs, except for 0x2900--0x2B7E.
+
+ * We didn't simply composite three tables which are described above,
+   but did several fine adjustments by hand.
+   See "replace(...)" lines in the script.
+
+----------------
+Files
+
+ * mk_jis_to_aj16_cid.lua: main script
+ * cmapdec.lua:            subroutine
+ * jisx0213-2004-8bit-std.txt
+          "Mapping table between JIS X 0213:2004 8-bit code and Unicode"
+
+ * jis-h04-httk.{tex,pdf}: comparison between 2004-H and JISX0213-2004-H
+ * jis-v04-vttk.{tex,pdf}: comparison between 2004-V and JISX0213-2004-V
+
+ * 2004-{H,V}:             generated CMap-like files
