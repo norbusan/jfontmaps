@@ -90,10 +90,10 @@ local maps = {
       {'gbmv', 'V', 'gru'},
    },
    ['ptex-@-04'] = { -- pTeX JIS04
-      {'rml',  'JISX0213-2004-H', 'mr'},
-      {'rmlv', 'JISX0213-2004-V', 'mr'},
-      {'gbm',  'JISX0213-2004-H', 'gru'},
-      {'gbmv', 'JISX0213-2004-V', 'gru'},
+      {'rml',  '2004-H', 'mr'},
+      {'rmlv', '2004-V', 'mr'},
+      {'gbm',  '2004-H', 'gru'},
+      {'gbmv', '2004-V', 'gru'},
    },
    ['uptex-@'] = {   -- upTeX 90JIS
       {'urml',    'UniJIS-UTF16-H', 'mr'},
