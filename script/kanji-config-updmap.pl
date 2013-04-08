@@ -63,8 +63,10 @@ my %representatives = (
   "morisawa-pr6n" => "A-OTF-RyuminPr6N-Light.otf",
   "kozuka"        => "KozMinPro-Regular.otf",
   "kozuka-pr6n"   => "KozMinPr6N-Regular.otf",
+  "kozuka-pr6"    => "KozMinProVI-Regular.otf",
   "ipa"           => "ipam.ttf",
   "ipaex"         => "ipaexm.ttf",
+  "ms"            => "msgothic.tcc",
 );
 my %available;
 
@@ -102,7 +104,7 @@ sub Usage {
      auto:       embed one of the following supported font families
                  automatically:
                    hiragino, hiragino-pron, morisawa, morisawa-pr6n, 
-                   kozuka, kozuka-pr6n, ipaex, ipa
+                   kozuka, kozuka-pr6, kozuka-pr6n, ipaex, ipa, ms
                  and fall back to not embedding any font if none of them
                  is available
      nofont:     embed no fonts (and rely on system fonts when displaying pdfs)

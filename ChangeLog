@@ -1,3 +1,13 @@
+2013-04-08  Norbert Preining  <preining@logic.at>
+
+	* rebuild maps with new cmaps
+	* adapt kanji-setup-updmap.pl for new kozuka-pr6 family
+
+2013-04-08  Hironori Kitagawa  <h_kitagawa2001@yahoo.co.jp>
+
+	* new 2004-{H,V} map and code to generate them
+	* add kozuka-pr6 font package maps
+
 2013-04-05  Norbert Preining  <preining@logic.at>
 
 	* rename updmap-setup-kanji to kanji-config-updmap
