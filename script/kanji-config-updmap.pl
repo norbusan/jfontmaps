@@ -21,7 +21,7 @@ use Getopt::Long qw(:config no_autoabbrev ignore_case_always);
 use strict;
 
 my $prg = "kanji-config-updmap";
-my $version = "0.9.7dev";
+my $version = "0.9.7";
 
 my $updmap_real = "updmap";
 my $updmap = $updmap_real;

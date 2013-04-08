@@ -1,7 +1,7 @@
 jfontmaps
 =========
 
-Current release: $VER$
+Current release: 0.9.7
 
 The files contained in this package contains font maps for dvipdfmx to
 make various Japanese fonts available for (u)ptex and related programs
@@ -46,7 +46,6 @@ O? hiragino
     HiraMinPro-W2.otf
     HiraMinPro-W3.otf
     HiraMinPro-W6.otf
-    HiraKakuPro-W3.otf
     HiraKakuPro-W6.otf
     HiraKakuStd-W8.otf
     HiraMaruPro-W4.otf
@@ -59,12 +58,15 @@ P kozuka
     KozMinPro-Regular.otf
     KozMinPro-Bold.otf
     KozGoPro-Light.otf
-    KozGoPro-Regular.otf
+    KozGoPro-Medium.otf
     KozGoPro-Bold.otf
     KozGoPro-Heavy.otf
 
 O kozuka-pr6n
     same with Pr6N instead of Pro
+
+O kozuka-pr6
+    same with ProVI instead of Pro
 
 P morisawa
     A-OTF-FutoGoB101Pro-Bold.otf
