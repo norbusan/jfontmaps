@@ -1,7 +1,7 @@
 jfontmaps
 =========
 
-Current release: 0.9.7
+Current release: $VER$
 
 The files contained in this package contains font maps for dvipdfmx to
 make various Japanese fonts available for (u)ptex and related programs

@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
 # kanji-config-updmap: setup Japanese font embedding
+# Version $VER$
 #
 # formerly known as updmap-setup-kanji
 #
@@ -21,7 +22,7 @@ use Getopt::Long qw(:config no_autoabbrev ignore_case_always);
 use strict;
 
 my $prg = "kanji-config-updmap";
-my $version = "0.9.7";
+my $version = "$VER$";
 
 my $updmap_real = "updmap";
 my $updmap = $updmap_real;
