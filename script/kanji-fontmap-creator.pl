@@ -7,17 +7,36 @@
 #
 # gui to create map files for updmap(-setup-kanji)
 #
-# ptex/uptex:
-#  2 fonts (rml/gbm)
-#  2 variants
-#  (ev vertical/horizontal)
+# following the maps generation code of Kitagawa Hironori
+# we allow specifying 8 classes of fonts
+# Mincho:
+#   ml : light
+#   mr : regular
+#   mb : bold
+# Gothic:
+#   gr : regular
+#   gru: medium
+#   gb : bold
+#   ge : extra bold
+#   mgr: gothic rounded
+# 
+# these are mapped as follows into the support of ptex/uptex/otf
 #
-# otf/otf-up:
-#  
-#  2 variants
-#  fonts:
-#    gothic: regular, bold, heavy, maru
-#    mincho: regular, bold, light
+# ptex/uptex uses mr (Mincho Regular) and gru (Gothic Medium)
+# otf uses
+#   Mincho: ml mr mb
+#   Gothic: gr gb ge mgr
+#
+#
+# Our window layout is as follows
+#
+#            Mincho             Gothic
+# Medium      mr                 gru            (for ptex/uptex)
+# Bold        mb                 gb
+# Regular                        gr
+# Extra                          ge
+# Light/Round ml                 mgr
+# 
 #
 # possible improvements:
 # - allow editing current files by reading and interpreting them
@@ -41,33 +60,41 @@ my $opt_help = 0;
 my $opt_version = 0;
 
 my $prg = "kanji-fontmap-creator";
-my $version = "$VER$";
+my $version = '$VER$';
 
 #
 # global vars configuring operation
 my $group_name = "";
 my $do_vertical = 0;
-my $do_iso2004  = 0;
 my $do_otf      = 0;
-my @f_mincho_regular; my @f_gothic_regular;
+my %data = (
+  fonts => {
+    mr  => { l => 1, c => 1, value => [ "", "" ] },
+    gru => { l => 1, c => 2, value => [ "", "" ] },
+    mb  => { l => 2, c => 1, value => [ "", "" ] },
+    gb  => { l => 2, c => 2, value => [ "", "" ] },
+    gr  => { l => 3, c => 2, value => [ "", "" ] },
+    ge  => { l => 4, c => 2, value => [ "", "" ] },
+    ml  => { l => 5, c => 1, value => [ "", "" ] },
+    mgr => { l => 5, c => 2, value => [ "", "" ] },
+  },
+  labels => {
+    1 => "Medium", 2 => "Bold", 3 => "Regular", 
+    4 => "Extra", 5 => "Light/Round" 
+  }
+);
+
+my @f_mincho_medium; my @f_gothic_medium;
 my @f_mincho_bold; my @f_gothic_bold;
 my @f_gothic_heavy;
+my @f_gothic_regular;
 my @f_gothic_maru;
 my @f_mincho_light;
 my $b_save;
 
-my $iso_i  = 1;
-my $vert_i = 2;
-my $isovert_i = 3;
-my @order;
-
 my $mw;
 
-$order[0] = 'Default';
-$order[$iso_i] = 'ISO2004';
-$order[$vert_i] = 'Vertical';
-$order[$isovert_i] = 'ISO2004/Vertical';
-
+my @order = qw/Default Vertical/;
 
 GetOptions(
   "lang=s"   => \$opt_lang,
@@ -110,19 +137,16 @@ sub main {
   my $name_entry = $tf->Entry(-width => 30, -textvariable => \$group_name,
     -validate => "all", -validatecommand => \&validate_group_name);
   my $opt_label  = $tf->Label(-text => "Options:");
-  my $opt_vert   = $tf->Checkbutton(-text => "separate vertical fonts",
-    -variable => \$do_vertical);
-  my $opt_iso    = $tf->Checkbutton(-text => "separate ISO 2004 support",
-    -variable => \$do_iso2004 );
   my $opt_otf    = $tf->Checkbutton(-text => "OTF support",
     -variable => \$do_otf);
+  my $opt_vert   = $tf->Checkbutton(-text => "separate vertical fonts",
+    -variable => \$do_vertical);
   #
   # pack the stuff
   $name_label->grid(-row => 0, -column => 0, -sticky => "e");
   $name_entry->grid(-row => 0, -column => 1, -sticky => "w");
   $opt_label->grid(-row => 1, -column => 0, -sticky => "e");
   $opt_otf->grid(-row => 1, -column => 1, -sticky => "w");
-  $opt_iso->grid(-column => 1, -sticky => "w");
   $opt_vert->grid(-column => 1, -sticky => "w");
   #
   # notebook part
@@ -138,67 +162,32 @@ sub main {
   $bf->pack(-expand => 1, -fill => 'x', -padx => '4m', -pady => '4m');
   #
   # 
-  my @l_mincho; my @l_gothic;
-  my @l_regular;
-  my @l_bold;
-  my @l_heavy;
-  my @l_light;
-  my @l_maru;
-  my @e_mincho_regular; my @e_gothic_regular;
-  my @e_mincho_bold; my @e_gothic_bold;
-  my @e_gothic_heavy;
-  my @e_gothic_maru;
-  my @e_mincho_light;
   my $ew = 20;
   for my $i (0..$#order) {
-    $l_mincho[$i] = $p[$i]->Label(-text => "Mincho");
-    $l_gothic[$i] = $p[$i]->Label(-text => "Gothic");
-    #
-    $l_regular[$i] = $p[$i]->Label(-text => "Regular");
-    $e_mincho_regular[$i] = $p[$i]->Entry(-width => $ew,
-      -textvariable => \$f_mincho_regular[$i]);
-    $e_gothic_regular[$i] = $p[$i]->Entry(-width => $ew,
-      -textvariable => \$f_gothic_regular[$i]);
-    #
-    $l_bold[$i] = $p[$i]->Label(-text => "Bold", -state => "disabled");
-    $e_mincho_bold[$i] = $p[$i]->Entry(-width => $ew,
-      -textvariable => \$f_mincho_bold[$i],
-      -state => "disabled", -relief => "flat");
-    $e_gothic_bold[$i] = $p[$i]->Entry(-width => $ew,
-      -textvariable => \$f_gothic_bold[$i],
-      -state => "disabled", -relief => "flat");
-    #
-    $l_heavy[$i] = $p[$i]->Label(-text => "Heavy", -state => "disabled");
-    $l_light[$i] = $p[$i]->Label(-text => "Light", -state => "disabled");
-    $l_maru[$i] =  $p[$i]->Label(-text => "Maru",  -state => "disabled");
-    $e_gothic_heavy[$i] = $p[$i]->Entry(-width => $ew,
-      -textvariable => \$f_gothic_heavy[$i],
-      -state => "disabled", -relief => "flat");
-    $e_gothic_maru[$i] = $p[$i]->Entry(-width => $ew,
-      -textvariable => \$f_gothic_maru[$i],
-      -state => "disabled", -relief => "flat");
-    $e_mincho_light[$i] = $p[$i]->Entry(-width => $ew,
-      -textvariable => \$f_mincho_light[$i],
-      -state => "disabled", -relief => "flat");
+    $data{'widgets'}{0}{1}{$i} = $p[$i]->Label(-text => "Mincho");
+    $data{'widgets'}{0}{2}{$i} = $p[$i]->Label(-text => "Gothic");
+
+    for my $l (sort keys %{$data{'labels'}}) {
+      $data{'widgets'}{$l}{0}{$i} = 
+        $p[$i]->Label(-text => $data{'labels'}{$l});
+    }
+
+    for my $f (keys %{$data{'fonts'}}) {
+      my $l = $data{'fonts'}{$f}{'l'};
+      my $c = $data{'fonts'}{$f}{'c'};
+      print "font $f $l $c\n";
+      $data{'widgets'}{$l}{$c}{$i} =
+        $p[$i]->Entry(-width => $ew, 
+          -textvariable => \$data{'fonts'}{$f}{'value'}[$i]);
+    }
+     
     #
     # grid the whole stuff
-    $l_mincho[$i]->grid(-row => 0, -column => 1);
-    $l_gothic[$i]->grid(-row => 0, -column => 2);
-    #
-    $l_regular[$i]->grid(-row => 1, -column => 0,  -sticky => "e");
-    $e_mincho_regular[$i]->grid(-row => 1, -column => 1);
-    $e_gothic_regular[$i]->grid(-row => 1, -column => 2);
-    #
-    $l_bold[$i]->grid(-row => 3, -column => 0,  -sticky => "e");
-    $e_mincho_bold[$i]->grid(-row => 3, -column => 1);
-    $e_gothic_bold[$i]->grid(-row => 3, -column => 2);
-    #
-    $l_heavy[$i]->grid(-row => 4, -column => 0,  -sticky => "e");
-    $e_gothic_heavy[$i]->grid(-row => 4, -column => 1);
-    $l_maru[$i]->grid(-row => 5, -column => 0,  -sticky => "e");
-    $e_gothic_maru[$i]->grid(-row => 5, -column => 2);
-    $l_light[$i]->grid(-row => 6, -column => 0,  -sticky => "e");
-    $e_mincho_light[$i]->grid(-row => 6, -column => 2);
+    for my $l (keys %{$data{'widgets'}}) {
+      for my $c (keys %{$data{'widgets'}{$l}}) {
+        $data{'widgets'}{$l}{$c}{$i}->grid(-row => $l, -column => $c);
+      }
+    }
   }
   #
   # Button frame
@@ -214,49 +203,36 @@ sub main {
       }
       $nb->pageconfigure("Vertical", 
         -state => ($do_vertical ? "normal" : "disabled"));
-      $nb->pageconfigure("ISO2004/Vertical",
-        -state => (($do_vertical & $do_iso2004) ? "normal" : "disabled"))
-    });
-  $opt_iso->configure(-command => sub { 
-      if (!$do_iso2004 && ($nb->raised() =~ m/ISO2004/)) {
-        $nb->raise("Default");
-      }
-      $nb->pageconfigure("ISO2004",
-        -state => ($do_iso2004 ? "normal" : "disabled"));
-      $nb->pageconfigure("ISO2004/Vertical",
-        -state => (($do_vertical & $do_iso2004) ? "normal" : "disabled")) 
     });
 
   # activate lower part for when otf is selected
-  $opt_otf->configure(-command => sub {
-    for my $i (0..$#order) {
-      $l_light[$i]->configure(
-        -state => ($do_otf ? "normal" : "disabled"));
-      $e_mincho_light[$i]->configure(
-        -state => ($do_otf ? "normal" : "disabled"),
-        -relief => ($do_otf ? "sunken" : "flat"));
-      #
-      $l_bold[$i]->configure(
-        -state => ($do_otf ? "normal" : "disabled"));
-      $e_mincho_bold[$i]->configure(
-        -state => ($do_otf ? "normal" : "disabled"),
-        -relief => ($do_otf ? "sunken" : "flat"));
-      $e_gothic_bold[$i]->configure(
-        -state => ($do_otf ? "normal" : "disabled"),
-        -relief => ($do_otf ? "sunken" : "flat"));
-      #
-      $l_heavy[$i]->configure(
-        -state => ($do_otf ? "normal" : "disabled"));
-      $l_maru[$i]->configure(
-        -state => ($do_otf ? "normal" : "disabled"));
-      $e_gothic_maru[$i]->configure(
-        -state => ($do_otf ? "normal" : "disabled"),
-        -relief => ($do_otf ? "sunken" : "flat"));
-      $e_gothic_heavy[$i]->configure(
-        -state => ($do_otf ? "normal" : "disabled"),
-        -relief => ($do_otf ? "sunken" : "flat"));
-    }
-  });
+#  $opt_otf->configure(-command => sub {
+#    for my $i (0..$#order) {
+#      $l_light[$i]->configure(
+#        -state => ($do_otf ? "normal" : "disabled"));
+#      $e_mincho_light[$i]->configure(
+#        -state => ($do_otf ? "normal" : "disabled"),
+#        -relief => ($do_otf ? "sunken" : "flat"));
+#      #
+#      $l_bold[$i]->configure(
+#        -state => ($do_otf ? "normal" : "disabled"));
+#      $e_mincho_bold[$i]->configure(
+#        -state => ($do_otf ? "normal" : "disabled"),
+#        -relief => ($do_otf ? "sunken" : "flat"));
+#      $e_gothic_bold[$i]->configure(
+#        -state => ($do_otf ? "normal" : "disabled"),
+#        -relief => ($do_otf ? "sunken" : "flat"));
+#      #
+#      $l_heavy[$i]->configure(
+#        -state => ($do_otf ? "normal" : "disabled"));
+#      $e_gothic_maru[$i]->configure(
+#        -state => ($do_otf ? "normal" : "disabled"),
+#        -relief => ($do_otf ? "sunken" : "flat"));
+#      $e_gothic_heavy[$i]->configure(
+#        -state => ($do_otf ? "normal" : "disabled"),
+#        -relief => ($do_otf ? "sunken" : "flat"));
+#    }
+#  });
   #
   #
   $b_save->configure(-command => \&export_font_maps, -state => "disabled");
@@ -303,55 +279,52 @@ sub export_font_maps {
   }
 
   # indirections
-  my $ii = ($do_iso2004  ?  $iso_i  : 0);
-  my $vi = ($do_vertical ?  $vert_i : 0);
-  my $ivi = (($do_vertical && $do_vertical) ?  $isovert_i : 0);
-  #
+  my $vi = ($do_vertical ?  1 : 0);
   
   my ($ptexlines, $ptex04lines, $uptexlines, $uptex04lines);
   my ($otflines, $otfuplines);
   addlines(\$ptexlines, 
-    'rml', 'H', $f_mincho_regular[0],
-    'rmlv','V', $f_mincho_regular[$vi],
-    'gbm', 'H', $f_gothic_regular[0],
-    'gbmv','V', $f_gothic_regular[$vi]);
+    'rml', 'H', $f_mincho_medium[0],
+    'rmlv','V', $f_mincho_medium[$vi],
+    'gbm', 'H', $f_gothic_medium[0],
+    'gbmv','V', $f_gothic_medium[$vi]);
   addlines(\$ptex04lines, 
-    'rml', 'H', $f_mincho_regular[$ii],
-    'rmlv','V', $f_mincho_regular[$ivi],
-    'gbm', 'H', $f_gothic_regular[$ii],
-    'gbmv','V', $f_gothic_regular[$ivi]);
+    'rml', '2004-H', $f_mincho_medium[0],
+    'rmlv','2004-V', $f_mincho_medium[$vi],
+    'gbm', '2004-H', $f_gothic_medium[0],
+    'gbmv','2004-V', $f_gothic_medium[$vi]);
   addlines(\$uptexlines,
-    'urml',     'UniJIS-UTF16-H', $f_mincho_regular[0],
-    'urmlv',    'UniJIS-UTF16-V', $f_mincho_regular[$vi],
-    'ugbm',     'UniJIS-UTF16-H', $f_gothic_regular[0],
-    'ugbmv',    'UniJIS-UTF16-V', $f_gothic_regular[$vi],
-    'uprml-h',  'UniJIS-UTF16-H', $f_mincho_regular[0],
-    'uprml-v',  'UniJIS-UTF16-V', $f_mincho_regular[$vi],
-    'upgbm-h',  'UniJIS-UTF16-H', $f_gothic_regular[0],
-    'upgbm-v',  'UniJIS-UTF16-V', $f_gothic_regular[$vi],
-    'uprml-hq', 'UniJIS-UCS2-H',  $f_mincho_regular[0],
-    'upgbm-hq', 'UniJIS-UCS2-H',  $f_gothic_regular[0]);
+    'urml',     'UniJIS-UTF16-H', $f_mincho_medium[0],
+    'urmlv',    'UniJIS-UTF16-V', $f_mincho_medium[$vi],
+    'ugbm',     'UniJIS-UTF16-H', $f_gothic_medium[0],
+    'ugbmv',    'UniJIS-UTF16-V', $f_gothic_medium[$vi],
+    'uprml-h',  'UniJIS-UTF16-H', $f_mincho_medium[0],
+    'uprml-v',  'UniJIS-UTF16-V', $f_mincho_medium[$vi],
+    'upgbm-h',  'UniJIS-UTF16-H', $f_gothic_medium[0],
+    'upgbm-v',  'UniJIS-UTF16-V', $f_gothic_medium[$vi],
+    'uprml-hq', 'UniJIS-UCS2-H',  $f_mincho_medium[0],
+    'upgbm-hq', 'UniJIS-UCS2-H',  $f_gothic_medium[0]);
   addlines(\$uptex04lines,
-    'urml',     'UniJIS-UTF16-H', $f_mincho_regular[$ii],
-    'urmlv',    'UniJIS-UTF16-V', $f_mincho_regular[$ivi],
-    'ugbm',     'UniJIS-UTF16-H', $f_gothic_regular[$ii],
-    'ugbmv',    'UniJIS-UTF16-V', $f_gothic_regular[$ivi],
-    'uprml-h',  'UniJIS-UTF16-H', $f_mincho_regular[$ii],
-    'uprml-v',  'UniJIS-UTF16-V', $f_mincho_regular[$ivi],
-    'upgbm-h',  'UniJIS-UTF16-H', $f_gothic_regular[$ii],
-    'upgbm-v',  'UniJIS-UTF16-V', $f_gothic_regular[$ivi],
-    'uprml-hq', 'UniJIS-UCS2-H',  $f_mincho_regular[$ii],
-    'upgbm-hq', 'UniJIS-UCS2-H',  $f_gothic_regular[$ii]);
+    'urml',     'UniJIS-UTF16-H', $f_mincho_medium[0],
+    'urmlv',    'UniJIS-UTF16-V', $f_mincho_medium[$vi],
+    'ugbm',     'UniJIS-UTF16-H', $f_gothic_medium[0],
+    'ugbmv',    'UniJIS-UTF16-V', $f_gothic_medium[$vi],
+    'uprml-h',  'UniJIS-UTF16-H', $f_mincho_medium[0],
+    'uprml-v',  'UniJIS-UTF16-V', $f_mincho_medium[$vi],
+    'upgbm-h',  'UniJIS-UTF16-H', $f_gothic_medium[0],
+    'upgbm-v',  'UniJIS-UTF16-V', $f_gothic_medium[$vi],
+    'uprml-hq', 'UniJIS-UCS2-H',  $f_mincho_medium[0],
+    'upgbm-hq', 'UniJIS-UCS2-H',  $f_gothic_medium[0]);
  
   
   addlines(\$otflines,
     '%', 'mincho regular', '',
-    'otf-ujmr-h', 'UniJIS-UTF16-H', $f_mincho_regular[0],
-    'otf-ujmr-v', 'UniJIS-UTF16-V', $f_mincho_regular[$vi],
-    'otf-cjmr-h', 'Identity-H',     $f_mincho_regular[0],
-    'otf-cjmr-v', 'Identity-V',     $f_mincho_regular[$vi],
-    'hminr-h',    'H',              $f_mincho_regular[0],
-    'hminr-v',    'V',              $f_mincho_regular[$vi],
+    'otf-ujmr-h', 'UniJIS-UTF16-H', $f_mincho_medium[0],
+    'otf-ujmr-v', 'UniJIS-UTF16-V', $f_mincho_medium[$vi],
+    'otf-cjmr-h', 'Identity-H',     $f_mincho_medium[0],
+    'otf-cjmr-v', 'Identity-V',     $f_mincho_medium[$vi],
+    'hminr-h',    'H',              $f_mincho_medium[0],
+    'hminr-v',    'V',              $f_mincho_medium[$vi],
     '%', 'gothic regular', '',
     'otf-ujgr-h', 'UniJIS-UTF16-H', $f_gothic_regular[0],
     'otf-ujgr-v', 'UniJIS-UTF16-V', $f_gothic_regular[$vi],
@@ -360,7 +333,7 @@ sub export_font_maps {
     'hgothr-h',   'H',              $f_gothic_regular[0],
     'hgothr-v',   'V',              $f_gothic_regular[$vi],
     '%', 'mincho bold', '');
-  addgroup(\$otflines, ($do_otf ? \@f_mincho_bold : \@f_mincho_regular),
+  addgroup(\$otflines, ($do_otf ? \@f_mincho_bold : \@f_mincho_medium),
     0, $vi,
     'otf-ujmb-h', 'UniJIS-UTF16-H',
     'otf-ujmb-v', 'UniJIS-UTF16-V',
@@ -392,7 +365,7 @@ sub export_font_maps {
     'hmgothr-h',   'H',
     'hmgothr-v',   'V');
   addlines(\$otflines, '%', 'mincho light', '');
-  addgroup(\$otflines, ($do_otf ? \@f_mincho_light : \@f_mincho_regular),
+  addgroup(\$otflines, ($do_otf ? \@f_mincho_light : \@f_mincho_medium),
     0, $vi,
     'otf-ujml-h', 'UniJIS-UTF16-H',
     'otf-ujml-v', 'UniJIS-UTF16-V',
@@ -401,50 +374,50 @@ sub export_font_maps {
     'hminl-h',    'H',
     'hminl-v',    'V');
   addlines(\$otflines, '%', 'JIS 2004', '',
-    'otf-ujmrn-h', 'UniJIS2004-UTF16-H', $f_mincho_regular[$ii],
-    'otf-ujmrn-v', 'UniJIS2004-UTF16-V', $f_mincho_regular[$ivi],
-    'hminrn-h',    'H',                  $f_mincho_regular[$ii],
-    'hminrn-v',    'V',                  $f_mincho_regular[$ivi],
+    'otf-ujmrn-h', 'UniJIS2004-UTF16-H', $f_mincho_medium[0],
+    'otf-ujmrn-v', 'UniJIS2004-UTF16-V', $f_mincho_medium[$vi],
+    'hminrn-h',    'H',                  $f_mincho_medium[0],
+    'hminrn-v',    'V',                  $f_mincho_medium[$vi],
     '%', '', '',
-    'otf-ujgrn-h', 'UniJIS2004-UTF16-H', $f_gothic_regular[$ii],
-    'otf-ujgrn-v', 'UniJIS2004-UTF16-V', $f_gothic_regular[$ivi],
-    'hgothrn-h',   'H'                 , $f_gothic_regular[$ii],
-    'hgothrn-v',   'V'                 , $f_gothic_regular[$ivi],
+    'otf-ujgrn-h', 'UniJIS2004-UTF16-H', $f_gothic_regular[0],
+    'otf-ujgrn-v', 'UniJIS2004-UTF16-V', $f_gothic_regular[$vi],
+    'hgothrn-h',   'H'                 , $f_gothic_regular[0],
+    'hgothrn-v',   'V'                 , $f_gothic_regular[$vi],
     '%', '', '');
-  addgroup(\$otflines, ($do_otf ? \@f_mincho_bold : \@f_mincho_regular),
-    $ii, $ivi,
+  addgroup(\$otflines, ($do_otf ? \@f_mincho_bold : \@f_mincho_medium),
+    0, $vi,
     'otf-ujmbn-h', 'UniJIS2004-UTF16-H',
     'otf-ujmbn-v', 'UniJIS2004-UTF16-V',
     'hminbn-h',    'H',
     'hminbn-v',    'V');
   addlines(\$otflines, '%', '', '');
   addgroup(\$otflines, ($do_otf ? \@f_gothic_bold : \@f_gothic_regular),
-    $ii, $ivi,
+    0, $vi,
     'otf-ujgbn-h', 'UniJIS2004-UTF16-H',
     'otf-ujgbn-v', 'UniJIS2004-UTF16-V',
     'hgothbn-h',   'H',
     'hgothbn-v',   'V');
   addlines(\$otflines, '%', '', '');
   addgroup(\$otflines, ($do_otf ? \@f_gothic_heavy : \@f_gothic_regular),
-    $ii, $ivi,
+    0, $vi,
     'otf-ujmgrn-h', 'UniJIS2004-UTF16-H',
     'otf-ujmgrn-v', 'UniJIS2004-UTF16-V',
     'hmgothrn-h', 'H',
     'hmgothrn-v', 'V');
   addlines(\$otflines, '%', '', '');
-  addgroup(\$otflines, ($do_otf ? \@f_mincho_light : \@f_mincho_regular),
-    $ii, $ivi,
+  addgroup(\$otflines, ($do_otf ? \@f_mincho_light : \@f_mincho_medium),
+    0, $vi,
     'otf-ujmln-h', 'UniJIS2004-UTF16-H',
     'otf-ujmln-v', 'UniJIS2004-UTF16-V',
     'hminln-h',    'H',
     'hminln-v',    'V');
 
   addlines(\$otfuplines,
-    'uphminr-h',   'UniJIS-UTF16-H', $f_mincho_regular[0],
-    'uphminr-v',   'UniJIS-UTF16-V', $f_mincho_regular[$vi],
+    'uphminr-h',   'UniJIS-UTF16-H', $f_mincho_medium[0],
+    'uphminr-v',   'UniJIS-UTF16-V', $f_mincho_medium[$vi],
     'uphgothr-h',  'UniJIS-UTF16-H', $f_gothic_regular[0],
     'uphgothr-v',  'UniJIS-UTF16-V', $f_gothic_regular[$vi]);
-  addgroup(\$otfuplines, ($do_otf ? \@f_mincho_bold : \@f_mincho_regular),
+  addgroup(\$otfuplines, ($do_otf ? \@f_mincho_bold : \@f_mincho_medium),
     0, $vi,
     'uphminb-h',   'UniJIS-UTF16-H',
     'uphminb-v',   'UniJIS-UTF16-V');
@@ -460,7 +433,7 @@ sub export_font_maps {
     0, $vi,
     'uphmgothr-h', 'UniJIS-UTF16-H',
     'uphmgothr-v', 'UniJIS-UTF16-V');
-  addgroup(\$otfuplines, ($do_otf ? \@f_mincho_light : \@f_mincho_regular),
+  addgroup(\$otfuplines, ($do_otf ? \@f_mincho_light : \@f_mincho_medium),
     0, $vi,
     'uphminl-h',   'UniJIS-UTF16-H',
     'uphminl-v',   'UniJIS-UTF16-V');
