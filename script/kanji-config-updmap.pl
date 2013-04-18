@@ -67,7 +67,7 @@ my %representatives = (
   "kozuka-pr6"    => "KozMinProVI-Regular.otf",
   "ipa"           => "ipam.ttf",
   "ipaex"         => "ipaexm.ttf",
-  "ms"            => "msgothic.tcc",
+  "ms"            => "msgothic.ttc",
 );
 my %available;
 
@@ -232,7 +232,9 @@ sub SetupReplacement {
         # if we are in the noEmbed or nothing set case, but one
         # of the three fonts hiragino/morisawa/kozuka are present
         # then use them
-        for my $i (qw/hiragino morisawa kozuka ipaex ipa/) {
+        for my $i (qw/morisawa-pr6n kozuka-pr6n kozuka-pr6
+            hiragino-pron hiragino
+            morisawa kozuka ipaex ipa ms/) {
           if ($available{$i}) {
             return SetupMapFile($i);
           }
