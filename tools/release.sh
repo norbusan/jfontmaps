@@ -26,6 +26,8 @@ fi
 echo
 git commit -m "Release $VER" --allow-empty
 git archive --format=tar --prefix=$PROJECT-$VER/ HEAD | (cd $TEMP && tar xf -)
+git --no-pager log --date=short --format='%ad  %aN  <%ae>%n%n%x09* %s%d [%h]%n' > $TEMP/$PROJECT-$VER/ChangeLog
+cat ChangeLog.pre-git >> $TEMP/$PROJECT-$VER/ChangeLog
 cd $TEMP
 rm -rf $PROJECT-$VER-orig
 cp -r $PROJECT-$VER $PROJECT-$VER-orig
