@@ -25,7 +25,7 @@ local foundry = {
       ml='yuminl.ttf', mr='yumin.ttf', mb='yumindb.ttf',
       gr='yugothic.ttf', gru='yugothic.ttf', gb='yugothib.ttf', ge='yugothib.ttf',
       mgr='yugothib.ttf',
-      {'6n'}, -- I don't know
+      {''}, -- We don't use yugothil.ttf
    },
    ['ipa']   = {
       noncid = true, 
