@@ -20,12 +20,21 @@ local foundry = {
       mgr=':0:msgothic.ttc',
       {''},
    },
-   ['yu']   = {
+   ['yu-win']   = {
       noncid = true, 
       ml='yuminl.ttf', mr='yumin.ttf', mb='yumindb.ttf',
       gr='yugothic.ttf', gru='yugothic.ttf', gb='yugothib.ttf', ge='yugothib.ttf',
       mgr='yugothib.ttf',
-      {''}, -- We don't use yugothil.ttf
+      {''}, 
+   }, 
+   ['yu-osx']   = {
+      noncid = true, 
+      ml='YuMincho-Medium.otf', mr='YuMincho-Medium.otf', 
+      mb='YuMincho-Demibold.otf',
+      gr='YuGothic-Medium.otf', gru='YuGothic-Medium.otf', 
+      gb='YuGothic-Bold.otf',   ge='YuGothic-Bold.otf',
+      mgr='YuGothic-Bold.otf',
+      {''}, 
    },
    ['ipa']   = {
       noncid = true, 
