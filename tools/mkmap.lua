@@ -20,6 +20,13 @@ local foundry = {
       mgr=':0:msgothic.ttc',
       {''},
    },
+   ['yu']   = {
+      noncid = true, 
+      ml='yuminl.ttf', mr='yumin.ttf', mb='yumindb.ttf',
+      gr='yugothic.ttf', gru='yugothic.ttf', gb='yugothib.ttf', ge='yugothib.ttf',
+      mgr='yugothib.ttf',
+      {''}, -- We don't use yugothil.ttf
+   },
    ['ipa']   = {
       noncid = true, 
       ml='ipam.ttf', mr='ipam.ttf', mb='ipam.ttf',
