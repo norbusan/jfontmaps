@@ -27,30 +27,32 @@ P: We have '-04' maps, but fonts lack some glyphs
 X: We don't have '-04' maps.
 4: no -04 maps, but all glyphs have automatically JIS2004
 
-O noEmbed
+O noEmbed - no embedding is done at all, fonts are selected by the viewer
     (no font needed for dvipdfmx)
 
-X ms
+X ms - MS Mincho and MS Gothic, shipped with Windows
     msmincho.ttc
     msgothic.ttc
 
-X yu
+X yu - MS Yu Mincho Gothic fonts, from Win 8.1 on, Mac OS Mavericks(?)
     yumin.ttf
     yuminl.ttf
     yumindb.ttf
     yugothic.ttf
     yugothib.ttf
 
-4 ipa
+4 ipa - IPA fonts from Information-technology Promotion Agency
     ipam.ttf
     ipag.ttf
 
-4 ipaex
+4 ipaex - IPAex fonts from Information-technology Promotion Agency
     ipaexm.ttf
     ipaexg.ttf
 
 
-O? hiragino
+O? hiragino - Hiragino fonts by Dainippon Screen Mfg. Co., Ltd.
+	bundled with Mac OS X 10.5 or later, 
+	or Japanese word processor Ichitaro 2012 Premium/Super-premium editions
     HiraMinPro-W2.otf
     HiraMinPro-W3.otf
     HiraMinPro-W6.otf
@@ -58,10 +60,10 @@ O? hiragino
     HiraKakuStd-W8.otf
     HiraMaruPro-W4.otf
 
-O hiragino-pron
+O hiragino-pron - see above
     same with ProN/StdN instead of Pro/Std
 
-P kozuka
+P kozuka - by Adobe Systems, bundled with Adobe's software
     KozMinPro-Light.otf
     KozMinPro-Regular.otf
     KozMinPro-Bold.otf
@@ -70,13 +72,13 @@ P kozuka
     KozGoPro-Bold.otf
     KozGoPro-Heavy.otf
 
-O kozuka-pr6n
+O kozuka-pr6n - see above
     same with Pr6N instead of Pro
 
-O kozuka-pr6
+O kozuka-pr6 - see above
     same with ProVI instead of Pro
 
-P morisawa
+P morisawa - by Morisawa Inc.
     A-OTF-FutoGoB101Pro-Bold.otf
     A-OTF-FutoMinA101Pro-Bold.otf
     A-OTF-GothicBBBPro-Medium.otf
@@ -84,7 +86,7 @@ P morisawa
     A-OTF-MidashiGoPro-MB31.otf
     A-OTF-RyuminPro-Light.otf
 
-O morisawa-pr6n
+O morisawa-pr6n - see above
     same with Pr6N instead of Pro
 
 
