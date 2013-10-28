@@ -34,6 +34,13 @@ X ms
     msmincho.ttc
     msgothic.ttc
 
+X yu
+    yumin.ttf
+    yuminl.ttf
+    yumindb.ttf
+    yugothic.ttf
+    yugothib.ttf
+
 4 ipa
     ipam.ttf
     ipag.ttf
@@ -41,6 +48,7 @@ X ms
 4 ipaex
     ipaexm.ttf
     ipaexg.ttf
+
 
 O? hiragino
     HiraMinPro-W2.otf

@@ -68,6 +68,7 @@ my %representatives = (
   "ipa"           => "ipam.ttf",
   "ipaex"         => "ipaexm.ttf",
   "ms"            => "msgothic.ttc",
+  "yu"            => "yumin.ttf",
 );
 my %available;
 
@@ -105,7 +106,7 @@ sub Usage {
      auto:       embed one of the following supported font families
                  automatically:
                    hiragino, hiragino-pron, morisawa, morisawa-pr6n, 
-                   kozuka, kozuka-pr6, kozuka-pr6n, ipaex, ipa, ms
+                   kozuka, kozuka-pr6, kozuka-pr6n, ipaex, ipa, ms, yu
                  and fall back to not embedding any font if none of them
                  is available
      nofont:     embed no fonts (and rely on system fonts when displaying pdfs)
