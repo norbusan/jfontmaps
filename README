@@ -34,12 +34,20 @@ X ms - MS Mincho and MS Gothic, shipped with Windows
     msmincho.ttc
     msgothic.ttc
 
-X yu - MS Yu Mincho Gothic fonts, from Win 8.1 on, Mac OS Mavericks(?)
+X yu-win - Yu Mincho and Yu Gothic fonts by Jiyu-koubou LTD.,
+       bundled with Win 8.1.
     yumin.ttf
     yuminl.ttf
     yumindb.ttf
     yugothic.ttf
     yugothib.ttf
+
+O? yu-osx - Yu Mincho and Yu Gothic fonts bundled with OSX 10.9.
+    YuGothic-Bold.otf     (<= "Yu Gothic Bold.otf")
+    YuGothic-Medium.otf   (<= "Yu Gothic Medium.otf")
+    YuMincho-Demibold.otf (<= "Yu Mincho Demibold.otf")
+    YuMincho-Medium.otf   (<= "Yu Mincho Medium.otf")
+
 
 4 ipa - IPA fonts from Information-technology Promotion Agency
     ipam.ttf
@@ -53,12 +61,15 @@ X yu - MS Yu Mincho Gothic fonts, from Win 8.1 on, Mac OS Mavericks(?)
 O? hiragino - Hiragino fonts by Dainippon Screen Mfg. Co., Ltd.
 	bundled with Mac OS X 10.5 or later, 
 	or Japanese word processor Ichitaro 2012 Premium/Super-premium editions
-    HiraMinPro-W2.otf
-    HiraMinPro-W3.otf
-    HiraMinPro-W6.otf
-    HiraKakuPro-W6.otf
-    HiraKakuStd-W8.otf
-    HiraMaruPro-W4.otf
+    HiraMinPro-W2.otf   (<= "ヒラギノ明朝 Pro W2.otf")
+    HiraMinPro-W3.otf   (<= "ヒラギノ明朝 Pro W3.otf")
+    HiraMinPro-W6.otf   (<= "ヒラギノ明朝 Pro W6.otf")
+    HiraKakuPro-W3.otf  (<= "ヒラギノ角ゴ Pro W3.otf")
+    HiraKakuPro-W6.otf  (<= "ヒラギノ角ゴ Pro W6.otf")
+    HiraKakuStd-W8.otf  (<= "ヒラギノ角ゴ Std W8.otf")
+    HiraMaruPro-W4.otf  (<= "ヒラギノ丸ゴ Pro W4.otf")
+
+    If you use Mac OSX, you must create symlink
 
 O hiragino-pron - see above
     same with ProN/StdN instead of Pro/Std
