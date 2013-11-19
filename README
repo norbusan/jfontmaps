@@ -22,6 +22,11 @@ map files for dvipdfmx. You have to obtain the fonts separately.
 For ipa and ipaex the respective fonts a shipped in TeX Live
 and are available for free.
 
+If in the following tables some fonts are marked with 
+	'(<= "...")
+it means that the fonts are originally named as in given within
+the parenthesis, but need to be renamed to the name given first.
+
 O: kanjiVariant '-04' is supported.
 P: We have '-04' maps, but fonts lack some glyphs
 X: We don't have '-04' maps.
@@ -42,7 +47,8 @@ X yu-win - Yu Mincho and Yu Gothic fonts by Jiyu-koubou LTD.,
     yugothic.ttf
     yugothib.ttf
 
-O? yu-osx - Yu Mincho and Yu Gothic fonts bundled with OSX 10.9.
+X yu-osx - Yu Mincho and Yu Gothic fonts by Jiyu-koubou LTD.,
+       bundled with OSX 10.9.
     YuGothic-Bold.otf     (<= "Yu Gothic Bold.otf")
     YuGothic-Medium.otf   (<= "Yu Gothic Medium.otf")
     YuMincho-Demibold.otf (<= "Yu Mincho Demibold.otf")
