@@ -1,4 +1,3 @@
-
 % TEXT, 90JIS
 uphminl-h	UniJIS-UTF16-H	HiraMinPro-W2.otf
 uphminl-v	UniJIS-UTF16-V	HiraMinPro-W2.otf
@@ -14,3 +13,18 @@ uphgotheb-h	UniJIS-UTF16-H	HiraKakuStd-W8.otf
 uphgotheb-v	UniJIS-UTF16-V	HiraKakuStd-W8.otf
 uphmgothr-h	UniJIS-UTF16-H	HiraMaruPro-W4.otf
 uphmgothr-v	UniJIS-UTF16-V	HiraMaruPro-W4.otf
+% JISX 0213:2004
+uphminln-h      UniJIS2004-UTF16-H HiraMinPro-W2.otf
+uphminln-v      UniJIS2004-UTF16-V HiraMinPro-W2.otf
+uphminrn-h      UniJIS2004-UTF16-H HiraMinPro-W3.otf
+uphminrn-v      UniJIS2004-UTF16-V HiraMinPro-W3.otf
+uphgothrn-h     UniJIS2004-UTF16-H HiraKakuPro-W3.otf
+uphgothrn-v     UniJIS2004-UTF16-V HiraKakuPro-W3.otf
+uphminbn-h      UniJIS2004-UTF16-H HiraMinPro-W6.otf
+uphminbn-v      UniJIS2004-UTF16-V HiraMinPro-W6.otf
+uphgothbn-h     UniJIS2004-UTF16-H HiraKakuPro-W6.otf
+uphgothbn-v     UniJIS2004-UTF16-V HiraKakuPro-W6.otf
+uphgothebn-h    UniJIS2004-UTF16-H HiraKakuStd-W8.otf
+uphgothebn-v    UniJIS2004-UTF16-V HiraKakuStd-W8.otf
+uphmgothrn-h    UniJIS2004-UTF16-H HiraMaruPro-W4.otf
+uphmgothrn-v    UniJIS2004-UTF16-V HiraMaruPro-W4.otf

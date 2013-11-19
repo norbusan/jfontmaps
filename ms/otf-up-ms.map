@@ -1,4 +1,3 @@
-
 % TEXT, 90JIS
 uphminl-h	UniJIS-UTF16-H	:0:msmincho.ttc
 uphminl-v	UniJIS-UTF16-V	:0:msmincho.ttc
@@ -14,3 +13,18 @@ uphgotheb-h	UniJIS-UTF16-H	:0:msgothic.ttc
 uphgotheb-v	UniJIS-UTF16-V	:0:msgothic.ttc
 uphmgothr-h	UniJIS-UTF16-H	:0:msgothic.ttc
 uphmgothr-v	UniJIS-UTF16-V	:0:msgothic.ttc
+% JISX 0213:2004
+uphminln-h      UniJIS2004-UTF16-H :0:msmincho.ttc
+uphminln-v      UniJIS2004-UTF16-V :0:msmincho.ttc
+uphminrn-h      UniJIS2004-UTF16-H :0:msmincho.ttc
+uphminrn-v      UniJIS2004-UTF16-V :0:msmincho.ttc
+uphminbn-h      UniJIS2004-UTF16-H :0:msmincho.ttc
+uphminbn-v      UniJIS2004-UTF16-V :0:msmincho.ttc
+uphgothrn-h     UniJIS2004-UTF16-H :0:msgothic.ttc
+uphgothrn-v     UniJIS2004-UTF16-V :0:msgothic.ttc
+uphgothbn-h     UniJIS2004-UTF16-H :0:msgothic.ttc
+uphgothbn-v     UniJIS2004-UTF16-V :0:msgothic.ttc
+uphgothebn-h    UniJIS2004-UTF16-H :0:msgothic.ttc
+uphgothebn-v    UniJIS2004-UTF16-V :0:msgothic.ttc
+uphmgothrn-h    UniJIS2004-UTF16-H :0:msgothic.ttc
+uphmgothrn-v    UniJIS2004-UTF16-V :0:msgothic.ttc
