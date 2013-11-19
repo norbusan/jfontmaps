@@ -1,0 +1,21 @@
+\ifdefined\ucs
+  \documentclass[uplatex]{jsarticle}
+  \usepackage[uplatex,deluxe]{otf}
+\else
+  \documentclass{jsarticle}
+  \usepackage[deluxe]{otf}
+\fi
+\begin{document}
+\def\R{\par\noindent%
+  \vbox{\LARGE\hsize=20zw\noindent\kanjiskip=0pt
+  逢芦飴溢茨鰯淫迂厩噂餌襖迦牙廻恢晦蟹葛鞄}}
+
+\kanjifamily{hmc}\kanjiseries{l}\selectfont \R（明朝，細）
+\kanjifamily{hmc}\kanjiseries{m}\selectfont \R（明朝，中）
+\kanjifamily{hmc}\kanjiseries{bx}\selectfont \R（明朝，太）
+\kanjifamily{hgt}\kanjiseries{m}\selectfont \R（ゴチ，中）
+\kanjifamily{hgt}\kanjiseries{bx}\selectfont \R（ゴチ，太）
+\kanjifamily{hgt}\kanjiseries{eb}\selectfont \R（ゴチ，極太）
+\kanjifamily{mg}\kanjiseries{m}\selectfont \R（丸ゴ）
+
+\end{document}
