@@ -14,3 +14,19 @@ uphgotheb-h	UniJIS-UTF16-H	yugothib.ttf
 uphgotheb-v	UniJIS-UTF16-V	yugothib.ttf
 uphmgothr-h	UniJIS-UTF16-H	yugothib.ttf
 uphmgothr-v	UniJIS-UTF16-V	yugothib.ttf
+% JISX 0213:2004
+uphminln-h      UniJIS2004-UTF16-H yuminl.ttf
+uphminln-v      UniJIS2004-UTF16-V yuminl.ttf
+uphminrn-h      UniJIS2004-UTF16-H yumin.ttf
+uphminrn-v      UniJIS2004-UTF16-V yumin.ttf
+uphgothrn-h     UniJIS2004-UTF16-H yugothic.ttf
+uphgothrn-v     UniJIS2004-UTF16-V yugothic.ttf
+uphminbn-h      UniJIS2004-UTF16-H yumindb.ttf
+uphminbn-v      UniJIS2004-UTF16-V yumindb.ttf
+uphgothbn-h     UniJIS2004-UTF16-H yugothib.ttf
+uphgothbn-v     UniJIS2004-UTF16-V yugothib.ttf
+uphgothebn-h    UniJIS2004-UTF16-H yugothib.ttf
+uphgothebn-v    UniJIS2004-UTF16-V yugothib.ttf
+uphmgothrn-h    UniJIS2004-UTF16-H yugothib.ttf
+uphmgothrn-v    UniJIS2004-UTF16-V yugothib.ttf
+
