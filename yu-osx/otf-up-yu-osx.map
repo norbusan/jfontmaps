@@ -14,3 +14,19 @@ uphgotheb-h	UniJIS-UTF16-H	YuGothic-Bold.otf
 uphgotheb-v	UniJIS-UTF16-V	YuGothic-Bold.otf
 uphmgothr-h	UniJIS-UTF16-H	YuGothic-Bold.otf
 uphmgothr-v	UniJIS-UTF16-V	YuGothic-Bold.otf
+% JISX 0213:2004
+uphminln-h      UniJIS2004-UTF16-H YuMincho-Medium.otf
+uphminln-v      UniJIS2004-UTF16-V YuMincho-Medium.otf
+uphminrn-h      UniJIS2004-UTF16-H YuMincho-Medium.otf
+uphminrn-v      UniJIS2004-UTF16-V YuMincho-Medium.otf
+uphminbn-h      UniJIS2004-UTF16-H YuMincho-DemiBold.otf
+uphminbn-v      UniJIS2004-UTF16-V YuMincho-DemiBold.otf
+uphgothrn-h     UniJIS2004-UTF16-H YuGothic-Medium.otf
+uphgothrn-v     UniJIS2004-UTF16-V YuGothic-Medium.otf
+uphgothbn-h     UniJIS2004-UTF16-H YuGothic-Bold.otf
+uphgothbn-v     UniJIS2004-UTF16-V YuGothic-Bold.otf
+uphgothebn-h    UniJIS2004-UTF16-H YuGothic-Bold.otf
+uphgothebn-v    UniJIS2004-UTF16-V YuGothic-Bold.otf
+uphmgothrn-h    UniJIS2004-UTF16-H YuGothic-Bold.otf
+uphmgothrn-v    UniJIS2004-UTF16-V YuGothic-Bold.otf
+
