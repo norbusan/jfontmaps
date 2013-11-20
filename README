@@ -39,7 +39,7 @@ X ms - MS Mincho and MS Gothic, shipped with Windows
     msmincho.ttc
     msgothic.ttc
 
-X yu-win - Yu Mincho and Yu Gothic fonts by Jiyu-koubou LTD.,
+O? yu-win - Yu Mincho and Yu Gothic fonts by Jiyu-koubou LTD.,
        bundled with Win 8.1.
     yumin.ttf
     yuminl.ttf
@@ -47,7 +47,7 @@ X yu-win - Yu Mincho and Yu Gothic fonts by Jiyu-koubou LTD.,
     yugothic.ttf
     yugothib.ttf
 
-X yu-osx - Yu Mincho and Yu Gothic fonts by Jiyu-koubou LTD.,
+O? yu-osx - Yu Mincho and Yu Gothic fonts by Jiyu-koubou LTD.,
        bundled with OSX 10.9.
     YuGothic-Bold.otf     (<= "Yu Gothic Bold.otf")
     YuGothic-Medium.otf   (<= "Yu Gothic Medium.otf")
