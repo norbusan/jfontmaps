@@ -32,20 +32,20 @@ hmgothrn-h	H	YuGothic-Bold.otf
 hmgothrn-v	V	YuGothic-Bold.otf
 
 % CID
-otf-cjml-h	Identity-H	YuMincho-Medium.otf/AJ16
-otf-cjml-v	Identity-V	YuMincho-Medium.otf/AJ16
-otf-cjmr-h	Identity-H	YuMincho-Medium.otf/AJ16
-otf-cjmr-v	Identity-V	YuMincho-Medium.otf/AJ16
-otf-cjmb-h	Identity-H	YuMincho-Demibold.otf/AJ16
-otf-cjmb-v	Identity-V	YuMincho-Demibold.otf/AJ16
-otf-cjgr-h	Identity-H	YuGothic-Medium.otf/AJ16
-otf-cjgr-v	Identity-V	YuGothic-Medium.otf/AJ16
-otf-cjgb-h	Identity-H	YuGothic-Bold.otf/AJ16
-otf-cjgb-v	Identity-V	YuGothic-Bold.otf/AJ16
-otf-cjge-h	Identity-H	YuGothic-Bold.otf/AJ16
-otf-cjge-v	Identity-V	YuGothic-Bold.otf/AJ16
-otf-cjmgr-h	Identity-H	YuGothic-Bold.otf/AJ16
-otf-cjmgr-v	Identity-V	YuGothic-Bold.otf/AJ16
+otf-cjml-h	Identity-H	YuMincho-Medium.otf
+otf-cjml-v	Identity-V	YuMincho-Medium.otf
+otf-cjmr-h	Identity-H	YuMincho-Medium.otf
+otf-cjmr-v	Identity-V	YuMincho-Medium.otf
+otf-cjmb-h	Identity-H	YuMincho-Demibold.otf
+otf-cjmb-v	Identity-V	YuMincho-Demibold.otf
+otf-cjgr-h	Identity-H	YuGothic-Medium.otf
+otf-cjgr-v	Identity-V	YuGothic-Medium.otf
+otf-cjgb-h	Identity-H	YuGothic-Bold.otf
+otf-cjgb-v	Identity-V	YuGothic-Bold.otf
+otf-cjge-h	Identity-H	YuGothic-Bold.otf
+otf-cjge-v	Identity-V	YuGothic-Bold.otf
+otf-cjmgr-h	Identity-H	YuGothic-Bold.otf
+otf-cjmgr-v	Identity-V	YuGothic-Bold.otf
 
 % Unicode 90JIS
 otf-ujml-h	UniJIS-UTF16-H	YuMincho-Medium.otf

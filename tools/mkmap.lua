@@ -28,7 +28,7 @@ local foundry = {
       {''}, 
    }, 
    ['yu-osx']   = {
-      noncid = true, 
+      noncid = false, 
       ml='YuMincho-Medium.otf', mr='YuMincho-Medium.otf', 
       mb='YuMincho-Demibold.otf',
       gr='YuGothic-Medium.otf', gru='YuGothic-Medium.otf', 

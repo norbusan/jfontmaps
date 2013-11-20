@@ -1,3 +1,4 @@
+
 % TEXT, 90JIS
 uphminl-h	UniJIS-UTF16-H	A-OTF-RyuminPro-Light.otf
 uphminl-v	UniJIS-UTF16-V	A-OTF-RyuminPro-Light.otf
@@ -13,18 +14,19 @@ uphgotheb-h	UniJIS-UTF16-H	A-OTF-MidashiGoPro-MB31.otf
 uphgotheb-v	UniJIS-UTF16-V	A-OTF-MidashiGoPro-MB31.otf
 uphmgothr-h	UniJIS-UTF16-H	A-OTF-Jun101Pro-Light.otf
 uphmgothr-v	UniJIS-UTF16-V	A-OTF-Jun101Pro-Light.otf
-% JISX 0213:2004
-uphminln-h      UniJIS2004-UTF16-H A-OTF-RyuminPro-Light.otf
-uphminln-v      UniJIS2004-UTF16-V A-OTF-RyuminPro-Light.otf
-uphminrn-h      UniJIS2004-UTF16-H A-OTF-RyuminPro-Light.otf
-uphminrn-v      UniJIS2004-UTF16-V A-OTF-RyuminPro-Light.otf
-uphgothrn-h     UniJIS2004-UTF16-H A-OTF-GothicBBBPro-Medium.otf
-uphgothrn-v     UniJIS2004-UTF16-V A-OTF-GothicBBBPro-Medium.otf
-uphminbn-h      UniJIS2004-UTF16-H A-OTF-FutoMinA101Pro-Bold.otf
-uphminbn-v      UniJIS2004-UTF16-V A-OTF-FutoMinA101Pro-Bold.otf
-uphgothbn-h     UniJIS2004-UTF16-H A-OTF-FutoGoB101Pro-Bold.otf
-uphgothbn-v     UniJIS2004-UTF16-V A-OTF-FutoGoB101Pro-Bold.otf
-uphgothebn-h    UniJIS2004-UTF16-H A-OTF-MidashiGoPro-MB31.otf
-uphgothebn-v    UniJIS2004-UTF16-V A-OTF-MidashiGoPro-MB31.otf
-uphmgothrn-h    UniJIS2004-UTF16-H A-OTF-Jun101Pro-Light.otf
-uphmgothrn-v    UniJIS2004-UTF16-V A-OTF-Jun101Pro-Light.otf
+
+% TEXT, JIS04
+uphminln-h	UniJIS2004-UTF16-H	A-OTF-RyuminPro-Light.otf
+uphminln-v	UniJIS2004-UTF16-V	A-OTF-RyuminPro-Light.otf
+uphminrn-h	UniJIS2004-UTF16-H	A-OTF-RyuminPro-Light.otf
+uphminrn-v	UniJIS2004-UTF16-V	A-OTF-RyuminPro-Light.otf
+uphminbn-h	UniJIS2004-UTF16-H	A-OTF-FutoMinA101Pro-Bold.otf
+uphminbn-v	UniJIS2004-UTF16-V	A-OTF-FutoMinA101Pro-Bold.otf
+uphgothrn-h	UniJIS2004-UTF16-H	A-OTF-GothicBBBPro-Medium.otf
+uphgothrn-v	UniJIS2004-UTF16-V	A-OTF-GothicBBBPro-Medium.otf
+uphgothbn-h	UniJIS2004-UTF16-H	A-OTF-FutoGoB101Pro-Bold.otf
+uphgothbn-v	UniJIS2004-UTF16-V	A-OTF-FutoGoB101Pro-Bold.otf
+uphgothebn-h	UniJIS2004-UTF16-H	A-OTF-MidashiGoPro-MB31.otf
+uphgothebn-v	UniJIS2004-UTF16-V	A-OTF-MidashiGoPro-MB31.otf
+uphmgothrn-h	UniJIS2004-UTF16-H	A-OTF-Jun101Pro-Light.otf
+uphmgothrn-v	UniJIS2004-UTF16-V	A-OTF-Jun101Pro-Light.otf

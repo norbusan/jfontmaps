@@ -1,3 +1,4 @@
+
 % TEXT, 90JIS
 uphminl-h	UniJIS-UTF16-H	KozMinPr6N-Light.otf
 uphminl-v	UniJIS-UTF16-V	KozMinPr6N-Light.otf
@@ -13,18 +14,19 @@ uphgotheb-h	UniJIS-UTF16-H	KozGoPr6N-Heavy.otf
 uphgotheb-v	UniJIS-UTF16-V	KozGoPr6N-Heavy.otf
 uphmgothr-h	UniJIS-UTF16-H	KozGoPr6N-Heavy.otf
 uphmgothr-v	UniJIS-UTF16-V	KozGoPr6N-Heavy.otf
-% JISX 0213:2004
-uphminln-h      UniJIS2004-UTF16-H KozMinPr6N-Light.otf
-uphminln-v      UniJIS2004-UTF16-V KozMinPr6N-Light.otf
-uphminrn-h      UniJIS2004-UTF16-H KozMinPr6N-Regular.otf
-uphminrn-v      UniJIS2004-UTF16-V KozMinPr6N-Regular.otf
-uphgothrn-h     UniJIS2004-UTF16-H KozGoPr6N-Regular.otf
-uphgothrn-v     UniJIS2004-UTF16-V KozGoPr6N-Regular.otf
-uphminbn-h      UniJIS2004-UTF16-H KozMinPr6N-Bold.otf
-uphminbn-v      UniJIS2004-UTF16-V KozMinPr6N-Bold.otf
-uphgothbn-h     UniJIS2004-UTF16-H KozGoPr6N-Bold.otf
-uphgothbn-v     UniJIS2004-UTF16-V KozGoPr6N-Bold.otf
-uphgothebn-h    UniJIS2004-UTF16-H KozGoPr6N-Heavy.otf
-uphgothebn-v    UniJIS2004-UTF16-V KozGoPr6N-Heavy.otf
-uphmgothrn-h    UniJIS2004-UTF16-H KozGoPr6N-Regular.otf
-uphmgothrn-v    UniJIS2004-UTF16-V KozGoPr6N-Regular.otf
+
+% TEXT, JIS04
+uphminln-h	UniJIS2004-UTF16-H	KozMinPr6N-Light.otf
+uphminln-v	UniJIS2004-UTF16-V	KozMinPr6N-Light.otf
+uphminrn-h	UniJIS2004-UTF16-H	KozMinPr6N-Regular.otf
+uphminrn-v	UniJIS2004-UTF16-V	KozMinPr6N-Regular.otf
+uphminbn-h	UniJIS2004-UTF16-H	KozMinPr6N-Bold.otf
+uphminbn-v	UniJIS2004-UTF16-V	KozMinPr6N-Bold.otf
+uphgothrn-h	UniJIS2004-UTF16-H	KozGoPr6N-Regular.otf
+uphgothrn-v	UniJIS2004-UTF16-V	KozGoPr6N-Regular.otf
+uphgothbn-h	UniJIS2004-UTF16-H	KozGoPr6N-Bold.otf
+uphgothbn-v	UniJIS2004-UTF16-V	KozGoPr6N-Bold.otf
+uphgothebn-h	UniJIS2004-UTF16-H	KozGoPr6N-Heavy.otf
+uphgothebn-v	UniJIS2004-UTF16-V	KozGoPr6N-Heavy.otf
+uphmgothrn-h	UniJIS2004-UTF16-H	KozGoPr6N-Heavy.otf
+uphmgothrn-v	UniJIS2004-UTF16-V	KozGoPr6N-Heavy.otf

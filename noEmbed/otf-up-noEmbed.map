@@ -1,3 +1,4 @@
+
 % TEXT, 90JIS
 uphminl-h	UniJIS-UTF16-H	!Ryumin-Light
 uphminl-v	UniJIS-UTF16-V	!Ryumin-Light
@@ -13,18 +14,19 @@ uphgotheb-h	UniJIS-UTF16-H	!GothicBBB-Medium,Bold
 uphgotheb-v	UniJIS-UTF16-V	!GothicBBB-Medium,Bold
 uphmgothr-h	UniJIS-UTF16-H	!GothicBBB-Medium
 uphmgothr-v	UniJIS-UTF16-V	!GothicBBB-Medium
-% JISX 0213:2004
-uphminln-h      UniJIS2004-UTF16-H !Ryumin-Light
-uphminln-v      UniJIS2004-UTF16-V !Ryumin-Light
-uphminrn-h      UniJIS2004-UTF16-H !Ryumin-Light
-uphminrn-v      UniJIS2004-UTF16-V !Ryumin-Light
-uphgothrn-h     UniJIS2004-UTF16-H !GothicBBB-Medium
-uphgothrn-v     UniJIS2004-UTF16-V !GothicBBB-Medium
-uphminbn-h      UniJIS2004-UTF16-H !Ryumin-Light
-uphminbn-v      UniJIS2004-UTF16-V !Ryumin-Light
-uphgothbn-h     UniJIS2004-UTF16-H !GothicBBB-Medium
-uphgothbn-v     UniJIS2004-UTF16-V !GothicBBB-Medium
-uphgothebn-h    UniJIS2004-UTF16-H !GothicBBB-Medium
-uphgothebn-v    UniJIS2004-UTF16-V !GothicBBB-Medium
-uphmgothrn-h    UniJIS2004-UTF16-H !GothicBBB-Medium
-uphmgothrn-v    UniJIS2004-UTF16-V !GothicBBB-Medium
+
+% TEXT, JIS04
+uphminln-h	UniJIS2004-UTF16-H	!Ryumin-Light
+uphminln-v	UniJIS2004-UTF16-V	!Ryumin-Light
+uphminrn-h	UniJIS2004-UTF16-H	!Ryumin-Light
+uphminrn-v	UniJIS2004-UTF16-V	!Ryumin-Light
+uphminbn-h	UniJIS2004-UTF16-H	!Ryumin-Light,Bold
+uphminbn-v	UniJIS2004-UTF16-V	!Ryumin-Light,Bold
+uphgothrn-h	UniJIS2004-UTF16-H	!GothicBBB-Medium
+uphgothrn-v	UniJIS2004-UTF16-V	!GothicBBB-Medium
+uphgothbn-h	UniJIS2004-UTF16-H	!GothicBBB-Medium,Bold
+uphgothbn-v	UniJIS2004-UTF16-V	!GothicBBB-Medium,Bold
+uphgothebn-h	UniJIS2004-UTF16-H	!GothicBBB-Medium,Bold
+uphgothebn-v	UniJIS2004-UTF16-V	!GothicBBB-Medium,Bold
+uphmgothrn-h	UniJIS2004-UTF16-H	!GothicBBB-Medium
+uphmgothrn-v	UniJIS2004-UTF16-V	!GothicBBB-Medium
