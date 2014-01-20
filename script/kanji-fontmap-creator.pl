@@ -1,7 +1,7 @@
 #!/usr/bin/env perl
 #
 # kanji-fontmap-creator
-# (c) 2012-2013 Norbert Preining
+# (c) 2012-2014 Norbert Preining
 # Version: $VER$
 # Licenced under the GPLv2 or any higher version
 #

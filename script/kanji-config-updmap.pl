@@ -5,7 +5,7 @@
 # formerly known as updmap-setup-kanji
 #
 # Copyright 2004-2006 by KOBAYASHI R. Taizo for the shell version (updmap-otf)
-# Copyright 2011-2013 by PREINING Norbert
+# Copyright 2011-2014 by PREINING Norbert
 #
 # This file is licensed under GPL version 3 or any later version.
 # For copyright statements see end of file.
@@ -22,7 +22,7 @@ use Getopt::Long qw(:config no_autoabbrev ignore_case_always);
 use strict;
 
 my $prg = "kanji-config-updmap";
-my $version = "$VER$";
+my $version = '$VER$';
 
 my $updmap_real = "updmap";
 my $updmap = $updmap_real;
@@ -30,11 +30,13 @@ my $updmap = $updmap_real;
 my $dry_run = 0;
 my $opt_help = 0;
 my $opt_jis = 0;
+my $opt_sys = 0;
 
 if (! GetOptions(
         "n|dry-run" => \$dry_run,
         "h|help" => \$opt_help,
         "jis2004" => \$opt_jis,
+        "sys" => \$opt_sys,
         "version" => sub { print &version(); exit(0); }, ) ) {
   die "Try \"$0 --help\" for more information.\n";
 }
@@ -47,6 +49,10 @@ my $nul = (win32() ? 'nul' : '/dev/null') ;
 
 if ($dry_run) {
   $updmap = "echo updmap"; 
+}
+if ($opt_sys) {
+  $updmap = "$updmap --sys" ;
+  $updmap_real = "$updmap_real --sys" ;
 }
 
 if ($opt_help) {
@@ -118,7 +124,8 @@ sub Usage {
   Options:
     -n, --dry-run  do not actually run updmap
     -h, --help     show this message and exit
-    -jis2004       use JIS2004 variants for default fonts of (u)pTeX
+    --jis2004      use JIS2004 variants for default fonts of (u)pTeX
+    --sys          run in sys mode, i.e., call updmap-sys
     --version      show version information and exit
 
 EOF

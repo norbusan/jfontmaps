@@ -20,12 +20,5 @@ unset RUNNING_BSH
 test -n "${ZSH_VERSION+set}" && alias -g '${1+"$@"}'='"$@"'
 export PATH
 
-v=`kpsewhich -var-value TEXMFSYSVAR`
-c=`kpsewhich -var-value TEXMFSYSCONFIG`
-
-TEXMFVAR="$v"
-TEXMFCONFIG="$c"
-export TEXMFVAR TEXMFCONFIG
-
-exec kanji-config-updmap ${1+"$@"}
+exec kanji-config-updmap --sys ${1+"$@"}
 
