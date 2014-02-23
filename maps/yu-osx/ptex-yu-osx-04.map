@@ -1,4 +1,4 @@
-rml	2004-H	YuMincho-Medium.otf
-rmlv	2004-V	YuMincho-Medium.otf
-gbm	2004-H	YuGothic-Medium.otf
-gbmv	2004-V	YuGothic-Medium.otf
+rml	2004-H	YuMincho-Medium.otf %!PS YuMin-Medium
+rmlv	2004-V	YuMincho-Medium.otf %!PS YuMin-Medium
+gbm	2004-H	YuGothic-Medium.otf %!PS YuGo-Medium
+gbmv	2004-V	YuGothic-Medium.otf %!PS YuGo-Medium

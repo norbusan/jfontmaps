@@ -1,4 +1,4 @@
-rml	H	A-OTF-RyuminPr6N-Light.otf
-rmlv	V	A-OTF-RyuminPr6N-Light.otf
-gbm	H	A-OTF-GothicBBBPr6N-Medium.otf
-gbmv	V	A-OTF-GothicBBBPr6N-Medium.otf
+rml	H	A-OTF-RyuminPr6N-Light.otf %!PS RyuminPr6N-Light
+rmlv	V	A-OTF-RyuminPr6N-Light.otf %!PS RyuminPr6N-Light
+gbm	H	A-OTF-GothicBBBPr6N-Medium.otf %!PS GothicBBBPr6N-Medium
+gbmv	V	A-OTF-GothicBBBPr6N-Medium.otf %!PS GothicBBBPr6N-Medium

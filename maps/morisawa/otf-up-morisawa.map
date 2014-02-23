@@ -1,32 +1,32 @@
 
 % TEXT, 90JIS
-uphminl-h	UniJIS-UTF16-H	A-OTF-RyuminPro-Light.otf
-uphminl-v	UniJIS-UTF16-V	A-OTF-RyuminPro-Light.otf
-uphminr-h	UniJIS-UTF16-H	A-OTF-RyuminPro-Light.otf
-uphminr-v	UniJIS-UTF16-V	A-OTF-RyuminPro-Light.otf
-uphminb-h	UniJIS-UTF16-H	A-OTF-FutoMinA101Pro-Bold.otf
-uphminb-v	UniJIS-UTF16-V	A-OTF-FutoMinA101Pro-Bold.otf
-uphgothr-h	UniJIS-UTF16-H	A-OTF-GothicBBBPro-Medium.otf
-uphgothr-v	UniJIS-UTF16-V	A-OTF-GothicBBBPro-Medium.otf
-uphgothb-h	UniJIS-UTF16-H	A-OTF-FutoGoB101Pro-Bold.otf
-uphgothb-v	UniJIS-UTF16-V	A-OTF-FutoGoB101Pro-Bold.otf
-uphgotheb-h	UniJIS-UTF16-H	A-OTF-MidashiGoPro-MB31.otf
-uphgotheb-v	UniJIS-UTF16-V	A-OTF-MidashiGoPro-MB31.otf
-uphmgothr-h	UniJIS-UTF16-H	A-OTF-Jun101Pro-Light.otf
-uphmgothr-v	UniJIS-UTF16-V	A-OTF-Jun101Pro-Light.otf
+uphminl-h	UniJIS-UTF16-H	A-OTF-RyuminPro-Light.otf %!PS RyuminPro-Light
+uphminl-v	UniJIS-UTF16-V	A-OTF-RyuminPro-Light.otf %!PS RyuminPro-Light
+uphminr-h	UniJIS-UTF16-H	A-OTF-RyuminPro-Light.otf %!PS RyuminPro-Light
+uphminr-v	UniJIS-UTF16-V	A-OTF-RyuminPro-Light.otf %!PS RyuminPro-Light
+uphminb-h	UniJIS-UTF16-H	A-OTF-FutoMinA101Pro-Bold.otf %!PS FutoMinA101Pro-Bold
+uphminb-v	UniJIS-UTF16-V	A-OTF-FutoMinA101Pro-Bold.otf %!PS FutoMinA101Pro-Bold
+uphgothr-h	UniJIS-UTF16-H	A-OTF-GothicBBBPro-Medium.otf %!PS GothicBBBPro-Medium
+uphgothr-v	UniJIS-UTF16-V	A-OTF-GothicBBBPro-Medium.otf %!PS GothicBBBPro-Medium
+uphgothb-h	UniJIS-UTF16-H	A-OTF-FutoGoB101Pro-Bold.otf %!PS FutoGoB101Pro-Bold
+uphgothb-v	UniJIS-UTF16-V	A-OTF-FutoGoB101Pro-Bold.otf %!PS FutoGoB101Pro-Bold
+uphgotheb-h	UniJIS-UTF16-H	A-OTF-MidashiGoPro-MB31.otf %!PS MidashiGoPro-MB31
+uphgotheb-v	UniJIS-UTF16-V	A-OTF-MidashiGoPro-MB31.otf %!PS MidashiGoPro-MB31
+uphmgothr-h	UniJIS-UTF16-H	A-OTF-Jun101Pro-Light.otf %!PS Jun101Pro-Light
+uphmgothr-v	UniJIS-UTF16-V	A-OTF-Jun101Pro-Light.otf %!PS Jun101Pro-Light
 
 % TEXT, JIS04
-uphminln-h	UniJIS2004-UTF16-H	A-OTF-RyuminPro-Light.otf
-uphminln-v	UniJIS2004-UTF16-V	A-OTF-RyuminPro-Light.otf
-uphminrn-h	UniJIS2004-UTF16-H	A-OTF-RyuminPro-Light.otf
-uphminrn-v	UniJIS2004-UTF16-V	A-OTF-RyuminPro-Light.otf
-uphminbn-h	UniJIS2004-UTF16-H	A-OTF-FutoMinA101Pro-Bold.otf
-uphminbn-v	UniJIS2004-UTF16-V	A-OTF-FutoMinA101Pro-Bold.otf
-uphgothrn-h	UniJIS2004-UTF16-H	A-OTF-GothicBBBPro-Medium.otf
-uphgothrn-v	UniJIS2004-UTF16-V	A-OTF-GothicBBBPro-Medium.otf
-uphgothbn-h	UniJIS2004-UTF16-H	A-OTF-FutoGoB101Pro-Bold.otf
-uphgothbn-v	UniJIS2004-UTF16-V	A-OTF-FutoGoB101Pro-Bold.otf
-uphgothebn-h	UniJIS2004-UTF16-H	A-OTF-MidashiGoPro-MB31.otf
-uphgothebn-v	UniJIS2004-UTF16-V	A-OTF-MidashiGoPro-MB31.otf
-uphmgothrn-h	UniJIS2004-UTF16-H	A-OTF-Jun101Pro-Light.otf
-uphmgothrn-v	UniJIS2004-UTF16-V	A-OTF-Jun101Pro-Light.otf
+uphminln-h	UniJIS2004-UTF16-H	A-OTF-RyuminPro-Light.otf %!PS RyuminPro-Light
+uphminln-v	UniJIS2004-UTF16-V	A-OTF-RyuminPro-Light.otf %!PS RyuminPro-Light
+uphminrn-h	UniJIS2004-UTF16-H	A-OTF-RyuminPro-Light.otf %!PS RyuminPro-Light
+uphminrn-v	UniJIS2004-UTF16-V	A-OTF-RyuminPro-Light.otf %!PS RyuminPro-Light
+uphminbn-h	UniJIS2004-UTF16-H	A-OTF-FutoMinA101Pro-Bold.otf %!PS FutoMinA101Pro-Bold
+uphminbn-v	UniJIS2004-UTF16-V	A-OTF-FutoMinA101Pro-Bold.otf %!PS FutoMinA101Pro-Bold
+uphgothrn-h	UniJIS2004-UTF16-H	A-OTF-GothicBBBPro-Medium.otf %!PS GothicBBBPro-Medium
+uphgothrn-v	UniJIS2004-UTF16-V	A-OTF-GothicBBBPro-Medium.otf %!PS GothicBBBPro-Medium
+uphgothbn-h	UniJIS2004-UTF16-H	A-OTF-FutoGoB101Pro-Bold.otf %!PS FutoGoB101Pro-Bold
+uphgothbn-v	UniJIS2004-UTF16-V	A-OTF-FutoGoB101Pro-Bold.otf %!PS FutoGoB101Pro-Bold
+uphgothebn-h	UniJIS2004-UTF16-H	A-OTF-MidashiGoPro-MB31.otf %!PS MidashiGoPro-MB31
+uphgothebn-v	UniJIS2004-UTF16-V	A-OTF-MidashiGoPro-MB31.otf %!PS MidashiGoPro-MB31
+uphmgothrn-h	UniJIS2004-UTF16-H	A-OTF-Jun101Pro-Light.otf %!PS Jun101Pro-Light
+uphmgothrn-v	UniJIS2004-UTF16-V	A-OTF-Jun101Pro-Light.otf %!PS Jun101Pro-Light

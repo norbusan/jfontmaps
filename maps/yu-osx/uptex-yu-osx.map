@@ -1,10 +1,10 @@
-urml	UniJIS-UTF16-H	YuMincho-Medium.otf
-urmlv	UniJIS-UTF16-V	YuMincho-Medium.otf
-ugbm	UniJIS-UTF16-H	YuGothic-Medium.otf
-ugbmv	UniJIS-UTF16-V	YuGothic-Medium.otf
-uprml-h	UniJIS-UTF16-H	YuMincho-Medium.otf
-uprml-v	UniJIS-UTF16-V	YuMincho-Medium.otf
-upgbm-h	UniJIS-UTF16-H	YuGothic-Medium.otf
-upgbm-v	UniJIS-UTF16-V	YuGothic-Medium.otf
-uprml-hq	UniJIS-UCS2-H	YuMincho-Medium.otf
-upgbm-hq	UniJIS-UCS2-H	YuGothic-Medium.otf
+urml	UniJIS-UTF16-H	YuMincho-Medium.otf %!PS YuMin-Medium
+urmlv	UniJIS-UTF16-V	YuMincho-Medium.otf %!PS YuMin-Medium
+ugbm	UniJIS-UTF16-H	YuGothic-Medium.otf %!PS YuGo-Medium
+ugbmv	UniJIS-UTF16-V	YuGothic-Medium.otf %!PS YuGo-Medium
+uprml-h	UniJIS-UTF16-H	YuMincho-Medium.otf %!PS YuMin-Medium
+uprml-v	UniJIS-UTF16-V	YuMincho-Medium.otf %!PS YuMin-Medium
+upgbm-h	UniJIS-UTF16-H	YuGothic-Medium.otf %!PS YuGo-Medium
+upgbm-v	UniJIS-UTF16-V	YuGothic-Medium.otf %!PS YuGo-Medium
+uprml-hq	UniJIS-UCS2-H	YuMincho-Medium.otf %!PS YuMin-Medium
+upgbm-hq	UniJIS-UCS2-H	YuGothic-Medium.otf %!PS YuGo-Medium

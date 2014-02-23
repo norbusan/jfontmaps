@@ -1,4 +1,4 @@
-rml	H	yumin.ttf
-rmlv	V	yumin.ttf
-gbm	H	yugothic.ttf
-gbmv	V	yugothic.ttf
+rml	H	yumin.ttf %!PS YuMincho-Regular
+rmlv	V	yumin.ttf %!PS YuMincho-Regular
+gbm	H	yugothic.ttf %!PS YuGothic-Regular
+gbmv	V	yugothic.ttf %!PS YuGothic-Regular

@@ -1,6 +1,6 @@
 #! /usr/bin/env texlua
 
--- '!' は 'Pro' 等に置換される
+-- '?' は 'Pro' 等に置換される
 local foundry = {
    ['noEmbed']   = {
       ml='!Ryumin-Light',
@@ -22,71 +22,89 @@ local foundry = {
    },
    ['yu-win']   = {
       noncid = true, 
-      ml='yuminl.ttf', mr='yumin.ttf', mb='yumindb.ttf',
-      gr='yugothic.ttf', gru='yugothic.ttf', gb='yugothib.ttf', ge='yugothib.ttf',
-      mgr='yugothib.ttf',
+      ml='yuminl.ttf %!PS YuMincho-Light', 
+      mr='yumin.ttf %!PS YuMincho-Regular', 
+      mb='yumindb.ttf %!PS YuMincho-DemiBold',
+      gr='yugothic.ttf %!PS YuGothic-Regular', 
+      gru='yugothic.ttf %!PS YuGothic-Regular', 
+      gb='yugothib.ttf %!PS YuGothic-Bold', 
+      ge='yugothib.ttf %!PS YuGothic-Bold',
+      mgr='yugothib.ttf %!PS YuGothic-Bold',
       {''}, 
    }, 
    ['yu-osx']   = {
       noncid = false, 
-      ml='YuMincho-Medium.otf', mr='YuMincho-Medium.otf', 
-      mb='YuMincho-Demibold.otf',
-      gr='YuGothic-Medium.otf', gru='YuGothic-Medium.otf', 
-      gb='YuGothic-Bold.otf',   ge='YuGothic-Bold.otf',
-      mgr='YuGothic-Bold.otf',
+      ml='YuMincho-Medium.otf %!PS YuMin-Medium', 
+      mr='YuMincho-Medium.otf %!PS YuMin-Medium', 
+      mb='YuMincho-Demibold.otf %!PS YuMin-DemiBold',
+      gr='YuGothic-Medium.otf %!PS YuGo-Medium', 
+      gru='YuGothic-Medium.otf %!PS YuGo-Medium', 
+      gb='YuGothic-Bold.otf %!PS YuGo-Bold',   
+      ge='YuGothic-Bold.otf %!PS YuGo-Bold',
+      mgr='YuGothic-Bold.otf %!PS YuGo-Bold',
       {''}, 
    },
    ['ipa']   = {
       noncid = true, 
-      ml='ipam.ttf', mr='ipam.ttf', mb='ipam.ttf',
-      gr='ipag.ttf', gru='ipag.ttf', gb='ipag.ttf', ge='ipag.ttf',
-      mgr='ipag.ttf',
+      ml='ipam.ttf %!PS IPAMincho', 
+      mr='ipam.ttf %!PS IPAMincho', 
+      mb='ipam.ttf %!PS IPAMincho',
+      gr='ipag.ttf %!PS IPAGothic', 
+      gru='ipag.ttf %!PS IPAGothic', 
+      gb='ipag.ttf %!PS IPAGothic', 
+      ge='ipag.ttf %!PS IPAGothic',
+      mgr='ipag.ttf %!PS IPAGothic',
       {''},
    },
    ['ipaex']   = {
       noncid = true, 
-      ml='ipaexm.ttf', mr='ipaexm.ttf', mb='ipaexm.ttf',
-      gr='ipaexg.ttf', gru='ipaexg.ttf', gb='ipaexg.ttf', ge='ipaexg.ttf',
-      mgr='ipaexg.ttf',
+      ml='ipaexm.ttf %!PS IPAexMincho', 
+      mr='ipaexm.ttf %!PS IPAexMincho', 
+      mb='ipaexm.ttf %!PS IPAexMincho',
+      gr='ipaexg.ttf %!PS IPAexGothic', 
+      gru='ipaexg.ttf %!PS IPAexGothic', 
+      gb='ipaexg.ttf %!PS IPAexGothic', 
+      ge='ipaexg.ttf %!PS IPAexGothic',
+      mgr='ipaexg.ttf %!PS IPAexGothic',
       {''},
    },
    ['kozuka']   = {
-      ml='KozMin!-Light.otf',
-      mr='KozMin!-Regular.otf',
-      mb='KozMin!-Bold.otf',
-      gr='KozGo!-Regular.otf',
-      gru='KozGo!-Medium.otf', 
-      gb='KozGo!-Bold.otf',
-      ge='KozGo!-Heavy.otf',
-      mgr='KozGo!-Heavy.otf',
+      ml='KozMin?-Light.otf',
+      mr='KozMin?-Regular.otf',
+      mb='KozMin?-Bold.otf',
+      gr='KozGo?-Regular.otf',
+      gru='KozGo?-Medium.otf', 
+      gb='KozGo?-Bold.otf',
+      ge='KozGo?-Heavy.otf',
+      mgr='KozGo?-Heavy.otf',
       {'4','6','6n'}, -- Pro, Pr6 and  Pr6N
    },
    ['morisawa'] = {
-      ml='A-OTF-Ryumin!-Light.otf',
-      mr='A-OTF-Ryumin!-Light.otf',
-      mb='A-OTF-FutoMinA101!-Bold.otf',
-      gr='A-OTF-GothicBBB!-Medium.otf',
-      gru='A-OTF-GothicBBB!-Medium.otf',
-      gb='A-OTF-FutoGoB101!-Bold.otf',
-      ge='A-OTF-MidashiGo!-MB31.otf',
-      mgr='A-OTF-Jun101!-Light.otf',
+      ml='A-OTF-Ryumin?-Light.otf %!PS Ryumin?-Light',
+      mr='A-OTF-Ryumin?-Light.otf %!PS Ryumin?-Light',
+      mb='A-OTF-FutoMinA101?-Bold.otf %!PS FutoMinA101?-Bold',
+      gr='A-OTF-GothicBBB?-Medium.otf %!PS GothicBBB?-Medium',
+      gru='A-OTF-GothicBBB?-Medium.otf %!PS GothicBBB?-Medium',
+      gb='A-OTF-FutoGoB101?-Bold.otf %!PS FutoGoB101?-Bold',
+      ge='A-OTF-MidashiGo?-MB31.otf %!PS MidashiGo?-MB31',
+      mgr='A-OTF-Jun101?-Light.otf %!PS Jun101?-Light',
       {'4','6n'}, -- Pro and Pr6N
    },
    ['hiragino'] = {
-      ml='HiraMin!-W2.otf',
-      mr='HiraMin!-W3.otf',
-      mb='HiraMin!-W6.otf',
-      gr='HiraKaku!-W3.otf',
-      gru='HiraKaku!-W6.otf',
-      gb='HiraKaku!-W6.otf',
-      ge='HiraKaku!-W8.otf',
-      mgr='HiraMaru!-W4.otf',
+      ml='HiraMin?-W2.otf',
+      mr='HiraMin?-W3.otf',
+      mb='HiraMin?-W6.otf',
+      gr='HiraKaku?-W3.otf',
+      gru='HiraKaku?-W6.otf',
+      gb='HiraKaku?-W6.otf',
+      ge='HiraKaku?-W8.otf',
+      mgr='HiraMaru?-W4.otf',
       {'X','Xn'},  -- Pro and ProN
    },
 }
 
 local suffix = {
-   -- { '!' 置換, kanjiEmbed 接尾辞 }
+   -- { '?' 置換, kanjiEmbed 接尾辞 }
    ['']   = {'', ''},  -- 非 CID フォント用ダミー
    ['n']  = {'!', ''}, -- 非埋め込みに使用
    ['4']  = {'Pro', ''},
@@ -216,9 +234,13 @@ local function make_one_line(o, fd, s)
       return '\n' .. o .. '\n'
    else
       local fx = foundry[fd]
-      local fn = gsub(fx[o[3]], '!', ret_suffix(fd,s,o[3]))
+      local fn = gsub(fx[o[3]], '?', ret_suffix(fd,s,o[3]))
       if fx.noncid and string.match(o[2],'Identity') then
-	 fn = fn .. '/AJ16'
+	 if string.match(fn, '%!PS') then
+	    fn = gsub(fn, ' %%!PS', '/AJ16 %%!PS')
+	 else
+	    fn = fn .. '/AJ16'
+	 end
       end
       if string.match(o[1], '#') then -- 'H', 'V' 一括出力
 	 return gsub(o[1], '#', 'h') .. '\t' .. gsub(o[2], '#', 'H') .. '\t' .. fn .. '\n'
@@ -248,17 +270,17 @@ for fd, v1 in pairs(foundry) do
 	       local v2 = gsub([[
 
 % hiraprop
-hiramin-w3-h Identity-H HiraMin!-W3
-hiramin-w6-h Identity-H HiraMin!-W6
-hirakaku-w3-h Identity-H HiraKaku!-W3
-hirakaku-w6-h Identity-H HiraKaku!-W6
-hiramaru-w4-h Identity-H HiraMaru!-W4
-hiramin-w3-v Identity-V HiraMin!-W3
-hiramin-w6-v Identity-V HiraMin!-W6
-hirakaku-w3-v Identity-V HiraKaku!-W3
-hirakaku-w6-v Identity-V HiraKaku!-W6
-hiramaru-w4-v Identity-V HiraMaru!-W4
-]],'!', ret_suffix('hiragino', s, ''))
+hiramin-w3-h Identity-H HiraMin?-W3
+hiramin-w6-h Identity-H HiraMin?-W6
+hirakaku-w3-h Identity-H HiraKaku?-W3
+hirakaku-w6-h Identity-H HiraKaku?-W6
+hiramaru-w4-h Identity-H HiraMaru?-W4
+hiramin-w3-v Identity-V HiraMin?-W3
+hiramin-w6-v Identity-V HiraMin?-W6
+hirakaku-w3-v Identity-V HiraKaku?-W3
+hirakaku-w6-v Identity-V HiraKaku?-W6
+hiramaru-w4-v Identity-V HiraMaru?-W4
+]],'?', ret_suffix('hiragino', s, ''))
 	       f:write(v2)
 	    end
 	    f:close()

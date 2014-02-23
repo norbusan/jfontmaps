@@ -1,32 +1,32 @@
 
 % TEXT, 90JIS
-uphminl-h	UniJIS-UTF16-H	YuMincho-Medium.otf
-uphminl-v	UniJIS-UTF16-V	YuMincho-Medium.otf
-uphminr-h	UniJIS-UTF16-H	YuMincho-Medium.otf
-uphminr-v	UniJIS-UTF16-V	YuMincho-Medium.otf
-uphminb-h	UniJIS-UTF16-H	YuMincho-Demibold.otf
-uphminb-v	UniJIS-UTF16-V	YuMincho-Demibold.otf
-uphgothr-h	UniJIS-UTF16-H	YuGothic-Medium.otf
-uphgothr-v	UniJIS-UTF16-V	YuGothic-Medium.otf
-uphgothb-h	UniJIS-UTF16-H	YuGothic-Bold.otf
-uphgothb-v	UniJIS-UTF16-V	YuGothic-Bold.otf
-uphgotheb-h	UniJIS-UTF16-H	YuGothic-Bold.otf
-uphgotheb-v	UniJIS-UTF16-V	YuGothic-Bold.otf
-uphmgothr-h	UniJIS-UTF16-H	YuGothic-Bold.otf
-uphmgothr-v	UniJIS-UTF16-V	YuGothic-Bold.otf
+uphminl-h	UniJIS-UTF16-H	YuMincho-Medium.otf %!PS YuMin-Medium
+uphminl-v	UniJIS-UTF16-V	YuMincho-Medium.otf %!PS YuMin-Medium
+uphminr-h	UniJIS-UTF16-H	YuMincho-Medium.otf %!PS YuMin-Medium
+uphminr-v	UniJIS-UTF16-V	YuMincho-Medium.otf %!PS YuMin-Medium
+uphminb-h	UniJIS-UTF16-H	YuMincho-Demibold.otf %!PS YuMin-DemiBold
+uphminb-v	UniJIS-UTF16-V	YuMincho-Demibold.otf %!PS YuMin-DemiBold
+uphgothr-h	UniJIS-UTF16-H	YuGothic-Medium.otf %!PS YuGo-Medium
+uphgothr-v	UniJIS-UTF16-V	YuGothic-Medium.otf %!PS YuGo-Medium
+uphgothb-h	UniJIS-UTF16-H	YuGothic-Bold.otf %!PS YuGo-Bold
+uphgothb-v	UniJIS-UTF16-V	YuGothic-Bold.otf %!PS YuGo-Bold
+uphgotheb-h	UniJIS-UTF16-H	YuGothic-Bold.otf %!PS YuGo-Bold
+uphgotheb-v	UniJIS-UTF16-V	YuGothic-Bold.otf %!PS YuGo-Bold
+uphmgothr-h	UniJIS-UTF16-H	YuGothic-Bold.otf %!PS YuGo-Bold
+uphmgothr-v	UniJIS-UTF16-V	YuGothic-Bold.otf %!PS YuGo-Bold
 
 % TEXT, JIS04
-uphminln-h	UniJIS2004-UTF16-H	YuMincho-Medium.otf
-uphminln-v	UniJIS2004-UTF16-V	YuMincho-Medium.otf
-uphminrn-h	UniJIS2004-UTF16-H	YuMincho-Medium.otf
-uphminrn-v	UniJIS2004-UTF16-V	YuMincho-Medium.otf
-uphminbn-h	UniJIS2004-UTF16-H	YuMincho-Demibold.otf
-uphminbn-v	UniJIS2004-UTF16-V	YuMincho-Demibold.otf
-uphgothrn-h	UniJIS2004-UTF16-H	YuGothic-Medium.otf
-uphgothrn-v	UniJIS2004-UTF16-V	YuGothic-Medium.otf
-uphgothbn-h	UniJIS2004-UTF16-H	YuGothic-Bold.otf
-uphgothbn-v	UniJIS2004-UTF16-V	YuGothic-Bold.otf
-uphgothebn-h	UniJIS2004-UTF16-H	YuGothic-Bold.otf
-uphgothebn-v	UniJIS2004-UTF16-V	YuGothic-Bold.otf
-uphmgothrn-h	UniJIS2004-UTF16-H	YuGothic-Bold.otf
-uphmgothrn-v	UniJIS2004-UTF16-V	YuGothic-Bold.otf
+uphminln-h	UniJIS2004-UTF16-H	YuMincho-Medium.otf %!PS YuMin-Medium
+uphminln-v	UniJIS2004-UTF16-V	YuMincho-Medium.otf %!PS YuMin-Medium
+uphminrn-h	UniJIS2004-UTF16-H	YuMincho-Medium.otf %!PS YuMin-Medium
+uphminrn-v	UniJIS2004-UTF16-V	YuMincho-Medium.otf %!PS YuMin-Medium
+uphminbn-h	UniJIS2004-UTF16-H	YuMincho-Demibold.otf %!PS YuMin-DemiBold
+uphminbn-v	UniJIS2004-UTF16-V	YuMincho-Demibold.otf %!PS YuMin-DemiBold
+uphgothrn-h	UniJIS2004-UTF16-H	YuGothic-Medium.otf %!PS YuGo-Medium
+uphgothrn-v	UniJIS2004-UTF16-V	YuGothic-Medium.otf %!PS YuGo-Medium
+uphgothbn-h	UniJIS2004-UTF16-H	YuGothic-Bold.otf %!PS YuGo-Bold
+uphgothbn-v	UniJIS2004-UTF16-V	YuGothic-Bold.otf %!PS YuGo-Bold
+uphgothebn-h	UniJIS2004-UTF16-H	YuGothic-Bold.otf %!PS YuGo-Bold
+uphgothebn-v	UniJIS2004-UTF16-V	YuGothic-Bold.otf %!PS YuGo-Bold
+uphmgothrn-h	UniJIS2004-UTF16-H	YuGothic-Bold.otf %!PS YuGo-Bold
+uphmgothrn-v	UniJIS2004-UTF16-V	YuGothic-Bold.otf %!PS YuGo-Bold

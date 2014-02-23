@@ -1,80 +1,80 @@
 
 % TEXT, 90JIS
-hminl-h	H	ipam.ttf
-hminl-v	V	ipam.ttf
-hminr-h	H	ipam.ttf
-hminr-v	V	ipam.ttf
-hminb-h	H	ipam.ttf
-hminb-v	V	ipam.ttf
-hgothr-h	H	ipag.ttf
-hgothr-v	V	ipag.ttf
-hgothb-h	H	ipag.ttf
-hgothb-v	V	ipag.ttf
-hgotheb-h	H	ipag.ttf
-hgotheb-v	V	ipag.ttf
-hmgothr-h	H	ipag.ttf
-hmgothr-v	V	ipag.ttf
+hminl-h	H	ipam.ttf %!PS IPAMincho
+hminl-v	V	ipam.ttf %!PS IPAMincho
+hminr-h	H	ipam.ttf %!PS IPAMincho
+hminr-v	V	ipam.ttf %!PS IPAMincho
+hminb-h	H	ipam.ttf %!PS IPAMincho
+hminb-v	V	ipam.ttf %!PS IPAMincho
+hgothr-h	H	ipag.ttf %!PS IPAGothic
+hgothr-v	V	ipag.ttf %!PS IPAGothic
+hgothb-h	H	ipag.ttf %!PS IPAGothic
+hgothb-v	V	ipag.ttf %!PS IPAGothic
+hgotheb-h	H	ipag.ttf %!PS IPAGothic
+hgotheb-v	V	ipag.ttf %!PS IPAGothic
+hmgothr-h	H	ipag.ttf %!PS IPAGothic
+hmgothr-v	V	ipag.ttf %!PS IPAGothic
 
 % TEXT, JIS04
-hminln-h	H	ipam.ttf
-hminln-v	V	ipam.ttf
-hminrn-h	H	ipam.ttf
-hminrn-v	V	ipam.ttf
-hminbn-h	H	ipam.ttf
-hminbn-v	V	ipam.ttf
-hgothrn-h	H	ipag.ttf
-hgothrn-v	V	ipag.ttf
-hgothbn-h	H	ipag.ttf
-hgothbn-v	V	ipag.ttf
-hgothebn-h	H	ipag.ttf
-hgothebn-v	V	ipag.ttf
-hmgothrn-h	H	ipag.ttf
-hmgothrn-v	V	ipag.ttf
+hminln-h	H	ipam.ttf %!PS IPAMincho
+hminln-v	V	ipam.ttf %!PS IPAMincho
+hminrn-h	H	ipam.ttf %!PS IPAMincho
+hminrn-v	V	ipam.ttf %!PS IPAMincho
+hminbn-h	H	ipam.ttf %!PS IPAMincho
+hminbn-v	V	ipam.ttf %!PS IPAMincho
+hgothrn-h	H	ipag.ttf %!PS IPAGothic
+hgothrn-v	V	ipag.ttf %!PS IPAGothic
+hgothbn-h	H	ipag.ttf %!PS IPAGothic
+hgothbn-v	V	ipag.ttf %!PS IPAGothic
+hgothebn-h	H	ipag.ttf %!PS IPAGothic
+hgothebn-v	V	ipag.ttf %!PS IPAGothic
+hmgothrn-h	H	ipag.ttf %!PS IPAGothic
+hmgothrn-v	V	ipag.ttf %!PS IPAGothic
 
 % CID
-otf-cjml-h	Identity-H	ipam.ttf/AJ16
-otf-cjml-v	Identity-V	ipam.ttf/AJ16
-otf-cjmr-h	Identity-H	ipam.ttf/AJ16
-otf-cjmr-v	Identity-V	ipam.ttf/AJ16
-otf-cjmb-h	Identity-H	ipam.ttf/AJ16
-otf-cjmb-v	Identity-V	ipam.ttf/AJ16
-otf-cjgr-h	Identity-H	ipag.ttf/AJ16
-otf-cjgr-v	Identity-V	ipag.ttf/AJ16
-otf-cjgb-h	Identity-H	ipag.ttf/AJ16
-otf-cjgb-v	Identity-V	ipag.ttf/AJ16
-otf-cjge-h	Identity-H	ipag.ttf/AJ16
-otf-cjge-v	Identity-V	ipag.ttf/AJ16
-otf-cjmgr-h	Identity-H	ipag.ttf/AJ16
-otf-cjmgr-v	Identity-V	ipag.ttf/AJ16
+otf-cjml-h	Identity-H	ipam.ttf/AJ16 %!PS IPAMincho
+otf-cjml-v	Identity-V	ipam.ttf/AJ16 %!PS IPAMincho
+otf-cjmr-h	Identity-H	ipam.ttf/AJ16 %!PS IPAMincho
+otf-cjmr-v	Identity-V	ipam.ttf/AJ16 %!PS IPAMincho
+otf-cjmb-h	Identity-H	ipam.ttf/AJ16 %!PS IPAMincho
+otf-cjmb-v	Identity-V	ipam.ttf/AJ16 %!PS IPAMincho
+otf-cjgr-h	Identity-H	ipag.ttf/AJ16 %!PS IPAGothic
+otf-cjgr-v	Identity-V	ipag.ttf/AJ16 %!PS IPAGothic
+otf-cjgb-h	Identity-H	ipag.ttf/AJ16 %!PS IPAGothic
+otf-cjgb-v	Identity-V	ipag.ttf/AJ16 %!PS IPAGothic
+otf-cjge-h	Identity-H	ipag.ttf/AJ16 %!PS IPAGothic
+otf-cjge-v	Identity-V	ipag.ttf/AJ16 %!PS IPAGothic
+otf-cjmgr-h	Identity-H	ipag.ttf/AJ16 %!PS IPAGothic
+otf-cjmgr-v	Identity-V	ipag.ttf/AJ16 %!PS IPAGothic
 
 % Unicode 90JIS
-otf-ujml-h	UniJIS-UTF16-H	ipam.ttf
-otf-ujml-v	UniJIS-UTF16-V	ipam.ttf
-otf-ujmr-h	UniJIS-UTF16-H	ipam.ttf
-otf-ujmr-v	UniJIS-UTF16-V	ipam.ttf
-otf-ujmb-h	UniJIS-UTF16-H	ipam.ttf
-otf-ujmb-v	UniJIS-UTF16-V	ipam.ttf
-otf-ujgr-h	UniJIS-UTF16-H	ipag.ttf
-otf-ujgr-v	UniJIS-UTF16-V	ipag.ttf
-otf-ujgb-h	UniJIS-UTF16-H	ipag.ttf
-otf-ujgb-v	UniJIS-UTF16-V	ipag.ttf
-otf-ujge-h	UniJIS-UTF16-H	ipag.ttf
-otf-ujge-v	UniJIS-UTF16-V	ipag.ttf
-otf-ujmgr-h	UniJIS-UTF16-H	ipag.ttf
-otf-ujmgr-v	UniJIS-UTF16-V	ipag.ttf
+otf-ujml-h	UniJIS-UTF16-H	ipam.ttf %!PS IPAMincho
+otf-ujml-v	UniJIS-UTF16-V	ipam.ttf %!PS IPAMincho
+otf-ujmr-h	UniJIS-UTF16-H	ipam.ttf %!PS IPAMincho
+otf-ujmr-v	UniJIS-UTF16-V	ipam.ttf %!PS IPAMincho
+otf-ujmb-h	UniJIS-UTF16-H	ipam.ttf %!PS IPAMincho
+otf-ujmb-v	UniJIS-UTF16-V	ipam.ttf %!PS IPAMincho
+otf-ujgr-h	UniJIS-UTF16-H	ipag.ttf %!PS IPAGothic
+otf-ujgr-v	UniJIS-UTF16-V	ipag.ttf %!PS IPAGothic
+otf-ujgb-h	UniJIS-UTF16-H	ipag.ttf %!PS IPAGothic
+otf-ujgb-v	UniJIS-UTF16-V	ipag.ttf %!PS IPAGothic
+otf-ujge-h	UniJIS-UTF16-H	ipag.ttf %!PS IPAGothic
+otf-ujge-v	UniJIS-UTF16-V	ipag.ttf %!PS IPAGothic
+otf-ujmgr-h	UniJIS-UTF16-H	ipag.ttf %!PS IPAGothic
+otf-ujmgr-v	UniJIS-UTF16-V	ipag.ttf %!PS IPAGothic
 
 % Unicode JIS04
-otf-ujmln-h	UniJIS2004-UTF16-H	ipam.ttf
-otf-ujmln-v	UniJIS2004-UTF16-V	ipam.ttf
-otf-ujmrn-h	UniJIS2004-UTF16-H	ipam.ttf
-otf-ujmrn-v	UniJIS2004-UTF16-V	ipam.ttf
-otf-ujmbn-h	UniJIS2004-UTF16-H	ipam.ttf
-otf-ujmbn-v	UniJIS2004-UTF16-V	ipam.ttf
-otf-ujgrn-h	UniJIS2004-UTF16-H	ipag.ttf
-otf-ujgrn-v	UniJIS2004-UTF16-V	ipag.ttf
-otf-ujgbn-h	UniJIS2004-UTF16-H	ipag.ttf
-otf-ujgbn-v	UniJIS2004-UTF16-V	ipag.ttf
-otf-ujgen-h	UniJIS2004-UTF16-H	ipag.ttf
-otf-ujgen-v	UniJIS2004-UTF16-V	ipag.ttf
-otf-ujmgrn-h	UniJIS2004-UTF16-H	ipag.ttf
-otf-ujmgrn-v	UniJIS2004-UTF16-V	ipag.ttf
+otf-ujmln-h	UniJIS2004-UTF16-H	ipam.ttf %!PS IPAMincho
+otf-ujmln-v	UniJIS2004-UTF16-V	ipam.ttf %!PS IPAMincho
+otf-ujmrn-h	UniJIS2004-UTF16-H	ipam.ttf %!PS IPAMincho
+otf-ujmrn-v	UniJIS2004-UTF16-V	ipam.ttf %!PS IPAMincho
+otf-ujmbn-h	UniJIS2004-UTF16-H	ipam.ttf %!PS IPAMincho
+otf-ujmbn-v	UniJIS2004-UTF16-V	ipam.ttf %!PS IPAMincho
+otf-ujgrn-h	UniJIS2004-UTF16-H	ipag.ttf %!PS IPAGothic
+otf-ujgrn-v	UniJIS2004-UTF16-V	ipag.ttf %!PS IPAGothic
+otf-ujgbn-h	UniJIS2004-UTF16-H	ipag.ttf %!PS IPAGothic
+otf-ujgbn-v	UniJIS2004-UTF16-V	ipag.ttf %!PS IPAGothic
+otf-ujgen-h	UniJIS2004-UTF16-H	ipag.ttf %!PS IPAGothic
+otf-ujgen-v	UniJIS2004-UTF16-V	ipag.ttf %!PS IPAGothic
+otf-ujmgrn-h	UniJIS2004-UTF16-H	ipag.ttf %!PS IPAGothic
+otf-ujmgrn-v	UniJIS2004-UTF16-V	ipag.ttf %!PS IPAGothic

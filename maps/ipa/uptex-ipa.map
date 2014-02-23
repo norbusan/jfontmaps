@@ -1,10 +1,10 @@
-urml	UniJIS-UTF16-H	ipam.ttf
-urmlv	UniJIS-UTF16-V	ipam.ttf
-ugbm	UniJIS-UTF16-H	ipag.ttf
-ugbmv	UniJIS-UTF16-V	ipag.ttf
-uprml-h	UniJIS-UTF16-H	ipam.ttf
-uprml-v	UniJIS-UTF16-V	ipam.ttf
-upgbm-h	UniJIS-UTF16-H	ipag.ttf
-upgbm-v	UniJIS-UTF16-V	ipag.ttf
-uprml-hq	UniJIS-UCS2-H	ipam.ttf
-upgbm-hq	UniJIS-UCS2-H	ipag.ttf
+urml	UniJIS-UTF16-H	ipam.ttf %!PS IPAMincho
+urmlv	UniJIS-UTF16-V	ipam.ttf %!PS IPAMincho
+ugbm	UniJIS-UTF16-H	ipag.ttf %!PS IPAGothic
+ugbmv	UniJIS-UTF16-V	ipag.ttf %!PS IPAGothic
+uprml-h	UniJIS-UTF16-H	ipam.ttf %!PS IPAMincho
+uprml-v	UniJIS-UTF16-V	ipam.ttf %!PS IPAMincho
+upgbm-h	UniJIS-UTF16-H	ipag.ttf %!PS IPAGothic
+upgbm-v	UniJIS-UTF16-V	ipag.ttf %!PS IPAGothic
+uprml-hq	UniJIS-UCS2-H	ipam.ttf %!PS IPAMincho
+upgbm-hq	UniJIS-UCS2-H	ipag.ttf %!PS IPAGothic

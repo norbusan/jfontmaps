@@ -1,32 +1,32 @@
 
 % TEXT, 90JIS
-uphminl-h	UniJIS-UTF16-H	yuminl.ttf
-uphminl-v	UniJIS-UTF16-V	yuminl.ttf
-uphminr-h	UniJIS-UTF16-H	yumin.ttf
-uphminr-v	UniJIS-UTF16-V	yumin.ttf
-uphminb-h	UniJIS-UTF16-H	yumindb.ttf
-uphminb-v	UniJIS-UTF16-V	yumindb.ttf
-uphgothr-h	UniJIS-UTF16-H	yugothic.ttf
-uphgothr-v	UniJIS-UTF16-V	yugothic.ttf
-uphgothb-h	UniJIS-UTF16-H	yugothib.ttf
-uphgothb-v	UniJIS-UTF16-V	yugothib.ttf
-uphgotheb-h	UniJIS-UTF16-H	yugothib.ttf
-uphgotheb-v	UniJIS-UTF16-V	yugothib.ttf
-uphmgothr-h	UniJIS-UTF16-H	yugothib.ttf
-uphmgothr-v	UniJIS-UTF16-V	yugothib.ttf
+uphminl-h	UniJIS-UTF16-H	yuminl.ttf %!PS YuMincho-Light
+uphminl-v	UniJIS-UTF16-V	yuminl.ttf %!PS YuMincho-Light
+uphminr-h	UniJIS-UTF16-H	yumin.ttf %!PS YuMincho-Regular
+uphminr-v	UniJIS-UTF16-V	yumin.ttf %!PS YuMincho-Regular
+uphminb-h	UniJIS-UTF16-H	yumindb.ttf %!PS YuMincho-DemiBold
+uphminb-v	UniJIS-UTF16-V	yumindb.ttf %!PS YuMincho-DemiBold
+uphgothr-h	UniJIS-UTF16-H	yugothic.ttf %!PS YuGothic-Regular
+uphgothr-v	UniJIS-UTF16-V	yugothic.ttf %!PS YuGothic-Regular
+uphgothb-h	UniJIS-UTF16-H	yugothib.ttf %!PS YuGothic-Bold
+uphgothb-v	UniJIS-UTF16-V	yugothib.ttf %!PS YuGothic-Bold
+uphgotheb-h	UniJIS-UTF16-H	yugothib.ttf %!PS YuGothic-Bold
+uphgotheb-v	UniJIS-UTF16-V	yugothib.ttf %!PS YuGothic-Bold
+uphmgothr-h	UniJIS-UTF16-H	yugothib.ttf %!PS YuGothic-Bold
+uphmgothr-v	UniJIS-UTF16-V	yugothib.ttf %!PS YuGothic-Bold
 
 % TEXT, JIS04
-uphminln-h	UniJIS2004-UTF16-H	yuminl.ttf
-uphminln-v	UniJIS2004-UTF16-V	yuminl.ttf
-uphminrn-h	UniJIS2004-UTF16-H	yumin.ttf
-uphminrn-v	UniJIS2004-UTF16-V	yumin.ttf
-uphminbn-h	UniJIS2004-UTF16-H	yumindb.ttf
-uphminbn-v	UniJIS2004-UTF16-V	yumindb.ttf
-uphgothrn-h	UniJIS2004-UTF16-H	yugothic.ttf
-uphgothrn-v	UniJIS2004-UTF16-V	yugothic.ttf
-uphgothbn-h	UniJIS2004-UTF16-H	yugothib.ttf
-uphgothbn-v	UniJIS2004-UTF16-V	yugothib.ttf
-uphgothebn-h	UniJIS2004-UTF16-H	yugothib.ttf
-uphgothebn-v	UniJIS2004-UTF16-V	yugothib.ttf
-uphmgothrn-h	UniJIS2004-UTF16-H	yugothib.ttf
-uphmgothrn-v	UniJIS2004-UTF16-V	yugothib.ttf
+uphminln-h	UniJIS2004-UTF16-H	yuminl.ttf %!PS YuMincho-Light
+uphminln-v	UniJIS2004-UTF16-V	yuminl.ttf %!PS YuMincho-Light
+uphminrn-h	UniJIS2004-UTF16-H	yumin.ttf %!PS YuMincho-Regular
+uphminrn-v	UniJIS2004-UTF16-V	yumin.ttf %!PS YuMincho-Regular
+uphminbn-h	UniJIS2004-UTF16-H	yumindb.ttf %!PS YuMincho-DemiBold
+uphminbn-v	UniJIS2004-UTF16-V	yumindb.ttf %!PS YuMincho-DemiBold
+uphgothrn-h	UniJIS2004-UTF16-H	yugothic.ttf %!PS YuGothic-Regular
+uphgothrn-v	UniJIS2004-UTF16-V	yugothic.ttf %!PS YuGothic-Regular
+uphgothbn-h	UniJIS2004-UTF16-H	yugothib.ttf %!PS YuGothic-Bold
+uphgothbn-v	UniJIS2004-UTF16-V	yugothib.ttf %!PS YuGothic-Bold
+uphgothebn-h	UniJIS2004-UTF16-H	yugothib.ttf %!PS YuGothic-Bold
+uphgothebn-v	UniJIS2004-UTF16-V	yugothib.ttf %!PS YuGothic-Bold
+uphmgothrn-h	UniJIS2004-UTF16-H	yugothib.ttf %!PS YuGothic-Bold
+uphmgothrn-v	UniJIS2004-UTF16-V	yugothib.ttf %!PS YuGothic-Bold

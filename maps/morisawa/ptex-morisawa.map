@@ -1,4 +1,4 @@
-rml	H	A-OTF-RyuminPro-Light.otf
-rmlv	V	A-OTF-RyuminPro-Light.otf
-gbm	H	A-OTF-GothicBBBPro-Medium.otf
-gbmv	V	A-OTF-GothicBBBPro-Medium.otf
+rml	H	A-OTF-RyuminPro-Light.otf %!PS RyuminPro-Light
+rmlv	V	A-OTF-RyuminPro-Light.otf %!PS RyuminPro-Light
+gbm	H	A-OTF-GothicBBBPro-Medium.otf %!PS GothicBBBPro-Medium
+gbmv	V	A-OTF-GothicBBBPro-Medium.otf %!PS GothicBBBPro-Medium

@@ -1,10 +1,10 @@
-urml	UniJIS-UTF16-H	yumin.ttf
-urmlv	UniJIS-UTF16-V	yumin.ttf
-ugbm	UniJIS-UTF16-H	yugothic.ttf
-ugbmv	UniJIS-UTF16-V	yugothic.ttf
-uprml-h	UniJIS-UTF16-H	yumin.ttf
-uprml-v	UniJIS-UTF16-V	yumin.ttf
-upgbm-h	UniJIS-UTF16-H	yugothic.ttf
-upgbm-v	UniJIS-UTF16-V	yugothic.ttf
-uprml-hq	UniJIS-UCS2-H	yumin.ttf
-upgbm-hq	UniJIS-UCS2-H	yugothic.ttf
+urml	UniJIS-UTF16-H	yumin.ttf %!PS YuMincho-Regular
+urmlv	UniJIS-UTF16-V	yumin.ttf %!PS YuMincho-Regular
+ugbm	UniJIS-UTF16-H	yugothic.ttf %!PS YuGothic-Regular
+ugbmv	UniJIS-UTF16-V	yugothic.ttf %!PS YuGothic-Regular
+uprml-h	UniJIS-UTF16-H	yumin.ttf %!PS YuMincho-Regular
+uprml-v	UniJIS-UTF16-V	yumin.ttf %!PS YuMincho-Regular
+upgbm-h	UniJIS-UTF16-H	yugothic.ttf %!PS YuGothic-Regular
+upgbm-v	UniJIS-UTF16-V	yugothic.ttf %!PS YuGothic-Regular
+uprml-hq	UniJIS-UCS2-H	yumin.ttf %!PS YuMincho-Regular
+upgbm-hq	UniJIS-UCS2-H	yugothic.ttf %!PS YuGothic-Regular
