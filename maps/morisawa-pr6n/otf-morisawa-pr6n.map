@@ -12,8 +12,8 @@ hgothb-h	H	A-OTF-FutoGoB101Pr6N-Bold.otf %!PS FutoGoB101Pr6N-Bold
 hgothb-v	V	A-OTF-FutoGoB101Pr6N-Bold.otf %!PS FutoGoB101Pr6N-Bold
 hgotheb-h	H	A-OTF-MidashiGoPr6N-MB31.otf %!PS MidashiGoPr6N-MB31
 hgotheb-v	V	A-OTF-MidashiGoPr6N-MB31.otf %!PS MidashiGoPr6N-MB31
-hmgothr-h	H	A-OTF-Jun101Pr6N-Light.otf %!PS Jun101Pr6N-Light
-hmgothr-v	V	A-OTF-Jun101Pr6N-Light.otf %!PS Jun101Pr6N-Light
+hmgothr-h	H	A-OTF-ShinMGoPr6N-Light.otf %!PS ShinMGoPr6N-Light
+hmgothr-v	V	A-OTF-ShinMGoPr6N-Light.otf %!PS ShinMGoPr6N-Light
 
 % TEXT, JIS04
 hminln-h	H	A-OTF-RyuminPr6N-Light.otf %!PS RyuminPr6N-Light
@@ -28,8 +28,8 @@ hgothbn-h	H	A-OTF-FutoGoB101Pr6N-Bold.otf %!PS FutoGoB101Pr6N-Bold
 hgothbn-v	V	A-OTF-FutoGoB101Pr6N-Bold.otf %!PS FutoGoB101Pr6N-Bold
 hgothebn-h	H	A-OTF-MidashiGoPr6N-MB31.otf %!PS MidashiGoPr6N-MB31
 hgothebn-v	V	A-OTF-MidashiGoPr6N-MB31.otf %!PS MidashiGoPr6N-MB31
-hmgothrn-h	H	A-OTF-Jun101Pr6N-Light.otf %!PS Jun101Pr6N-Light
-hmgothrn-v	V	A-OTF-Jun101Pr6N-Light.otf %!PS Jun101Pr6N-Light
+hmgothrn-h	H	A-OTF-ShinMGoPr6N-Light.otf %!PS ShinMGoPr6N-Light
+hmgothrn-v	V	A-OTF-ShinMGoPr6N-Light.otf %!PS ShinMGoPr6N-Light
 
 % CID
 otf-cjml-h	Identity-H	A-OTF-RyuminPr6N-Light.otf %!PS RyuminPr6N-Light
@@ -44,8 +44,8 @@ otf-cjgb-h	Identity-H	A-OTF-FutoGoB101Pr6N-Bold.otf %!PS FutoGoB101Pr6N-Bold
 otf-cjgb-v	Identity-V	A-OTF-FutoGoB101Pr6N-Bold.otf %!PS FutoGoB101Pr6N-Bold
 otf-cjge-h	Identity-H	A-OTF-MidashiGoPr6N-MB31.otf %!PS MidashiGoPr6N-MB31
 otf-cjge-v	Identity-V	A-OTF-MidashiGoPr6N-MB31.otf %!PS MidashiGoPr6N-MB31
-otf-cjmgr-h	Identity-H	A-OTF-Jun101Pr6N-Light.otf %!PS Jun101Pr6N-Light
-otf-cjmgr-v	Identity-V	A-OTF-Jun101Pr6N-Light.otf %!PS Jun101Pr6N-Light
+otf-cjmgr-h	Identity-H	A-OTF-ShinMGoPr6N-Light.otf %!PS ShinMGoPr6N-Light
+otf-cjmgr-v	Identity-V	A-OTF-ShinMGoPr6N-Light.otf %!PS ShinMGoPr6N-Light
 
 % Unicode 90JIS
 otf-ujml-h	UniJIS-UTF16-H	A-OTF-RyuminPr6N-Light.otf %!PS RyuminPr6N-Light
@@ -60,8 +60,8 @@ otf-ujgb-h	UniJIS-UTF16-H	A-OTF-FutoGoB101Pr6N-Bold.otf %!PS FutoGoB101Pr6N-Bold
 otf-ujgb-v	UniJIS-UTF16-V	A-OTF-FutoGoB101Pr6N-Bold.otf %!PS FutoGoB101Pr6N-Bold
 otf-ujge-h	UniJIS-UTF16-H	A-OTF-MidashiGoPr6N-MB31.otf %!PS MidashiGoPr6N-MB31
 otf-ujge-v	UniJIS-UTF16-V	A-OTF-MidashiGoPr6N-MB31.otf %!PS MidashiGoPr6N-MB31
-otf-ujmgr-h	UniJIS-UTF16-H	A-OTF-Jun101Pr6N-Light.otf %!PS Jun101Pr6N-Light
-otf-ujmgr-v	UniJIS-UTF16-V	A-OTF-Jun101Pr6N-Light.otf %!PS Jun101Pr6N-Light
+otf-ujmgr-h	UniJIS-UTF16-H	A-OTF-ShinMGoPr6N-Light.otf %!PS ShinMGoPr6N-Light
+otf-ujmgr-v	UniJIS-UTF16-V	A-OTF-ShinMGoPr6N-Light.otf %!PS ShinMGoPr6N-Light
 
 % Unicode JIS04
 otf-ujmln-h	UniJIS2004-UTF16-H	A-OTF-RyuminPr6N-Light.otf %!PS RyuminPr6N-Light
@@ -76,5 +76,5 @@ otf-ujgbn-h	UniJIS2004-UTF16-H	A-OTF-FutoGoB101Pr6N-Bold.otf %!PS FutoGoB101Pr6N
 otf-ujgbn-v	UniJIS2004-UTF16-V	A-OTF-FutoGoB101Pr6N-Bold.otf %!PS FutoGoB101Pr6N-Bold
 otf-ujgen-h	UniJIS2004-UTF16-H	A-OTF-MidashiGoPr6N-MB31.otf %!PS MidashiGoPr6N-MB31
 otf-ujgen-v	UniJIS2004-UTF16-V	A-OTF-MidashiGoPr6N-MB31.otf %!PS MidashiGoPr6N-MB31
-otf-ujmgrn-h	UniJIS2004-UTF16-H	A-OTF-Jun101Pr6N-Light.otf %!PS Jun101Pr6N-Light
-otf-ujmgrn-v	UniJIS2004-UTF16-V	A-OTF-Jun101Pr6N-Light.otf %!PS Jun101Pr6N-Light
+otf-ujmgrn-h	UniJIS2004-UTF16-H	A-OTF-ShinMGoPr6N-Light.otf %!PS ShinMGoPr6N-Light
+otf-ujmgrn-v	UniJIS2004-UTF16-V	A-OTF-ShinMGoPr6N-Light.otf %!PS ShinMGoPr6N-Light
