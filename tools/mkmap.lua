@@ -34,14 +34,14 @@ local foundry = {
    }, 
    ['yu-osx']   = {
       noncid = false, 
-      ml='YuMincho-Medium.otf %!PS YuMin-Medium', 
-      mr='YuMincho-Medium.otf %!PS YuMin-Medium', 
-      mb='YuMincho-Demibold.otf %!PS YuMin-DemiBold',
-      gr='YuGothic-Medium.otf %!PS YuGo-Medium', 
-      gru='YuGothic-Medium.otf %!PS YuGo-Medium', 
-      gb='YuGothic-Bold.otf %!PS YuGo-Bold',   
-      ge='YuGothic-Bold.otf %!PS YuGo-Bold',
-      mgr='YuGothic-Bold.otf %!PS YuGo-Bold',
+      ml='YuMin-Medium.otf', 
+      mr='YuMin-Medium.otf', 
+      mb='YuMin-Demibold.otf', 
+      gr='YuGo-Medium.otf', 
+      gru='YuGo-Medium.otf', 
+      gb='YuGo-Bold.otf', 
+      ge='YuGo-Bold.otf', 
+      mgr='YuGo-Bold.otf', 
       {''}, 
    },
    ['ipa']   = {
@@ -88,7 +88,18 @@ local foundry = {
       gb='A-OTF-FutoGoB101?-Bold.otf %!PS FutoGoB101?-Bold',
       ge='A-OTF-MidashiGo?-MB31.otf %!PS MidashiGo?-MB31',
       mgr='A-OTF-Jun101?-Light.otf %!PS Jun101?-Light',
-      {'4','6n'}, -- Pro and Pr6N
+      {'4'}, -- Pro
+   },
+   ['morisawa-pr6n'] = {
+      ml='A-OTF-Ryumin?-Light.otf %!PS Ryumin?-Light',
+      mr='A-OTF-Ryumin?-Light.otf %!PS Ryumin?-Light',
+      mb='A-OTF-FutoMinA101?-Bold.otf %!PS FutoMinA101?-Bold',
+      gr='A-OTF-GothicBBB?-Medium.otf %!PS GothicBBB?-Medium',
+      gru='A-OTF-GothicBBB?-Medium.otf %!PS GothicBBB?-Medium',
+      gb='A-OTF-FutoGoB101?-Bold.otf %!PS FutoGoB101?-Bold',
+      ge='A-OTF-MidashiGo?-MB31.otf %!PS MidashiGo?-MB31',
+      mgr='A-OTF-ShinMGo?-Light.otf %!PS ShinMGo?-Light',
+      {'6nm'}, -- Pr6N
    },
    ['hiragino'] = {
       ml='HiraMin?-W2.otf',
@@ -105,13 +116,14 @@ local foundry = {
 
 local suffix = {
    -- { '?' 置換, kanjiEmbed 接尾辞 }
-   ['']   = {'', ''},  -- 非 CID フォント用ダミー
-   ['n']  = {'!', ''}, -- 非埋め込みに使用
+   ['']   = {'', ''},          -- 非 CID フォント用ダミー
+   ['n']  = {'!', ''},         -- 非埋め込みに使用
    ['4']  = {'Pro', ''},
    ['6']  = {'Pr6', '-pr6'},
-   ['X']  = {'Pro', ''},  -- ヒラギノ基本6書体パック
+   ['X']  = {'Pro', ''},       -- ヒラギノ基本6書体パック
    ['Xn'] = {'ProN', '-pron'}, -- ヒラギノ基本6書体パック
    ['6n'] = {'Pr6N','-pr6n'},
+   ['6nm'] = {'Pr6N',''},      -- モリサワ Pr6N
 }
 
 -- '#' は 'h', 'v' に置換される

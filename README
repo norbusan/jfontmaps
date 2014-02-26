@@ -47,12 +47,12 @@ X ms - MS Mincho and MS Gothic, shipped with Windows
     yugothic.ttf
     yugothib.ttf
 
-O? yu-osx - Yu Mincho and Yu Gothic fonts by Jiyu-koubou LTD.,
+O yu-osx - Yu Mincho and Yu Gothic fonts by Jiyu-koubou LTD.,
        bundled with OSX 10.9.
-    YuGothic-Bold.otf     (<= "Yu Gothic Bold.otf")
-    YuGothic-Medium.otf   (<= "Yu Gothic Medium.otf")
-    YuMincho-Demibold.otf (<= "Yu Mincho Demibold.otf")
-    YuMincho-Medium.otf   (<= "Yu Mincho Medium.otf")
+    YuGo-Bold.otf      (<= "Yu Gothic Bold.otf")
+    YuGo-Medium.otf    (<= "Yu Gothic Medium.otf")
+    YuMin-Demibold.otf (<= "Yu Mincho Demibold.otf")
+    YuMin-Medium.otf   (<= "Yu Mincho Medium.otf")
 
 
 4 ipa - IPA fonts from Information-technology Promotion Agency
@@ -104,7 +104,12 @@ P morisawa - by Morisawa Inc.
     A-OTF-RyuminPro-Light.otf
 
 O morisawa-pr6n - see above
-    same with Pr6N instead of Pro
+    A-OTF-FutoGoB101Pr6N-Bold.otf
+    A-OTF-FutoMinA101Pr6N-Bold.otf
+    A-OTF-GothicBBBPr6N-Medium.otf
+    A-OTF-ShinMGoPr6N-Light.otf
+    A-OTF-MidashiGoPr6N-MB31.otf
+    A-OTF-RyuminPr6N-Light.otf
 
 
 Copyright/License
