@@ -80,13 +80,13 @@ otf-ujmgrn-h	UniJIS2004-UTF16-H	HiraMaruPro-W4.otf
 otf-ujmgrn-v	UniJIS2004-UTF16-V	HiraMaruPro-W4.otf
 
 % hiraprop
-hiramin-w3-h Identity-H HiraMinPro-W3
-hiramin-w6-h Identity-H HiraMinPro-W6
-hirakaku-w3-h Identity-H HiraKakuPro-W3
-hirakaku-w6-h Identity-H HiraKakuPro-W6
-hiramaru-w4-h Identity-H HiraMaruPro-W4
-hiramin-w3-v Identity-V HiraMinPro-W3
-hiramin-w6-v Identity-V HiraMinPro-W6
-hirakaku-w3-v Identity-V HiraKakuPro-W3
-hirakaku-w6-v Identity-V HiraKakuPro-W6
-hiramaru-w4-v Identity-V HiraMaruPro-W4
+hiramin-w3-h Identity-H HiraMinPro-W3.otf
+hiramin-w6-h Identity-H HiraMinPro-W6.otf
+hirakaku-w3-h Identity-H HiraKakuPro-W3.otf
+hirakaku-w6-h Identity-H HiraKakuPro-W6.otf
+hiramaru-w4-h Identity-H HiraMaruPro-W4.otf
+hiramin-w3-v Identity-V HiraMinPro-W3.otf
+hiramin-w6-v Identity-V HiraMinPro-W6.otf
+hirakaku-w3-v Identity-V HiraKakuPro-W3.otf
+hirakaku-w6-v Identity-V HiraKakuPro-W6.otf
+hiramaru-w4-v Identity-V HiraMaruPro-W4.otf

@@ -112,16 +112,27 @@ local foundry = {
       mgr='HiraMaru?-W4.otf',
       {'X','Xn'},  -- Pro and ProN
    },
+   ['hiragino-elcapitan'] = {
+      ml= 'HiraMin?-W2.otf', -- OSX にはない
+      mr= '#1-HiraginoSerif-W3.ttc %!PS HiraMin?-W3',
+      mb= '#1-HiraginoSerif-W6.ttc %!PS HiraMin?-W6',
+      gr= '#2-HiraginoSans-W3.ttc  %!PS HiraKaku?-W3',
+      gru='#2-HiraginoSans-W6.ttc  %!PS HiraKaku?-W6',
+      gb= '#2-HiraginoSans-W6.ttc  %!PS HiraKaku?-W6',
+      ge= '#1+HiraginoSans-W8.ttc  %!PS HiraKaku?-W8',
+      mgr='#0+HiraginoSansR-W4.ttc %!PS HiraMaru?-W4',
+      {'X','Xn'},  -- Pro and ProN
+   },
 }
 
 local suffix = {
-   -- { '?' 置換, kanjiEmbed 接尾辞 }
+   -- { '?' 置換, kanjiEmbed 接尾辞, (ttc index mov)}
    ['']   = {'', ''},          -- 非 CID フォント用ダミー
    ['n']  = {'!', ''},         -- 非埋め込みに使用
    ['4']  = {'Pro', ''},
    ['6']  = {'Pr6', '-pr6'},
-   ['X']  = {'Pro', ''},       -- ヒラギノ基本6書体パック
-   ['Xn'] = {'ProN', '-pron'}, -- ヒラギノ基本6書体パック
+   ['X']  = {'Pro', '', '0'},       -- ヒラギノ
+   ['Xn'] = {'ProN', '-pron', '1'}, -- ヒラギノ
    ['6n'] = {'Pr6N','-pr6n'},
    ['6nm'] = {'Pr6N',''},      -- モリサワ Pr6N
 }
@@ -226,10 +237,17 @@ local maps = {
 local jis2004_flag = 'n'
 local gsub = string.gsub
 
+function string.explode(s, sep)
+   local t = {}
+   sep = sep or '\n'
+   string.gsub(s, "([^"..sep.."]*)"..sep, function(c) t[#t+1]=c end)
+   return t
+end
+
 local function ret_suffix(fd, s, fa)
    if fd=='kozuka' and s=='6'  then 
       return 'ProVI' -- 小塚だけ特別
-   elseif fd=='hiragino' then
+   elseif fd:match('hiragino') then
       if string.match(s, jis2004_flag) then
 	 return (fa=='ge') and 'StdN' or suffix[s][1]
       else
@@ -241,12 +259,23 @@ local function ret_suffix(fd, s, fa)
    end
 end
 
+local function replace_index(line, s)
+   local ttc_mov = suffix[s][3]
+   if ttc_mov then
+      local ttc_index, ttc_dir = line:match('#(%d)(.)')
+      if tonumber(ttc_index) then
+	 return line:gsub('#..', ':' .. tostring(tonumber(ttc_index)+tonumber(ttc_dir .. ttc_mov)) .. ':')
+      end
+   end
+   return line
+end
+
 local function make_one_line(o, fd, s)
    if type(o) == 'string' then
       return '\n' .. o .. '\n'
    else
       local fx = foundry[fd]
-      local fn = gsub(fx[o[3]], '?', ret_suffix(fd,s,o[3]))
+      local fn = replace_index(gsub(fx[o[3]], '?', ret_suffix(fd,s,o[3])), s)
       if fx.noncid and string.match(o[2],'Identity') then
 	 if string.match(fn, '%!PS') then
 	    fn = gsub(fn, ' %%!PS', '/AJ16 %%!PS')
@@ -279,21 +308,25 @@ for fd, v1 in pairs(foundry) do
 	    end
 	    if string.match(mapbase,'otf%-hiragino') then
 	       print('  hiraprop: ' .. mapbase)
-	       local v2 = gsub([[
+	       local v2 = string.explode([[
 
 % hiraprop
-hiramin-w3-h Identity-H HiraMin?-W3
-hiramin-w6-h Identity-H HiraMin?-W6
-hirakaku-w3-h Identity-H HiraKaku?-W3
-hirakaku-w6-h Identity-H HiraKaku?-W6
-hiramaru-w4-h Identity-H HiraMaru?-W4
-hiramin-w3-v Identity-V HiraMin?-W3
-hiramin-w6-v Identity-V HiraMin?-W6
-hirakaku-w3-v Identity-V HiraKaku?-W3
-hirakaku-w6-v Identity-V HiraKaku?-W6
-hiramaru-w4-v Identity-V HiraMaru?-W4
-]],'?', ret_suffix('hiragino', s, ''))
-	       f:write(v2)
+hiramin-w3-h Identity-H $mr
+hiramin-w6-h Identity-H $mb
+hirakaku-w3-h Identity-H $gr
+hirakaku-w6-h Identity-H $gb
+hiramaru-w4-h Identity-H $mgr
+hiramin-w3-v Identity-V $mr
+hiramin-w6-v Identity-V $mb
+hirakaku-w3-v Identity-V $gr
+hirakaku-w6-v Identity-V $gb
+hiramaru-w4-v Identity-V $mgr
+]])
+	       for i,v in pairs(v2) do
+		  v = (v:gsub ('$(%w+)', foundry[fd])):gsub('?', ret_suffix(fd,s,''))
+		  v2[i] = replace_index(v, s)
+	       end
+	       f:write(table.concat(v2, '\n'))
 	    end
 	    f:close()
 	 end

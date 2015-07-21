@@ -1,0 +1,10 @@
+urml	UniJIS-UTF16-H	:0:HiraginoSerif-W3.ttc %!PS HiraMinProN-W3
+urmlv	UniJIS-UTF16-V	:0:HiraginoSerif-W3.ttc %!PS HiraMinProN-W3
+ugbm	UniJIS-UTF16-H	:1:HiraginoSans-W6.ttc  %!PS HiraKakuProN-W6
+ugbmv	UniJIS-UTF16-V	:1:HiraginoSans-W6.ttc  %!PS HiraKakuProN-W6
+uprml-h	UniJIS-UTF16-H	:0:HiraginoSerif-W3.ttc %!PS HiraMinProN-W3
+uprml-v	UniJIS-UTF16-V	:0:HiraginoSerif-W3.ttc %!PS HiraMinProN-W3
+upgbm-h	UniJIS-UTF16-H	:1:HiraginoSans-W6.ttc  %!PS HiraKakuProN-W6
+upgbm-v	UniJIS-UTF16-V	:1:HiraginoSans-W6.ttc  %!PS HiraKakuProN-W6
+uprml-hq	UniJIS-UCS2-H	:0:HiraginoSerif-W3.ttc %!PS HiraMinProN-W3
+upgbm-hq	UniJIS-UCS2-H	:1:HiraginoSans-W6.ttc  %!PS HiraKakuProN-W6
