@@ -5,16 +5,15 @@
 # formerly known as updmap-setup-kanji
 #
 # Copyright 2004-2006 by KOBAYASHI R. Taizo for the shell version (updmap-otf)
-# Copyright 2011-2014 by PREINING Norbert
+# Copyright 2011-2015 by PREINING Norbert
 #
 # This file is licensed under GPL version 3 or any later version.
 # For copyright statements see end of file.
 #
 # For development see
-#  https://git.gitorious.org/tlptexlive/jfontmaps.git
+#  https://github.com/norbusan/jfontmaps
 #
-# For a changelog see
-#  https://gitorious.org/tlptexlive/jfontmaps/blobs/master/ChangeLog
+# For a changelog see the git log
 # 
 
 $^W = 1;
