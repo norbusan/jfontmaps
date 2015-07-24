@@ -80,6 +80,12 @@ O? hiragino - Hiragino fonts by Dainippon Screen Mfg. Co., Ltd.
 O hiragino-pron - see above
     same with ProN/StdN instead of Pro/Std
 
+O hiragino-elcapitan-pron
+O hiragino-elcapitan
+	bundled with Mac OS X 11.10 El Capitan
+   HiraginoSerif-W3.ttc	(<= "ヒラギノ明朝 ProN W3.ttc")
+   ... TODO
+
 P kozuka - by Adobe Systems, bundled with Adobe's software
     KozMinPro-Light.otf
     KozMinPro-Regular.otf
