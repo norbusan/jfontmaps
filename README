@@ -47,6 +47,14 @@ X ms - MS Mincho and MS Gothic, shipped with Windows
     yugothic.ttf
     yugothib.ttf
 
+4 yu-win10 - Yu Mincho and Yu Gothic fonts by Jiyu-koubou LTD.,
+       bundled with Win 10.
+    yumin.ttf
+    yuminl.ttf
+    yumindb.ttf
+    YuGothM.ttc
+    YuGothB.ttc
+
 O yu-osx - Yu Mincho and Yu Gothic fonts by Jiyu-koubou LTD.,
        bundled with OSX 10.9.
     YuGo-Bold.otf      (<= "Yu Gothic Bold.otf")
