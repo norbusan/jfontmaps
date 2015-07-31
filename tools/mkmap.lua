@@ -32,6 +32,18 @@ local foundry = {
       mgr='yugothib.ttf %!PS YuGothic-Bold',
       {''}, 
    }, 
+   ['yu-win10']   = {
+      noncid = true, 
+      ml='yuminl.ttf %!PS YuMincho-Light', 
+      mr='yumin.ttf %!PS YuMincho-Regular', 
+      mb='yumindb.ttf %!PS YuMincho-DemiBold',
+      gr=':0:YuGothM.ttc %!PS YuGothic-Medium', 
+      gru=':0:YuGothM.ttc %!PS YuGothic-Medium', 
+      gb=':0:YuGothB.ttc %!PS YuGothic-Bold', 
+      ge=':0:YuGothB.ttc %!PS YuGothic-Bold',
+      mgr=':0:YuGothB.ttc %!PS YuGothic-Bold',
+      {''}, 
+   }, 
    ['yu-osx']   = {
       noncid = false, 
       ml='YuMin-Medium.otf', 
