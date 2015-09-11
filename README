@@ -92,8 +92,13 @@ O hiragino-pron - see above
 O hiragino-elcapitan-pron
 O hiragino-elcapitan
 	bundled with Mac OS X 11.10 El Capitan
-   HiraginoSerif-W3.ttc	(<= "ヒラギノ明朝 ProN W3.ttc")
-   ... TODO
+    HiraginoSansR-W4.ttc (<= "ヒラギノ丸ゴ ProN W4.ttc")
+    HiraginoSans-W3.ttc  (<= "ヒラギノ角ゴ W3.ttc")
+    HiraginoSans-W6.ttc  (<= "ヒラギノ角ゴ W6.ttc")
+    HiraginoSans-W8.ttc  (<= "ヒラギノ角ゴ W8.ttc")
+    HiraginoSerif-W3.ttc (<= "ヒラギノ明朝 ProN W3.ttc")
+    HiraginoSerif-W6.ttc (<= "ヒラギノ明朝 ProN W6.ttc")
+    HiraMinProN-W2.otf   (<= "ヒラギノ明朝 ProN W2.otf")
 
 P kozuka - by Adobe Systems, bundled with Adobe's software
     KozMinPro-Light.otf
