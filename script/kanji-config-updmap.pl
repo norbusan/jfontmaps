@@ -65,6 +65,8 @@ if ($opt_help) {
 my %representatives = (
   "hiragino"      => "HiraMinPro-W3.otf",
   "hiragino-pron" => "HiraMinProN-W3.otf",
+  "hiragino-elcapitan" => "HiraginoSerif-W3.ttc",
+  "hiragino-elcapitan-pron" => "HiraginoSerif-W3.ttc",
   "morisawa"      => "A-OTF-RyuminPro-Light.otf",
   "morisawa-pr6n" => "A-OTF-RyuminPr6N-Light.otf",
   "kozuka"        => "KozMinPro-Regular.otf",
