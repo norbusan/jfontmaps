@@ -113,9 +113,10 @@ sub Usage {
                  map file otf-<family>.map has to be available.
      auto:       embed one of the following supported font families
                  automatically:
-                   hiragino, hiragino-pron, morisawa, morisawa-pr6n, 
+                   hiragino, hiragino-pron, hiragino-elcapitan,
+                   hiragino-elcapitan-pron, morisawa, morisawa-pr6n,
                    kozuka, kozuka-pr6, kozuka-pr6n, ipaex, ipa, ms, 
-                   yu-osx, yu-win
+                   yu-osx, yu-win, yu-win10
                  and fall back to not embedding any font if none of them
                  is available
      nofont:     embed no fonts (and rely on system fonts when displaying pdfs)
@@ -245,8 +246,9 @@ sub SetupReplacement {
         # then use them
         for my $i (qw/
             morisawa-pr6n yu-osx kozuka-pr6n kozuka-pr6
-            hiragino-pron hiragino
-            morisawa kozuka yu-win ipaex ipa ms/) {
+            hiragino-pron hiragino-elcapitan-pron hiragino
+            hiragino-elcapitan
+            morisawa kozuka yu-win yu-win10 ipaex ipa ms/) {
           if ($available{$i}) {
             return SetupMapFile($i);
           }
