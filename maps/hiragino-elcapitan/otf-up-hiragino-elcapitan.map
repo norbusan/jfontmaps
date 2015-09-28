@@ -6,12 +6,12 @@ uphminr-h	UniJIS-UTF16-H	:1:HiraginoSerif-W3.ttc %!PS HiraMinPro-W3
 uphminr-v	UniJIS-UTF16-V	:1:HiraginoSerif-W3.ttc %!PS HiraMinPro-W3
 uphminb-h	UniJIS-UTF16-H	:1:HiraginoSerif-W6.ttc %!PS HiraMinPro-W6
 uphminb-v	UniJIS-UTF16-V	:1:HiraginoSerif-W6.ttc %!PS HiraMinPro-W6
-uphgothr-h	UniJIS-UTF16-H	:2:HiraginoSans-W3.ttc  %!PS HiraKakuPro-W3
-uphgothr-v	UniJIS-UTF16-V	:2:HiraginoSans-W3.ttc  %!PS HiraKakuPro-W3
-uphgothb-h	UniJIS-UTF16-H	:2:HiraginoSans-W6.ttc  %!PS HiraKakuPro-W6
-uphgothb-v	UniJIS-UTF16-V	:2:HiraginoSans-W6.ttc  %!PS HiraKakuPro-W6
-uphgotheb-h	UniJIS-UTF16-H	:1:HiraginoSans-W8.ttc  %!PS HiraKakuStd-W8
-uphgotheb-v	UniJIS-UTF16-V	:1:HiraginoSans-W8.ttc  %!PS HiraKakuStd-W8
+uphgothr-h	UniJIS-UTF16-H	:3:HiraginoSans-W3.ttc  %!PS HiraKakuPro-W3
+uphgothr-v	UniJIS-UTF16-V	:3:HiraginoSans-W3.ttc  %!PS HiraKakuPro-W3
+uphgothb-h	UniJIS-UTF16-H	:3:HiraginoSans-W6.ttc  %!PS HiraKakuPro-W6
+uphgothb-v	UniJIS-UTF16-V	:3:HiraginoSans-W6.ttc  %!PS HiraKakuPro-W6
+uphgotheb-h	UniJIS-UTF16-H	:2:HiraginoSans-W8.ttc  %!PS HiraKakuStd-W8
+uphgotheb-v	UniJIS-UTF16-V	:2:HiraginoSans-W8.ttc  %!PS HiraKakuStd-W8
 uphmgothr-h	UniJIS-UTF16-H	:0:HiraginoSansR-W4.ttc %!PS HiraMaruPro-W4
 uphmgothr-v	UniJIS-UTF16-V	:0:HiraginoSansR-W4.ttc %!PS HiraMaruPro-W4
 
@@ -22,11 +22,11 @@ uphminrn-h	UniJIS2004-UTF16-H	:1:HiraginoSerif-W3.ttc %!PS HiraMinPro-W3
 uphminrn-v	UniJIS2004-UTF16-V	:1:HiraginoSerif-W3.ttc %!PS HiraMinPro-W3
 uphminbn-h	UniJIS2004-UTF16-H	:1:HiraginoSerif-W6.ttc %!PS HiraMinPro-W6
 uphminbn-v	UniJIS2004-UTF16-V	:1:HiraginoSerif-W6.ttc %!PS HiraMinPro-W6
-uphgothrn-h	UniJIS2004-UTF16-H	:2:HiraginoSans-W3.ttc  %!PS HiraKakuPro-W3
-uphgothrn-v	UniJIS2004-UTF16-V	:2:HiraginoSans-W3.ttc  %!PS HiraKakuPro-W3
-uphgothbn-h	UniJIS2004-UTF16-H	:2:HiraginoSans-W6.ttc  %!PS HiraKakuPro-W6
-uphgothbn-v	UniJIS2004-UTF16-V	:2:HiraginoSans-W6.ttc  %!PS HiraKakuPro-W6
-uphgothebn-h	UniJIS2004-UTF16-H	:1:HiraginoSans-W8.ttc  %!PS HiraKakuStd-W8
-uphgothebn-v	UniJIS2004-UTF16-V	:1:HiraginoSans-W8.ttc  %!PS HiraKakuStd-W8
+uphgothrn-h	UniJIS2004-UTF16-H	:3:HiraginoSans-W3.ttc  %!PS HiraKakuPro-W3
+uphgothrn-v	UniJIS2004-UTF16-V	:3:HiraginoSans-W3.ttc  %!PS HiraKakuPro-W3
+uphgothbn-h	UniJIS2004-UTF16-H	:3:HiraginoSans-W6.ttc  %!PS HiraKakuPro-W6
+uphgothbn-v	UniJIS2004-UTF16-V	:3:HiraginoSans-W6.ttc  %!PS HiraKakuPro-W6
+uphgothebn-h	UniJIS2004-UTF16-H	:2:HiraginoSans-W8.ttc  %!PS HiraKakuStd-W8
+uphgothebn-v	UniJIS2004-UTF16-V	:2:HiraginoSans-W8.ttc  %!PS HiraKakuStd-W8
 uphmgothrn-h	UniJIS2004-UTF16-H	:0:HiraginoSansR-W4.ttc %!PS HiraMaruPro-W4
 uphmgothrn-v	UniJIS2004-UTF16-V	:0:HiraginoSansR-W4.ttc %!PS HiraMaruPro-W4

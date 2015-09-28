@@ -1,10 +1,10 @@
 urml	UniJIS2004-UTF16-H	:1:HiraginoSerif-W3.ttc %!PS HiraMinPro-W3
 urmlv	UniJIS2004-UTF16-V	:1:HiraginoSerif-W3.ttc %!PS HiraMinPro-W3
-ugbm	UniJIS2004-UTF16-H	:2:HiraginoSans-W6.ttc  %!PS HiraKakuPro-W6
-ugbmv	UniJIS2004-UTF16-V	:2:HiraginoSans-W6.ttc  %!PS HiraKakuPro-W6
+ugbm	UniJIS2004-UTF16-H	:3:HiraginoSans-W6.ttc  %!PS HiraKakuPro-W6
+ugbmv	UniJIS2004-UTF16-V	:3:HiraginoSans-W6.ttc  %!PS HiraKakuPro-W6
 uprml-h	UniJIS2004-UTF16-H	:1:HiraginoSerif-W3.ttc %!PS HiraMinPro-W3
 uprml-v	UniJIS2004-UTF16-V	:1:HiraginoSerif-W3.ttc %!PS HiraMinPro-W3
-upgbm-h	UniJIS2004-UTF16-H	:2:HiraginoSans-W6.ttc  %!PS HiraKakuPro-W6
-upgbm-v	UniJIS2004-UTF16-V	:2:HiraginoSans-W6.ttc  %!PS HiraKakuPro-W6
+upgbm-h	UniJIS2004-UTF16-H	:3:HiraginoSans-W6.ttc  %!PS HiraKakuPro-W6
+upgbm-v	UniJIS2004-UTF16-V	:3:HiraginoSans-W6.ttc  %!PS HiraKakuPro-W6
 uprml-hq	UniJIS-UCS2-H	:1:HiraginoSerif-W3.ttc %!PS HiraMinPro-W3
-upgbm-hq	UniJIS-UCS2-H	:2:HiraginoSans-W6.ttc  %!PS HiraKakuPro-W6
+upgbm-hq	UniJIS-UCS2-H	:3:HiraginoSans-W6.ttc  %!PS HiraKakuPro-W6
