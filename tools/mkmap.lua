@@ -128,10 +128,10 @@ local foundry = {
       ml= 'HiraMin?-W2.otf', -- OSX にはない
       mr= '#1-HiraginoSerif-W3.ttc %!PS HiraMin?-W3',
       mb= '#1-HiraginoSerif-W6.ttc %!PS HiraMin?-W6',
-      gr= '#2-HiraginoSans-W3.ttc  %!PS HiraKaku?-W3',
-      gru='#2-HiraginoSans-W6.ttc  %!PS HiraKaku?-W6',
-      gb= '#2-HiraginoSans-W6.ttc  %!PS HiraKaku?-W6',
-      ge= '#1+HiraginoSans-W8.ttc  %!PS HiraKaku?-W8',
+      gr= '#3-HiraginoSans-W3.ttc  %!PS HiraKaku?-W3',
+      gru='#3-HiraginoSans-W6.ttc  %!PS HiraKaku?-W6',
+      gb= '#3-HiraginoSans-W6.ttc  %!PS HiraKaku?-W6',
+      ge= '#2+HiraginoSans-W8.ttc  %!PS HiraKaku?-W8',
       mgr='#0+HiraginoSansR-W4.ttc %!PS HiraMaru?-W4',
       {'X','Xn'},  -- Pro and ProN
    },
